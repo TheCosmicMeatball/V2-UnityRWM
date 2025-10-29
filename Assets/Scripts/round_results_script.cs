@@ -788,9 +788,20 @@ public class RoundResultsScreen : MonoBehaviour
         // Only server can load scenes and set game state
         if (GameManager.Instance != null && GameManager.Instance.IsServer)
         {
-            // Use GameManager's LoadScene method which uses NetworkSceneManager
-            // LoadScene is already server-only in GameManager
-            GameManager.Instance.LoadScene("FinalResults");
+            var transitionManager = SceneTransitionManager.Instance ?? FindFirstObjectByType<SceneTransitionManager>();
+
+            if (transitionManager == null)
+            {
+                Debug.LogError("[RoundResults] SceneTransitionManager missing. Unable to advance to FinalResults.");
+                return;
+            }
+
+            if (!transitionManager.LoadSceneNetworked("FinalResults"))
+            {
+                Debug.LogError("[RoundResults] SceneTransitionManager rejected networked load for FinalResults.");
+                return;
+            }
+
             GameManager.Instance.currentGameState.Value = GameManager.GameState.FinalResults;
         }
         else

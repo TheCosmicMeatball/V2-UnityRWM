@@ -1599,17 +1599,53 @@ public class GameManager : NetworkBehaviour
             return;
         }
 
+        if (loadMode != LoadSceneMode.Single)
+        {
+            Debug.LogWarning($"[GameManager] LoadScene is currently optimized for single mode transitions. Requested mode {loadMode} will be coerced to Single.");
+        }
+
+        var transitionManager = SceneTransitionManager.Instance ?? FindFirstObjectByType<SceneTransitionManager>();
+
+        if (transitionManager == null)
+        {
+            Debug.LogError("[GameManager] SceneTransitionManager missing. Falling back to direct NetworkSceneManager usage.");
+            LegacyNetworkSceneLoad(sceneName, loadMode);
+            return;
+        }
+
+        bool success;
+
+        if (!transitionManager.HasGameStarted())
+        {
+            success = transitionManager.StartNetworkedGameplay(sceneName);
+        }
+        else
+        {
+            success = transitionManager.LoadSceneNetworked(sceneName);
+        }
+
+        if (!success)
+        {
+            Debug.LogError($"[GameManager] SceneTransitionManager rejected scene load '{sceneName}'. Attempting legacy network load as fallback.");
+            LegacyNetworkSceneLoad(sceneName, loadMode);
+        }
+    }
+
+    private void LegacyNetworkSceneLoad(string sceneName, LoadSceneMode loadMode)
+    {
         var networkManager = NetworkManager.Singleton;
+
         if (networkManager == null)
         {
-            Debug.LogError("[GameManager] Cannot load scene - NetworkManager singleton is missing.");
+            Debug.LogError("[GameManager] Legacy network load failed - NetworkManager singleton is missing.");
             return;
         }
 
         var sceneManager = networkManager.SceneManager;
+
         if (sceneManager == null)
         {
-            Debug.LogError("[GameManager] Cannot load scene - NetworkSceneManager is not available.");
+            Debug.LogError("[GameManager] Legacy network load failed - NetworkSceneManager unavailable. Ensure Use Scene Management is enabled on NetworkManager.");
             return;
         }
 
@@ -1621,13 +1657,14 @@ public class GameManager : NetworkBehaviour
         }
 
         var status = sceneManager.LoadScene(sceneName, loadMode);
+
         if (status != SceneEventProgressStatus.Started)
         {
-            Debug.LogError($"[GameManager] Failed to start network scene load for {sceneName}. Status: {status}");
+            Debug.LogError($"[GameManager] Legacy network scene load failed for {sceneName}. Status: {status}");
             return;
         }
 
-        Debug.Log($"[GameManager] Server loading scene via NetworkSceneManager: {sceneName} (Mode: {loadMode})");
+        Debug.Log($"[GameManager] Legacy network scene load initiated for {sceneName} (Mode: {loadMode}).");
     }
 
     // === PUBLIC GETTERS ===

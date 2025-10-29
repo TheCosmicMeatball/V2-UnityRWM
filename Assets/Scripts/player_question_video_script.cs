@@ -129,8 +129,19 @@ public class PlayerQuestionVideoScreen : MonoBehaviour
         // Only server can advance scenes
         if (GameManager.Instance != null && GameManager.Instance.IsServer)
         {
-            // Use NetworkSceneManager via GameManager
-            GameManager.Instance.LoadScene("QuestionScreen");
+            var transitionManager = SceneTransitionManager.Instance ?? FindFirstObjectByType<SceneTransitionManager>();
+
+            if (transitionManager == null)
+            {
+                Debug.LogError("[PlayerQuestionVideo] SceneTransitionManager missing. Unable to advance to QuestionScreen.");
+                return;
+            }
+
+            if (!transitionManager.LoadSceneNetworked("QuestionScreen"))
+            {
+                Debug.LogError("[PlayerQuestionVideo] SceneTransitionManager rejected networked load for QuestionScreen.");
+                return;
+            }
 
             // Start the question timer (server-only)
             GameManager.Instance.StartTimer(GameManager.Instance.questionTimer);

@@ -462,8 +462,18 @@ public class FinalResultsScreen : MonoBehaviour
             // Use server-authoritative reset method
             GameManager.Instance.ResetGameState();
 
-            // Load lobby scene using NetworkSceneManager
-            GameManager.Instance.LoadScene("LobbyScreen");
+            var transitionManager = SceneTransitionManager.Instance ?? FindFirstObjectByType<SceneTransitionManager>();
+
+            if (transitionManager == null)
+            {
+                Debug.LogError("[FinalResults] SceneTransitionManager missing. Unable to return to LobbyScreen.");
+                return;
+            }
+
+            if (!transitionManager.LoadSceneNetworked("LobbyScreen"))
+            {
+                Debug.LogError("[FinalResults] SceneTransitionManager rejected networked load for LobbyScreen.");
+            }
         }
         else
         {
