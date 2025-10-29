@@ -312,7 +312,34 @@ public class DebugManager : MonoBehaviour
     {
         if (EnsureServerAuthority($"load scene {sceneName}"))
         {
-            GameManager.Instance.LoadScene(sceneName);
+            var transitionManager = SceneTransitionManager.Instance ?? FindFirstObjectByType<SceneTransitionManager>();
+
+            if (transitionManager == null)
+            {
+                Debug.LogError("[DebugManager] SceneTransitionManager missing. Unable to process debug scene load.");
+                return;
+            }
+
+            bool success;
+
+            if (transitionManager.HasGameStarted())
+            {
+                success = transitionManager.LoadSceneNetworked(sceneName);
+            }
+            else
+            {
+                success = transitionManager.StartNetworkedGameplay(sceneName);
+
+                if (!success)
+                {
+                    success = transitionManager.LoadSceneLocally(sceneName);
+                }
+            }
+
+            if (!success)
+            {
+                Debug.LogError($"[DebugManager] SceneTransitionManager rejected debug scene load for '{sceneName}'.");
+            }
         }
     }
 

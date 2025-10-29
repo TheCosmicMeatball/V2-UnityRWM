@@ -15,7 +15,22 @@ public class BootstrapChecker : MonoBehaviour
         if (GameManager.Instance == null)
         {
             Debug.LogWarning("GameManager not found! Loading LoadingScreen first...");
-            SceneManager.LoadScene("LoadingScreen");
+
+            var transitionManager = SceneTransitionManager.Instance ?? FindFirstObjectByType<SceneTransitionManager>();
+
+            if (transitionManager != null)
+            {
+                if (!transitionManager.LoadSceneLocally("LoadingScreen"))
+                {
+                    Debug.LogWarning("[BootstrapChecker] SceneTransitionManager rejected local load for LoadingScreen. Falling back to direct SceneManager.LoadScene.");
+                    SceneManager.LoadScene("LoadingScreen");
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[BootstrapChecker] SceneTransitionManager unavailable. Falling back to direct SceneManager.LoadScene.");
+                SceneManager.LoadScene("LoadingScreen");
+            }
         }
     }
 }
