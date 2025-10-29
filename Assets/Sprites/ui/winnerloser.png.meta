@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: 0ce4deeb6928b0241b8c099b9304a685
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5320671498170306906
+    second: winnerloser_0
+  - first:
+      213: 6739200839881738154
+    second: winnerloser_1
+  - first:
+      213: -6814548492200876579
+    second: winnerloser_2
+  - first:
+      213: 7216202652702459998
+    second: winnerloser_3
+  - first:
+      213: 6715189949087175643
+    second: winnerloser_4
+  - first:
+      213: -5567250800308698696
+    second: winnerloser_5
+  - first:
+      213: -3349141481665111133
+    second: winnerloser_6
+  - first:
+      213: 6373962255745968412
+    second: winnerloser_7
+  - first:
+      213: -696068631365352055
+    second: winnerloser_8
+  - first:
+      213: -1372295111716485015
+    second: winnerloser_9
+  - first:
+      213: 7338341588194977038
+    second: winnerloser_10
+  - first:
+      213: 4882782929587347372
+    second: winnerloser_11
+  - first:
+      213: 1493162306663220606
+    second: winnerloser_12
+  - first:
+      213: 4813629794264306299
+    second: winnerloser_13
+  - first:
+      213: 3917415609460284171
+    second: winnerloser_14
+  - first:
+      213: 1552297118683706131
+    second: winnerloser_15
+  - first:
+      213: 4552354082988526001
+    second: winnerloser_16
+  - first:
+      213: -8028562057516690061
+    second: winnerloser_17
+  - first:
+      213: 2397538859471035659
+    second: winnerloser_18
+  - first:
+      213: -683372996984043692
+    second: winnerloser_19
+  - first:
+      213: 9046990318195652695
+    second: winnerloser_20
+  - first:
+      213: -5659295683699424544
+    second: winnerloser_21
+  - first:
+      213: -7359807626744149602
+    second: winnerloser_22
+  - first:
+      213: -3199239329355141772
+    second: winnerloser_23
+  - first:
+      213: 374291282821086768
+    second: winnerloser_24
+  - first:
+      213: -5124370209570662069
+    second: winnerloser_25
+  - first:
+      213: 8001420989901912689
+    second: winnerloser_26
+  - first:
+      213: 2845758668727298908
+    second: winnerloser_27
+  - first:
+      213: -4664998571842445744
+    second: winnerloser_28
+  - first:
+      213: 251760636628541955
+    second: winnerloser_29
+  - first:
+      213: 5576141578438819963
+    second: winnerloser_30
+  - first:
+      213: -378138689893960753
+    second: winnerloser_31
+  - first:
+      213: -1160684720055580203
+    second: winnerloser_32
+  - first:
+      213: 4988236931818537745
+    second: winnerloser_33
+  - first:
+      213: -5613071664647655106
+    second: winnerloser_34
+  - first:
+      213: 6771351438960041779
+    second: winnerloser_35
+  - first:
+      213: -3255940638841105248
+    second: winnerloser_36
+  - first:
+      213: 7449617591920316146
+    second: winnerloser_37
+  - first:
+      213: 1877513626729317404
+    second: winnerloser_38
+  - first:
+      213: 8239729494062661900
+    second: winnerloser_39
+  - first:
+      213: 2605693564869489640
+    second: winnerloser_40
+  - first:
+      213: 652329207637817650
+    second: winnerloser_41
+  - first:
+      213: -4305101836100573162
+    second: winnerloser_42
+  - first:
+      213: 607330327420219432
+    second: winnerloser_43
+  - first:
+      213: -8799961361120222539
+    second: winnerloser_44
+  - first:
+      213: 6535242575220052155
+    second: winnerloser_45
+  - first:
+      213: 6057307747070939718
+    second: winnerloser_46
+  - first:
+      213: 651852866147953098
+    second: winnerloser_47
+  - first:
+      213: -7899902242164618227
+    second: winnerloser_48
+  - first:
+      213: -1549449794244226762
+    second: winnerloser_49
+  - first:
+      213: -4405140002947672523
+    second: winnerloser_50
+  - first:
+      213: 1262451327651526259
+    second: winnerloser_51
+  - first:
+      213: -6743557015113077836
+    second: winnerloser_52
+  - first:
+      213: -864671121804499855
+    second: winnerloser_53
+  - first:
+      213: 7738145188614996351
+    second: winnerloser_54
+  - first:
+      213: 6725290984156698266
+    second: winnerloser_55
+  - first:
+      213: 4685954900370063627
+    second: winnerloser_56
+  - first:
+      213: 7747249706766608480
+    second: winnerloser_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: winnerloser_0
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 395
+        width: 89
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae6309667d2926b0800000000000000
+      internalID: -5320671498170306906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa74a234573768d50800000000000000
+      internalID: 6739200839881738154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd561b9504cdd61a0800000000000000
+      internalID: -6814548492200876579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_3
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58cf8d541a152460800000000000000
+      internalID: 7216202652702459998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd35d9a1ea5213d50800000000000000
+      internalID: 6715189949087175643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_5
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b14718c4e62db2b0800000000000000
+      internalID: -5567250800308698696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_6
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab53d221957581d0800000000000000
+      internalID: -3349141481665111133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_7
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c196c71a6ecd47850800000000000000
+      internalID: 6373962255745968412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_8
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9850d2884411756f0800000000000000
+      internalID: -696068631365352055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_9
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968422bddd0a4fce0800000000000000
+      internalID: -1372295111716485015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_10
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0566d45bc607d560800000000000000
+      internalID: 7338341588194977038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_11
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1561543123c340800000000000000
+      internalID: 4882782929587347372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_12
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 663
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e750aa0f437c8b410800000000000000
+      internalID: 1493162306663220606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_13
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b725c5f4bc27dc240800000000000000
+      internalID: 4813629794264306299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_14
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b537fcdb47d5630800000000000000
+      internalID: 3917415609460284171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_15
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3133109410eda8510800000000000000
+      internalID: 1552297118683706131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_16
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b984584be53d2f30800000000000000
+      internalID: 4552354082988526001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_17
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375d9888851d49090800000000000000
+      internalID: -8028562057516690061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_18
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d57f5d3e4c54120800000000000000
+      internalID: 2397538859471035659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_19
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4570ca141eb2486f0800000000000000
+      internalID: -683372996984043692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_20
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758337ae2cd5d8d70800000000000000
+      internalID: 9046990318195652695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_21
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2c1365f842671b0800000000000000
+      internalID: -5659295683699424544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_22
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 663
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9944b815f5bcd990800000000000000
+      internalID: -7359807626744149602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_23
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47de35eb7c40a93d0800000000000000
+      internalID: -3199239329355141772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_24
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 663
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e731b40ffb13500800000000000000
+      internalID: 374291282821086768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_25
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 399
+        width: 89
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4952f8c17492e8b0800000000000000
+      internalID: -5124370209570662069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_26
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 478
+        width: 92
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a35793ff1ca0f60800000000000000
+      internalID: 8001420989901912689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_27
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5baaf58e6a2e7720800000000000000
+      internalID: 2845758668727298908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_28
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e50afd388924fb0800000000000000
+      internalID: -4664998571842445744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_29
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 478
+        width: 92
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302aba217fe6e7300800000000000000
+      internalID: 251760636628541955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_30
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 478
+        width: 92
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70c120d83f626d40800000000000000
+      internalID: 5576141578438819963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_31
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3f9017dd490caf0800000000000000
+      internalID: -378138689893960753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_32
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 478
+        width: 147
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d90ddc856b64efe0800000000000000
+      internalID: -1160684720055580203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_33
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11347888f07c93540800000000000000
+      internalID: 4988236931818537745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_34
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e31bdd17f0d5a12b0800000000000000
+      internalID: -5613071664647655106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_35
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f1b80f14ca8fd50800000000000000
+      internalID: 6771351438960041779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_36
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 478
+        width: 92
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a41e1c5d3390d2d0800000000000000
+      internalID: -3255940638841105248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_37
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 478
+        width: 93
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe49e6eabb526760800000000000000
+      internalID: 7449617591920316146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_38
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14082e22b44e0a10800000000000000
+      internalID: 1877513626729317404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_39
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c010ae2a156695270800000000000000
+      internalID: 8239729494062661900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_40
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3319fdd78492420800000000000000
+      internalID: 2605693564869489640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_41
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2393dd945f98d0900800000000000000
+      internalID: 652329207637817650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_42
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618e75180b43144c0800000000000000
+      internalID: -4305101836100573162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_43
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820343b07bbad6800800000000000000
+      internalID: 607330327420219432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_44
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2244924c140e580800000000000000
+      internalID: -8799961361120222539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_45
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb010093f78d1ba50800000000000000
+      internalID: 6535242575220052155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_46
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642926f8d41ef0450800000000000000
+      internalID: 6057307747070939718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_47
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9a1946ab8db0900800000000000000
+      internalID: 651852866147953098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_48
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c477724c8ed5290800000000000000
+      internalID: -7899902242164618227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_49
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63155c81f9f3f7ae0800000000000000
+      internalID: -1549449794244226762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_50
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536d07ab18ccdd2c0800000000000000
+      internalID: -4405140002947672523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_51
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376b3e23bc0258110800000000000000
+      internalID: 1262451327651526259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_52
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb6797af921a62a0800000000000000
+      internalID: -6743557015113077836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_53
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174ed4922321004f0800000000000000
+      internalID: -864671121804499855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_54
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 418
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f718bc3fc0a636b60800000000000000
+      internalID: 7738145188614996351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_55
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a961cc99488055d50800000000000000
+      internalID: 6725290984156698266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_56
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 418
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010f06972bd70140800000000000000
+      internalID: 4685954900370063627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winnerloser_57
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 418
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068a216cf82c38b60800000000000000
+      internalID: 7747249706766608480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      winnerloser_0: -5320671498170306906
+      winnerloser_1: 6739200839881738154
+      winnerloser_10: 7338341588194977038
+      winnerloser_11: 4882782929587347372
+      winnerloser_12: 1493162306663220606
+      winnerloser_13: 4813629794264306299
+      winnerloser_14: 3917415609460284171
+      winnerloser_15: 1552297118683706131
+      winnerloser_16: 4552354082988526001
+      winnerloser_17: -8028562057516690061
+      winnerloser_18: 2397538859471035659
+      winnerloser_19: -683372996984043692
+      winnerloser_2: -6814548492200876579
+      winnerloser_20: 9046990318195652695
+      winnerloser_21: -5659295683699424544
+      winnerloser_22: -7359807626744149602
+      winnerloser_23: -3199239329355141772
+      winnerloser_24: 374291282821086768
+      winnerloser_25: -5124370209570662069
+      winnerloser_26: 8001420989901912689
+      winnerloser_27: 2845758668727298908
+      winnerloser_28: -4664998571842445744
+      winnerloser_29: 251760636628541955
+      winnerloser_3: 7216202652702459998
+      winnerloser_30: 5576141578438819963
+      winnerloser_31: -378138689893960753
+      winnerloser_32: -1160684720055580203
+      winnerloser_33: 4988236931818537745
+      winnerloser_34: -5613071664647655106
+      winnerloser_35: 6771351438960041779
+      winnerloser_36: -3255940638841105248
+      winnerloser_37: 7449617591920316146
+      winnerloser_38: 1877513626729317404
+      winnerloser_39: 8239729494062661900
+      winnerloser_4: 6715189949087175643
+      winnerloser_40: 2605693564869489640
+      winnerloser_41: 652329207637817650
+      winnerloser_42: -4305101836100573162
+      winnerloser_43: 607330327420219432
+      winnerloser_44: -8799961361120222539
+      winnerloser_45: 6535242575220052155
+      winnerloser_46: 6057307747070939718
+      winnerloser_47: 651852866147953098
+      winnerloser_48: -7899902242164618227
+      winnerloser_49: -1549449794244226762
+      winnerloser_5: -5567250800308698696
+      winnerloser_50: -4405140002947672523
+      winnerloser_51: 1262451327651526259
+      winnerloser_52: -6743557015113077836
+      winnerloser_53: -864671121804499855
+      winnerloser_54: 7738145188614996351
+      winnerloser_55: 6725290984156698266
+      winnerloser_56: 4685954900370063627
+      winnerloser_57: 7747249706766608480
+      winnerloser_6: -3349141481665111133
+      winnerloser_7: 6373962255745968412
+      winnerloser_8: -696068631365352055
+      winnerloser_9: -1372295111716485015
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

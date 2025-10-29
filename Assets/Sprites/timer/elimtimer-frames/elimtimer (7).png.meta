@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 1e0ccf1a04ba00d4c8ae2f4b84c03dfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4308967310806304371
+    second: elimtimer (7)_0
+  - first:
+      213: -4254695713614870103
+    second: elimtimer (7)_1
+  - first:
+      213: 7044635852961672367
+    second: elimtimer (7)_2
+  - first:
+      213: -1142168450407289970
+    second: elimtimer (7)_3
+  - first:
+      213: -8900775037502240180
+    second: elimtimer (7)_4
+  - first:
+      213: -3895159975652794572
+    second: elimtimer (7)_5
+  - first:
+      213: -914431682664123993
+    second: elimtimer (7)_6
+  - first:
+      213: -2923371964676769326
+    second: elimtimer (7)_7
+  - first:
+      213: -2670896576109730241
+    second: elimtimer (7)_8
+  - first:
+      213: 3858151599281881815
+    second: elimtimer (7)_9
+  - first:
+      213: 9154288880633624
+    second: elimtimer (7)_10
+  - first:
+      213: 5766821116861171643
+    second: elimtimer (7)_11
+  - first:
+      213: -8610522912194714441
+    second: elimtimer (7)_12
+  - first:
+      213: -7916980424546346996
+    second: elimtimer (7)_13
+  - first:
+      213: 1950197469402604661
+    second: elimtimer (7)_14
+  - first:
+      213: -3180320828470258619
+    second: elimtimer (7)_15
+  - first:
+      213: -1820245481152412713
+    second: elimtimer (7)_16
+  - first:
+      213: -736253129619912970
+    second: elimtimer (7)_17
+  - first:
+      213: 8256078549702176295
+    second: elimtimer (7)_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elimtimer (7)_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 148
+        width: 1054
+        height: 1132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376416570f68ccb30800000000000000
+      internalID: 4308967310806304371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_1
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1235
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9cb927ac844f4c0800000000000000
+      internalID: -4254695713614870103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_2
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 795
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: face2c3fbf293c160800000000000000
+      internalID: 7044635852961672367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_3
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ba0d788d33620f0800000000000000
+      internalID: -1142168450407289970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 779
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ac30003481a7480800000000000000
+      internalID: -8900775037502240180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_5
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 771
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f55ebb3ac91f9c0800000000000000
+      internalID: -3895159975652794572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_6
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 707
+        width: 120
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1317fba394f43f0800000000000000
+      internalID: -914431682664123993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_7
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 757
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9fa13dfa81e67d0800000000000000
+      internalID: -2923371964676769326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_8
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 739
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f362c2d07b11fead0800000000000000
+      internalID: -2670896576109730241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_9
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 737
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d24dcc2078ea8530800000000000000
+      internalID: 3858151599281881815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_10
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 681
+        width: 100
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817c6e8f6c5802000800000000000000
+      internalID: 9154288880633624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_11
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 549
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb74bb9704dd70050800000000000000
+      internalID: 5766821116861171643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_12
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4a5482807418880800000000000000
+      internalID: -8610522912194714441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 531
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c089135ff3c312290800000000000000
+      internalID: -7916980424546346996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 562
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574ab9d044e701b10800000000000000
+      internalID: 1950197469402604661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_15
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 587
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544114b7e0b3dd3d0800000000000000
+      internalID: -3180320828470258619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_16
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 528
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d386e301603db6e0800000000000000
+      internalID: -1820245481152412713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_17
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 536
+        width: 92
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f64c30fdad48c5f0800000000000000
+      internalID: -736253129619912970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elimtimer (7)_18
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 146
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e68b8c2bb739270800000000000000
+      internalID: 8256078549702176295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      elimtimer (7)_0: 4308967310806304371
+      elimtimer (7)_1: -4254695713614870103
+      elimtimer (7)_10: 9154288880633624
+      elimtimer (7)_11: 5766821116861171643
+      elimtimer (7)_12: -8610522912194714441
+      elimtimer (7)_13: -7916980424546346996
+      elimtimer (7)_14: 1950197469402604661
+      elimtimer (7)_15: -3180320828470258619
+      elimtimer (7)_16: -1820245481152412713
+      elimtimer (7)_17: -736253129619912970
+      elimtimer (7)_18: 8256078549702176295
+      elimtimer (7)_2: 7044635852961672367
+      elimtimer (7)_3: -1142168450407289970
+      elimtimer (7)_4: -8900775037502240180
+      elimtimer (7)_5: -3895159975652794572
+      elimtimer (7)_6: -914431682664123993
+      elimtimer (7)_7: -2923371964676769326
+      elimtimer (7)_8: -2670896576109730241
+      elimtimer (7)_9: 3858151599281881815
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

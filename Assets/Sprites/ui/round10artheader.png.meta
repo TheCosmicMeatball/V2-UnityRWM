@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: e8411a6efe7488f4984236acf0ea2aaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8089976071218970599
+    second: round10artheader_0
+  - first:
+      213: -1100005870529343324
+    second: round10artheader_1
+  - first:
+      213: -773858656604065398
+    second: round10artheader_2
+  - first:
+      213: -7789793093942463544
+    second: round10artheader_3
+  - first:
+      213: 7647806515258424151
+    second: round10artheader_4
+  - first:
+      213: -9043843967734746757
+    second: round10artheader_5
+  - first:
+      213: 125175926087454556
+    second: round10artheader_6
+  - first:
+      213: -4358519674485473780
+    second: round10artheader_7
+  - first:
+      213: 1856433075365354121
+    second: round10artheader_8
+  - first:
+      213: -708061630047984720
+    second: round10artheader_9
+  - first:
+      213: -256809586196977524
+    second: round10artheader_10
+  - first:
+      213: 1542239216432522450
+    second: round10artheader_11
+  - first:
+      213: 8822650824748804103
+    second: round10artheader_12
+  - first:
+      213: 3777801830106262771
+    second: round10artheader_13
+  - first:
+      213: 1957366893225896629
+    second: round10artheader_14
+  - first:
+      213: -8274956514270562961
+    second: round10artheader_15
+  - first:
+      213: 4268926992724189160
+    second: round10artheader_16
+  - first:
+      213: -5319853238269923801
+    second: round10artheader_17
+  - first:
+      213: -804580567594778875
+    second: round10artheader_18
+  - first:
+      213: -7790415468700774056
+    second: round10artheader_19
+  - first:
+      213: 558013686431662130
+    second: round10artheader_20
+  - first:
+      213: -1982483708260141581
+    second: round10artheader_21
+  - first:
+      213: 3081973088948784001
+    second: round10artheader_22
+  - first:
+      213: -5761890742066511240
+    second: round10artheader_23
+  - first:
+      213: -8174517473342640269
+    second: round10artheader_24
+  - first:
+      213: 1836435598418737110
+    second: round10artheader_25
+  - first:
+      213: -8129419226717337899
+    second: round10artheader_26
+  - first:
+      213: 45532693833909959
+    second: round10artheader_27
+  - first:
+      213: -3078171625113088295
+    second: round10artheader_28
+  - first:
+      213: -1239720463162149419
+    second: round10artheader_29
+  - first:
+      213: -2446033015205192104
+    second: round10artheader_30
+  - first:
+      213: 7176532280171294793
+    second: round10artheader_31
+  - first:
+      213: -4687321820317753453
+    second: round10artheader_32
+  - first:
+      213: -831573829367990946
+    second: round10artheader_33
+  - first:
+      213: 7466451897875386026
+    second: round10artheader_34
+  - first:
+      213: -5131967608570337235
+    second: round10artheader_35
+  - first:
+      213: 730832383936275814
+    second: round10artheader_36
+  - first:
+      213: -3058133643615707342
+    second: round10artheader_37
+  - first:
+      213: -951938540020505449
+    second: round10artheader_38
+  - first:
+      213: 6940713555696482089
+    second: round10artheader_39
+  - first:
+      213: -8315603565035576783
+    second: round10artheader_40
+  - first:
+      213: -6668536788834264901
+    second: round10artheader_41
+  - first:
+      213: -6589428172551979876
+    second: round10artheader_42
+  - first:
+      213: 3633068593518966572
+    second: round10artheader_43
+  - first:
+      213: 8170086678505030602
+    second: round10artheader_44
+  - first:
+      213: 2363408258923018586
+    second: round10artheader_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: round10artheader_0
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 886
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910459130a1aabf80800000000000000
+      internalID: -8089976071218970599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 892
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a011442d7efbb0f0800000000000000
+      internalID: -1100005870529343324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 872
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81f0c2e6a3b245f0800000000000000
+      internalID: -773858656604065398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_3
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 885
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3b4c1047815e390800000000000000
+      internalID: -7789793093942463544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 1101
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b75ec7187722a60800000000000000
+      internalID: 7647806515258424151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 885
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b717c13e3dfcd7280800000000000000
+      internalID: -9043843967734746757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 876
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f8fd077d6bcb100800000000000000
+      internalID: 125175926087454556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_7
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 871
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0efdbfc27d6383c0800000000000000
+      internalID: -4358519674485473780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 871
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a1076db0063c910800000000000000
+      internalID: 1856433075365354121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 864
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3e7ede2b57c26f0800000000000000
+      internalID: -708061630047984720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 874
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8860dfba01af6cf0800000000000000
+      internalID: -256809586196977524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_11
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 865
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4232e6562276510800000000000000
+      internalID: 1542239216432522450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 863
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708a5724e2a507a70800000000000000
+      internalID: 8822650824748804103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 864
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fced43bfb27d6430800000000000000
+      internalID: 3777801830106262771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 862
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bae6dd91d6f92b10800000000000000
+      internalID: 1957366893225896629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 864
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65391394e2792d80800000000000000
+      internalID: -8274956514270562961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_16
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 862
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efd66d6b764e3b30800000000000000
+      internalID: 4268926992724189160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_17
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 859
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ea5b36aa51c26b0800000000000000
+      internalID: -5319853238269923801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_18
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 863
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fb4539c3e85d4f0800000000000000
+      internalID: -804580567594778875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 862
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851d1671862e2e390800000000000000
+      internalID: -7790415468700774056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_20
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 861
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230c097cd767eb700800000000000000
+      internalID: 558013686431662130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_21
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 862
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5b72c229dcc74e0800000000000000
+      internalID: -1982483708260141581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 784
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b0b16023e55ca20800000000000000
+      internalID: 3081973088948784001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 736
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872838cd5e6a900b0800000000000000
+      internalID: -5761890742066511240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_24
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 726
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f203f1ba74e8e80800000000000000
+      internalID: -8174517473342640269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_25
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 738
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d771a862745c7910800000000000000
+      internalID: 1836435598418737110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_26
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 714
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d64849e8408e2f80800000000000000
+      internalID: -8129419226717337899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 709
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c603a96eb3c1a000800000000000000
+      internalID: 45532693833909959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 689
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de827f37332845d0800000000000000
+      internalID: -3078171625113088295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_29
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 688
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5ff6c9ec0abcee0800000000000000
+      internalID: -1239720463162149419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_30
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 694
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e11dbaee1fd0ed0800000000000000
+      internalID: -2446033015205192104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_31
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 684
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940fbbef51a289360800000000000000
+      internalID: 7176532280171294793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_32
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 627
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fd50093a943feb0800000000000000
+      internalID: -4687321820317753453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_33
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 663
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5572001208a574f0800000000000000
+      internalID: -831573829367990946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_34
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 621
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae4761317a2e9760800000000000000
+      internalID: 7466451897875386026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_35
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 562
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28aa5c76a697c8b0800000000000000
+      internalID: -5131967608570337235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_36
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 558
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665afda5e20742a00800000000000000
+      internalID: 730832383936275814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_37
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 564
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f5d9067a35f85d0800000000000000
+      internalID: -3058133643615707342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_38
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 251
+        width: 14
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794e21201f80ac2f0800000000000000
+      internalID: -951938540020505449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_39
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 277
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927f607943e525060800000000000000
+      internalID: 6940713555696482089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_40
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 255
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13225159d9a099c80800000000000000
+      internalID: -8315603565035576783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_41
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 19
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8d8e93f199473a0800000000000000
+      internalID: -6668536788834264901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_42
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 21
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c76164df5ad84a0800000000000000
+      internalID: -6589428172551979876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 15
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27735113a04b6230800000000000000
+      internalID: 3633068593518966572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_44
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac381701c8af16170800000000000000
+      internalID: 8170086678505030602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round10artheader_45
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59b4542a438cc020800000000000000
+      internalID: 2363408258923018586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      round10artheader_0: -8089976071218970599
+      round10artheader_1: -1100005870529343324
+      round10artheader_10: -256809586196977524
+      round10artheader_11: 1542239216432522450
+      round10artheader_12: 8822650824748804103
+      round10artheader_13: 3777801830106262771
+      round10artheader_14: 1957366893225896629
+      round10artheader_15: -8274956514270562961
+      round10artheader_16: 4268926992724189160
+      round10artheader_17: -5319853238269923801
+      round10artheader_18: -804580567594778875
+      round10artheader_19: -7790415468700774056
+      round10artheader_2: -773858656604065398
+      round10artheader_20: 558013686431662130
+      round10artheader_21: -1982483708260141581
+      round10artheader_22: 3081973088948784001
+      round10artheader_23: -5761890742066511240
+      round10artheader_24: -8174517473342640269
+      round10artheader_25: 1836435598418737110
+      round10artheader_26: -8129419226717337899
+      round10artheader_27: 45532693833909959
+      round10artheader_28: -3078171625113088295
+      round10artheader_29: -1239720463162149419
+      round10artheader_3: -7789793093942463544
+      round10artheader_30: -2446033015205192104
+      round10artheader_31: 7176532280171294793
+      round10artheader_32: -4687321820317753453
+      round10artheader_33: -831573829367990946
+      round10artheader_34: 7466451897875386026
+      round10artheader_35: -5131967608570337235
+      round10artheader_36: 730832383936275814
+      round10artheader_37: -3058133643615707342
+      round10artheader_38: -951938540020505449
+      round10artheader_39: 6940713555696482089
+      round10artheader_4: 7647806515258424151
+      round10artheader_40: -8315603565035576783
+      round10artheader_41: -6668536788834264901
+      round10artheader_42: -6589428172551979876
+      round10artheader_43: 3633068593518966572
+      round10artheader_44: 8170086678505030602
+      round10artheader_45: 2363408258923018586
+      round10artheader_5: -9043843967734746757
+      round10artheader_6: 125175926087454556
+      round10artheader_7: -4358519674485473780
+      round10artheader_8: 1856433075365354121
+      round10artheader_9: -708061630047984720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1716 @@
+fileFormatVersion: 2
+guid: e09203b0bb349ac4c8920c83702204ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7546953621955063670
+    second: bonushero_0
+  - first:
+      213: -6957770200751744781
+    second: bonushero_1
+  - first:
+      213: -6336247098974906980
+    second: bonushero_2
+  - first:
+      213: 2513782504927397790
+    second: bonushero_3
+  - first:
+      213: 5740517509614153197
+    second: bonushero_4
+  - first:
+      213: 9175826749720883448
+    second: bonushero_5
+  - first:
+      213: -7388934788463159708
+    second: bonushero_6
+  - first:
+      213: -2324912578935554417
+    second: bonushero_7
+  - first:
+      213: 167490138152162828
+    second: bonushero_8
+  - first:
+      213: -766891921293534772
+    second: bonushero_9
+  - first:
+      213: -1337822969638026600
+    second: bonushero_10
+  - first:
+      213: 2429507827865683510
+    second: bonushero_11
+  - first:
+      213: -7344464011186750784
+    second: bonushero_12
+  - first:
+      213: 5667901261721605872
+    second: bonushero_13
+  - first:
+      213: -1087270904517843999
+    second: bonushero_14
+  - first:
+      213: 3219043544135003718
+    second: bonushero_15
+  - first:
+      213: -6127748429950076166
+    second: bonushero_16
+  - first:
+      213: -3400240373869549217
+    second: bonushero_17
+  - first:
+      213: -8484715965610196976
+    second: bonushero_18
+  - first:
+      213: 6455273280816270567
+    second: bonushero_19
+  - first:
+      213: -3274385978939912493
+    second: bonushero_20
+  - first:
+      213: 5250488494440610327
+    second: bonushero_21
+  - first:
+      213: -1731058803152955457
+    second: bonushero_22
+  - first:
+      213: -6757832344158313931
+    second: bonushero_23
+  - first:
+      213: -402201184230217683
+    second: bonushero_24
+  - first:
+      213: -8266887159245402314
+    second: bonushero_25
+  - first:
+      213: 8623246886226780572
+    second: bonushero_26
+  - first:
+      213: -751215826526387357
+    second: bonushero_27
+  - first:
+      213: 304705514866952862
+    second: bonushero_28
+  - first:
+      213: -5089302226721117376
+    second: bonushero_29
+  - first:
+      213: -2076500933974863555
+    second: bonushero_30
+  - first:
+      213: 6993107363684877422
+    second: bonushero_31
+  - first:
+      213: -1819024182617288359
+    second: bonushero_32
+  - first:
+      213: 1324814330694121566
+    second: bonushero_33
+  - first:
+      213: 1394236064089954017
+    second: bonushero_34
+  - first:
+      213: -6193953341012005662
+    second: bonushero_35
+  - first:
+      213: 1282851881575625667
+    second: bonushero_36
+  - first:
+      213: 6161465980131214855
+    second: bonushero_37
+  - first:
+      213: -1089764338548508222
+    second: bonushero_38
+  - first:
+      213: -7236950628638850731
+    second: bonushero_39
+  - first:
+      213: -6139026643986792261
+    second: bonushero_40
+  - first:
+      213: -3575557392820530705
+    second: bonushero_41
+  - first:
+      213: -4187651766058251657
+    second: bonushero_42
+  - first:
+      213: 3709602555886778876
+    second: bonushero_43
+  - first:
+      213: -7005866673790394526
+    second: bonushero_44
+  - first:
+      213: 5987334921500673313
+    second: bonushero_45
+  - first:
+      213: -421387865306717222
+    second: bonushero_46
+  - first:
+      213: -574827754681492874
+    second: bonushero_47
+  - first:
+      213: -3018758647476628013
+    second: bonushero_48
+  - first:
+      213: 737399597061088171
+    second: bonushero_49
+  - first:
+      213: 3327136011150597389
+    second: bonushero_50
+  - first:
+      213: 4343115561903397262
+    second: bonushero_51
+  - first:
+      213: 5014246860720553116
+    second: bonushero_52
+  - first:
+      213: 4444854042289802565
+    second: bonushero_53
+  - first:
+      213: -3951638504709091515
+    second: bonushero_54
+  - first:
+      213: 8914094970945027956
+    second: bonushero_55
+  - first:
+      213: 951713141570201407
+    second: bonushero_56
+  - first:
+      213: 1878160114700976848
+    second: bonushero_57
+  - first:
+      213: -416847421654808914
+    second: bonushero_58
+  - first:
+      213: 8391773831722022779
+    second: bonushero_59
+  - first:
+      213: -2791543816991687291
+    second: bonushero_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bonushero_0
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 868
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8055039aa5d34790800000000000000
+      internalID: -7546953621955063670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 852
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8d463cdd8017f90800000000000000
+      internalID: -6957770200751744781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 844
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95508895d02118a0800000000000000
+      internalID: -6336247098974906980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 793
+        height: 836
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e970ac0aedfb2e220800000000000000
+      internalID: 2513782504927397790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_4
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 827
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded267ba24a6aaf40800000000000000
+      internalID: 5740517509614153197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_5
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 828
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0f3a130d5175f70800000000000000
+      internalID: 9175826749720883448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_6
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 815
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466902945fa357990800000000000000
+      internalID: -7388934788463159708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 817
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e75bec3504cbfd0800000000000000
+      internalID: -2324912578935554417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 540
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06d0fba46b035200800000000000000
+      internalID: 167490138152162828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_9
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 529
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc99e2a5cd37b55f0800000000000000
+      internalID: -766891921293534772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_10
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 521
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8920e52e8191f6de0800000000000000
+      internalID: -1337822969638026600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_11
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63607f25f7857b120800000000000000
+      internalID: 2429507827865683510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_12
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 504
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cab29bf4e8331a90800000000000000
+      internalID: -7344464011186750784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 496
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f697eeea2e68ae40800000000000000
+      internalID: 5667901261721605872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_14
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 501
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3a8997fdc39e0f0800000000000000
+      internalID: -1087270904517843999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_15
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 485
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e6ea45c075cac20800000000000000
+      internalID: 3219043544135003718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_16
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 479
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa3ed7e44dd5faa0800000000000000
+      internalID: -6127748429950076166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_17
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 461
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59609c256befc0d0800000000000000
+      internalID: -3400240373869549217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_18
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 469
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01008b188cb304a80800000000000000
+      internalID: -8484715965610196976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 452
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eccf1fe8dcb59950800000000000000
+      internalID: 6455273280816270567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de44c3fc4b0f82d0800000000000000
+      internalID: -3274385978939912493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a7868a77b7dd840800000000000000
+      internalID: 5250488494440610327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 428
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb751c8a03b0af7e0800000000000000
+      internalID: -1731058803152955457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 403
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5326cca994b5732a0800000000000000
+      internalID: -6757832344158313931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 403
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2867b567281b6af0800000000000000
+      internalID: -402201184230217683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 412
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f80f2bded164d80800000000000000
+      internalID: -8266887159245402314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 395
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c916a08ea5deba770800000000000000
+      internalID: 8623246886226780572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 391
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3634e369f252395f0800000000000000
+      internalID: -751215826526387357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a4fb62d088a3400800000000000000
+      internalID: 304705514866952862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_29
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 379
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04beeadc69a2f59b0800000000000000
+      internalID: -5089302226721117376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_30
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3159aef669ce23e0800000000000000
+      internalID: -2076500933974863555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 354
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e640b90a8128c0160800000000000000
+      internalID: 6993107363684877422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 347
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951504db42781c6e0800000000000000
+      internalID: -1819024182617288359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 340
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58be565d9fa26210800000000000000
+      internalID: 1324814330694121566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6de153052595310800000000000000
+      internalID: 1394236064089954017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_35
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 328
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eca2a9d048aa0aa0800000000000000
+      internalID: -6193953341012005662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_36
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 323
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3b1cc4dfa9dc110800000000000000
+      internalID: 1282851881575625667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_37
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 325
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70600610aace18550800000000000000
+      internalID: 6161465980131214855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_38
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 320
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c97def9b1160e0f0800000000000000
+      internalID: -1089764338548508222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_39
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 323
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55101fa0fbf219b90800000000000000
+      internalID: -7236950628638850731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_40
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 295
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb042821bcbcdcaa0800000000000000
+      internalID: -6139026643986792261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_41
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 313
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe119eece71116ec0800000000000000
+      internalID: -3575557392820530705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_42
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 312
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a8f09e7e872e5c0800000000000000
+      internalID: -4187651766058251657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_43
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 269
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf93389ced72b7330800000000000000
+      internalID: 3709602555886778876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_44
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 266
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fd9fcf06926ce90800000000000000
+      internalID: -7005866673790394526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_45
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 248
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125c65b8369471350800000000000000
+      internalID: 5987334921500673313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_46
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 252
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3abb718fde62af0800000000000000
+      internalID: -421387865306717222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_47
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a9c23e33dc508f0800000000000000
+      internalID: -574827754681492874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_48
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 24
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5548211073b16d0800000000000000
+      internalID: -3018758647476628013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_49
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 21
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3a750d605cb3a00800000000000000
+      internalID: 737399597061088171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_50
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 20
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d9a00039c5c2e20800000000000000
+      internalID: 3327136011150597389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_51
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 20
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8919bdb798d54c30800000000000000
+      internalID: 4343115561903397262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_52
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cbd5504fe269540800000000000000
+      internalID: 5014246860720553116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_53
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d842d933b4fad30800000000000000
+      internalID: 4444854042289802565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_54
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f0f0677b5f829c0800000000000000
+      internalID: -3951638504709091515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_55
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 19
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f364da52a35bb70800000000000000
+      internalID: 8914094970945027956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_56
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37ec535f0a253d00800000000000000
+      internalID: 951713141570201407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_57
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 12
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d20f046ca0901a10800000000000000
+      internalID: 1878160114700976848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_58
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea64ab28a7f073af0800000000000000
+      internalID: -416847421654808914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_59
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b533a6d1957470800000000000000
+      internalID: 8391773831722022779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bonushero_60
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58db54d40b17249d0800000000000000
+      internalID: -2791543816991687291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bonushero_0: -7546953621955063670
+      bonushero_1: -6957770200751744781
+      bonushero_10: -1337822969638026600
+      bonushero_11: 2429507827865683510
+      bonushero_12: -7344464011186750784
+      bonushero_13: 5667901261721605872
+      bonushero_14: -1087270904517843999
+      bonushero_15: 3219043544135003718
+      bonushero_16: -6127748429950076166
+      bonushero_17: -3400240373869549217
+      bonushero_18: -8484715965610196976
+      bonushero_19: 6455273280816270567
+      bonushero_2: -6336247098974906980
+      bonushero_20: -3274385978939912493
+      bonushero_21: 5250488494440610327
+      bonushero_22: -1731058803152955457
+      bonushero_23: -6757832344158313931
+      bonushero_24: -402201184230217683
+      bonushero_25: -8266887159245402314
+      bonushero_26: 8623246886226780572
+      bonushero_27: -751215826526387357
+      bonushero_28: 304705514866952862
+      bonushero_29: -5089302226721117376
+      bonushero_3: 2513782504927397790
+      bonushero_30: -2076500933974863555
+      bonushero_31: 6993107363684877422
+      bonushero_32: -1819024182617288359
+      bonushero_33: 1324814330694121566
+      bonushero_34: 1394236064089954017
+      bonushero_35: -6193953341012005662
+      bonushero_36: 1282851881575625667
+      bonushero_37: 6161465980131214855
+      bonushero_38: -1089764338548508222
+      bonushero_39: -7236950628638850731
+      bonushero_4: 5740517509614153197
+      bonushero_40: -6139026643986792261
+      bonushero_41: -3575557392820530705
+      bonushero_42: -4187651766058251657
+      bonushero_43: 3709602555886778876
+      bonushero_44: -7005866673790394526
+      bonushero_45: 5987334921500673313
+      bonushero_46: -421387865306717222
+      bonushero_47: -574827754681492874
+      bonushero_48: -3018758647476628013
+      bonushero_49: 737399597061088171
+      bonushero_5: 9175826749720883448
+      bonushero_50: 3327136011150597389
+      bonushero_51: 4343115561903397262
+      bonushero_52: 5014246860720553116
+      bonushero_53: 4444854042289802565
+      bonushero_54: -3951638504709091515
+      bonushero_55: 8914094970945027956
+      bonushero_56: 951713141570201407
+      bonushero_57: 1878160114700976848
+      bonushero_58: -416847421654808914
+      bonushero_59: 8391773831722022779
+      bonushero_6: -7388934788463159708
+      bonushero_60: -2791543816991687291
+      bonushero_7: -2324912578935554417
+      bonushero_8: 167490138152162828
+      bonushero_9: -766891921293534772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

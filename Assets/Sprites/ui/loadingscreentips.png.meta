@@ -1,0 +1,6162 @@
+fileFormatVersion: 2
+guid: 69248446e64fdec49be670beb5ad1c74
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2115876613861485158
+    second: loadingscreentips_0
+  - first:
+      213: -88770454745437241
+    second: loadingscreentips_1
+  - first:
+      213: 9071721395010324426
+    second: loadingscreentips_2
+  - first:
+      213: 8045456234487377169
+    second: loadingscreentips_3
+  - first:
+      213: 4536478949602408711
+    second: loadingscreentips_4
+  - first:
+      213: 6504458553483741123
+    second: loadingscreentips_5
+  - first:
+      213: 6411464338840581560
+    second: loadingscreentips_6
+  - first:
+      213: -1093514272773020008
+    second: loadingscreentips_7
+  - first:
+      213: 5878944032611008133
+    second: loadingscreentips_8
+  - first:
+      213: -7431764883114999091
+    second: loadingscreentips_9
+  - first:
+      213: -3698577242325476603
+    second: loadingscreentips_10
+  - first:
+      213: 8970970664350491980
+    second: loadingscreentips_11
+  - first:
+      213: -3989368243341070016
+    second: loadingscreentips_12
+  - first:
+      213: 5936727722711991221
+    second: loadingscreentips_13
+  - first:
+      213: -1367324345356499944
+    second: loadingscreentips_14
+  - first:
+      213: 7575184880623462343
+    second: loadingscreentips_15
+  - first:
+      213: 7798609169401880117
+    second: loadingscreentips_16
+  - first:
+      213: 6235988481499051772
+    second: loadingscreentips_17
+  - first:
+      213: -3009764071074823952
+    second: loadingscreentips_18
+  - first:
+      213: -3993863931783119676
+    second: loadingscreentips_19
+  - first:
+      213: 3546393299699991132
+    second: loadingscreentips_20
+  - first:
+      213: -7167193922477452804
+    second: loadingscreentips_21
+  - first:
+      213: -8610209476574380944
+    second: loadingscreentips_22
+  - first:
+      213: 7449754201693776823
+    second: loadingscreentips_23
+  - first:
+      213: 5749527955578688913
+    second: loadingscreentips_24
+  - first:
+      213: -3993741798826355315
+    second: loadingscreentips_25
+  - first:
+      213: -3800591084933838825
+    second: loadingscreentips_26
+  - first:
+      213: 8500354303775923128
+    second: loadingscreentips_27
+  - first:
+      213: -1750257966133039302
+    second: loadingscreentips_28
+  - first:
+      213: -7939761138392572661
+    second: loadingscreentips_29
+  - first:
+      213: -2057711970554292645
+    second: loadingscreentips_30
+  - first:
+      213: -1654787969705317957
+    second: loadingscreentips_31
+  - first:
+      213: 2464988706940499478
+    second: loadingscreentips_32
+  - first:
+      213: 4987250594680156952
+    second: loadingscreentips_33
+  - first:
+      213: 3912305908302407136
+    second: loadingscreentips_34
+  - first:
+      213: 89454590469918626
+    second: loadingscreentips_35
+  - first:
+      213: 4155470310193332478
+    second: loadingscreentips_36
+  - first:
+      213: 3497943926785035049
+    second: loadingscreentips_37
+  - first:
+      213: -738100947665679171
+    second: loadingscreentips_38
+  - first:
+      213: 3748231520703882004
+    second: loadingscreentips_39
+  - first:
+      213: -4562385212647565323
+    second: loadingscreentips_40
+  - first:
+      213: 1303982174928806126
+    second: loadingscreentips_41
+  - first:
+      213: 4074930168681859564
+    second: loadingscreentips_42
+  - first:
+      213: -1734873125071590349
+    second: loadingscreentips_43
+  - first:
+      213: -7928895882322951407
+    second: loadingscreentips_44
+  - first:
+      213: -6386706835692842285
+    second: loadingscreentips_45
+  - first:
+      213: -6300776430905685193
+    second: loadingscreentips_46
+  - first:
+      213: -4154596688092110571
+    second: loadingscreentips_47
+  - first:
+      213: 7859588491369131550
+    second: loadingscreentips_48
+  - first:
+      213: 844354218120431164
+    second: loadingscreentips_49
+  - first:
+      213: -4411233444165124011
+    second: loadingscreentips_50
+  - first:
+      213: -2063493249101998796
+    second: loadingscreentips_51
+  - first:
+      213: 8140386138620859964
+    second: loadingscreentips_52
+  - first:
+      213: 2554335417706979301
+    second: loadingscreentips_53
+  - first:
+      213: 8321171246007373806
+    second: loadingscreentips_54
+  - first:
+      213: -2300741799877332540
+    second: loadingscreentips_55
+  - first:
+      213: -302403085254284228
+    second: loadingscreentips_56
+  - first:
+      213: -4881121104749719943
+    second: loadingscreentips_57
+  - first:
+      213: -950896121458465199
+    second: loadingscreentips_58
+  - first:
+      213: -3337906989144689546
+    second: loadingscreentips_59
+  - first:
+      213: 1158842119989705794
+    second: loadingscreentips_60
+  - first:
+      213: -8285429768428430659
+    second: loadingscreentips_61
+  - first:
+      213: -667665782143965187
+    second: loadingscreentips_62
+  - first:
+      213: -6394326492109877529
+    second: loadingscreentips_63
+  - first:
+      213: 450621761425961418
+    second: loadingscreentips_64
+  - first:
+      213: 2433820529501087073
+    second: loadingscreentips_65
+  - first:
+      213: 682962240161902053
+    second: loadingscreentips_66
+  - first:
+      213: -8497981926268204759
+    second: loadingscreentips_67
+  - first:
+      213: -6881157893895009880
+    second: loadingscreentips_68
+  - first:
+      213: 6195515141768014102
+    second: loadingscreentips_69
+  - first:
+      213: 3211936381820770277
+    second: loadingscreentips_70
+  - first:
+      213: -8759682841990282877
+    second: loadingscreentips_71
+  - first:
+      213: -4550133311906553961
+    second: loadingscreentips_72
+  - first:
+      213: -1378710937790682538
+    second: loadingscreentips_73
+  - first:
+      213: -3762451018307609215
+    second: loadingscreentips_74
+  - first:
+      213: -7863458651254658934
+    second: loadingscreentips_75
+  - first:
+      213: 2395948915467591768
+    second: loadingscreentips_76
+  - first:
+      213: 1446299546013644620
+    second: loadingscreentips_77
+  - first:
+      213: 1756705840765308904
+    second: loadingscreentips_78
+  - first:
+      213: -772162359383337039
+    second: loadingscreentips_79
+  - first:
+      213: -3087041980334186768
+    second: loadingscreentips_80
+  - first:
+      213: 7415996542581602274
+    second: loadingscreentips_81
+  - first:
+      213: 2266079923868352382
+    second: loadingscreentips_82
+  - first:
+      213: 1738566583647009642
+    second: loadingscreentips_83
+  - first:
+      213: -4172367918934566235
+    second: loadingscreentips_84
+  - first:
+      213: 2061073895133829748
+    second: loadingscreentips_85
+  - first:
+      213: 6370804646796488251
+    second: loadingscreentips_86
+  - first:
+      213: -6469748693582296873
+    second: loadingscreentips_87
+  - first:
+      213: -4072957580122937957
+    second: loadingscreentips_88
+  - first:
+      213: 5555350213160668930
+    second: loadingscreentips_89
+  - first:
+      213: 3672693964581998845
+    second: loadingscreentips_90
+  - first:
+      213: -28192731226920501
+    second: loadingscreentips_91
+  - first:
+      213: -6960120360806156247
+    second: loadingscreentips_92
+  - first:
+      213: 4613362143886426733
+    second: loadingscreentips_93
+  - first:
+      213: -7984998384224653220
+    second: loadingscreentips_94
+  - first:
+      213: 1871464108766236343
+    second: loadingscreentips_95
+  - first:
+      213: -8436783752487936226
+    second: loadingscreentips_96
+  - first:
+      213: 4006682361723254204
+    second: loadingscreentips_97
+  - first:
+      213: 145441452633975681
+    second: loadingscreentips_98
+  - first:
+      213: -106176515831589174
+    second: loadingscreentips_99
+  - first:
+      213: -523892773905335004
+    second: loadingscreentips_100
+  - first:
+      213: 2001460271076027597
+    second: loadingscreentips_101
+  - first:
+      213: 233955813171885364
+    second: loadingscreentips_102
+  - first:
+      213: 7995738052536523167
+    second: loadingscreentips_103
+  - first:
+      213: 1636238060985379914
+    second: loadingscreentips_104
+  - first:
+      213: -5349841375293115316
+    second: loadingscreentips_105
+  - first:
+      213: 2037998802057900655
+    second: loadingscreentips_106
+  - first:
+      213: -3364754384118142546
+    second: loadingscreentips_107
+  - first:
+      213: 2915114958176081615
+    second: loadingscreentips_108
+  - first:
+      213: -5345028254723237873
+    second: loadingscreentips_109
+  - first:
+      213: -2547143565995395097
+    second: loadingscreentips_110
+  - first:
+      213: -7051173182153263710
+    second: loadingscreentips_111
+  - first:
+      213: -1620807198088901807
+    second: loadingscreentips_112
+  - first:
+      213: -6241667625343392242
+    second: loadingscreentips_113
+  - first:
+      213: -1118489547583098932
+    second: loadingscreentips_114
+  - first:
+      213: 6311224981761679890
+    second: loadingscreentips_115
+  - first:
+      213: 4739778371398456727
+    second: loadingscreentips_116
+  - first:
+      213: 5142826362487004656
+    second: loadingscreentips_117
+  - first:
+      213: -8664196011414822916
+    second: loadingscreentips_118
+  - first:
+      213: -3412835367715844413
+    second: loadingscreentips_119
+  - first:
+      213: -3812540409072690021
+    second: loadingscreentips_120
+  - first:
+      213: -5945073601548044232
+    second: loadingscreentips_121
+  - first:
+      213: 56536988410766321
+    second: loadingscreentips_122
+  - first:
+      213: -1761962639012032940
+    second: loadingscreentips_123
+  - first:
+      213: 4712522136850174576
+    second: loadingscreentips_124
+  - first:
+      213: -2166147288435530697
+    second: loadingscreentips_125
+  - first:
+      213: 3718419030889371285
+    second: loadingscreentips_126
+  - first:
+      213: 2294548359422054139
+    second: loadingscreentips_127
+  - first:
+      213: 1861381882643949163
+    second: loadingscreentips_128
+  - first:
+      213: -8462499824711171071
+    second: loadingscreentips_129
+  - first:
+      213: 2196945604145366340
+    second: loadingscreentips_130
+  - first:
+      213: -6208471357388815049
+    second: loadingscreentips_131
+  - first:
+      213: -8066212821578664577
+    second: loadingscreentips_132
+  - first:
+      213: -767753815982116964
+    second: loadingscreentips_133
+  - first:
+      213: -1899064743982178805
+    second: loadingscreentips_134
+  - first:
+      213: 1616336471351721065
+    second: loadingscreentips_135
+  - first:
+      213: 4314424539297300295
+    second: loadingscreentips_136
+  - first:
+      213: 6944365945064843261
+    second: loadingscreentips_137
+  - first:
+      213: 5139296132006199957
+    second: loadingscreentips_138
+  - first:
+      213: 2351399811666900998
+    second: loadingscreentips_139
+  - first:
+      213: -7839099695045220782
+    second: loadingscreentips_140
+  - first:
+      213: -4622227768671059678
+    second: loadingscreentips_141
+  - first:
+      213: 2071581695344581907
+    second: loadingscreentips_142
+  - first:
+      213: 7355079591749433710
+    second: loadingscreentips_143
+  - first:
+      213: 6824037120008847509
+    second: loadingscreentips_144
+  - first:
+      213: 5077089433652835245
+    second: loadingscreentips_145
+  - first:
+      213: -3570052312125753647
+    second: loadingscreentips_146
+  - first:
+      213: -7071265837957288851
+    second: loadingscreentips_147
+  - first:
+      213: -7579206238570891583
+    second: loadingscreentips_148
+  - first:
+      213: -8960700717484601755
+    second: loadingscreentips_149
+  - first:
+      213: -21318216311303468
+    second: loadingscreentips_150
+  - first:
+      213: 8459656052040025343
+    second: loadingscreentips_151
+  - first:
+      213: 5395962743916556162
+    second: loadingscreentips_152
+  - first:
+      213: 6707350998906685376
+    second: loadingscreentips_153
+  - first:
+      213: 736023747503244321
+    second: loadingscreentips_154
+  - first:
+      213: -1579400955946629724
+    second: loadingscreentips_155
+  - first:
+      213: -8633260062506583124
+    second: loadingscreentips_156
+  - first:
+      213: -6859497038734669389
+    second: loadingscreentips_157
+  - first:
+      213: -2804234836412459280
+    second: loadingscreentips_158
+  - first:
+      213: -4528468099244845658
+    second: loadingscreentips_159
+  - first:
+      213: 8178140389784643669
+    second: loadingscreentips_160
+  - first:
+      213: -5829583973033585667
+    second: loadingscreentips_161
+  - first:
+      213: 1148536857983104793
+    second: loadingscreentips_162
+  - first:
+      213: -6338160349881663431
+    second: loadingscreentips_163
+  - first:
+      213: 8417988388081984325
+    second: loadingscreentips_164
+  - first:
+      213: 8090781877240642947
+    second: loadingscreentips_165
+  - first:
+      213: -6381921883677554506
+    second: loadingscreentips_166
+  - first:
+      213: 5932613970506613932
+    second: loadingscreentips_167
+  - first:
+      213: -238223319048489465
+    second: loadingscreentips_168
+  - first:
+      213: 7151185698773984114
+    second: loadingscreentips_169
+  - first:
+      213: -1176445996804794155
+    second: loadingscreentips_170
+  - first:
+      213: -1078790518289253647
+    second: loadingscreentips_171
+  - first:
+      213: -63663435113298851
+    second: loadingscreentips_172
+  - first:
+      213: -4565564670233758344
+    second: loadingscreentips_173
+  - first:
+      213: -7109341924413536005
+    second: loadingscreentips_174
+  - first:
+      213: 6468873343268032846
+    second: loadingscreentips_175
+  - first:
+      213: 1073042294785592853
+    second: loadingscreentips_176
+  - first:
+      213: -2380732314184252809
+    second: loadingscreentips_177
+  - first:
+      213: -3252477757715659526
+    second: loadingscreentips_178
+  - first:
+      213: -2959656878494925069
+    second: loadingscreentips_179
+  - first:
+      213: 6092785502416772785
+    second: loadingscreentips_180
+  - first:
+      213: -7232839167837150786
+    second: loadingscreentips_181
+  - first:
+      213: 6403105254566946564
+    second: loadingscreentips_182
+  - first:
+      213: 6974205260603801419
+    second: loadingscreentips_183
+  - first:
+      213: -8913427626950253296
+    second: loadingscreentips_184
+  - first:
+      213: 4305291377809108650
+    second: loadingscreentips_185
+  - first:
+      213: 5453648834457321920
+    second: loadingscreentips_186
+  - first:
+      213: 6437703286534819302
+    second: loadingscreentips_187
+  - first:
+      213: 5126166230614248774
+    second: loadingscreentips_188
+  - first:
+      213: -1720757432802756841
+    second: loadingscreentips_189
+  - first:
+      213: 6106469614652389045
+    second: loadingscreentips_190
+  - first:
+      213: -938409150001239627
+    second: loadingscreentips_191
+  - first:
+      213: 1290388936748198691
+    second: loadingscreentips_192
+  - first:
+      213: 6867630749134448444
+    second: loadingscreentips_193
+  - first:
+      213: -5142698992347215583
+    second: loadingscreentips_194
+  - first:
+      213: 687600256766097993
+    second: loadingscreentips_195
+  - first:
+      213: 2190313155732440340
+    second: loadingscreentips_196
+  - first:
+      213: 7760832572129242587
+    second: loadingscreentips_197
+  - first:
+      213: 7789962334705848
+    second: loadingscreentips_198
+  - first:
+      213: -4366820651029457204
+    second: loadingscreentips_199
+  - first:
+      213: -6609113271718507103
+    second: loadingscreentips_200
+  - first:
+      213: -9124986427145983690
+    second: loadingscreentips_201
+  - first:
+      213: -8884484082742846519
+    second: loadingscreentips_202
+  - first:
+      213: 7748662678001659304
+    second: loadingscreentips_203
+  - first:
+      213: -4764482073987632988
+    second: loadingscreentips_204
+  - first:
+      213: -2546918079042966774
+    second: loadingscreentips_205
+  - first:
+      213: -4759067902999653049
+    second: loadingscreentips_206
+  - first:
+      213: 2914263303339529139
+    second: loadingscreentips_207
+  - first:
+      213: -7520470041995279884
+    second: loadingscreentips_208
+  - first:
+      213: -6605358925927066529
+    second: loadingscreentips_209
+  - first:
+      213: 854199048053354451
+    second: loadingscreentips_210
+  - first:
+      213: -3951668367455549145
+    second: loadingscreentips_211
+  - first:
+      213: 3592890088421103350
+    second: loadingscreentips_212
+  - first:
+      213: -2171153911233090601
+    second: loadingscreentips_213
+  - first:
+      213: 6836742585555924166
+    second: loadingscreentips_214
+  - first:
+      213: 4796556464165197486
+    second: loadingscreentips_215
+  - first:
+      213: 8767608172199611163
+    second: loadingscreentips_216
+  - first:
+      213: 1575044107930320010
+    second: loadingscreentips_217
+  - first:
+      213: -4256530575866831136
+    second: loadingscreentips_218
+  - first:
+      213: 5501015212416680733
+    second: loadingscreentips_219
+  - first:
+      213: 2793243146818355426
+    second: loadingscreentips_220
+  - first:
+      213: -309417888279167091
+    second: loadingscreentips_221
+  - first:
+      213: -8794501076407913033
+    second: loadingscreentips_222
+  - first:
+      213: -9010948756270094663
+    second: loadingscreentips_223
+  - first:
+      213: -5780959523994026911
+    second: loadingscreentips_224
+  - first:
+      213: 4323113398587545011
+    second: loadingscreentips_225
+  - first:
+      213: -4500482578806781085
+    second: loadingscreentips_226
+  - first:
+      213: 1687124101399162056
+    second: loadingscreentips_227
+  - first:
+      213: -5615871539201172062
+    second: loadingscreentips_228
+  - first:
+      213: -2511814213636006934
+    second: loadingscreentips_229
+  - first:
+      213: 7063197967464250650
+    second: loadingscreentips_230
+  - first:
+      213: 4001024524271224133
+    second: loadingscreentips_231
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: loadingscreentips_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 655
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a25c5e19a1d5d10800000000000000
+      internalID: 2115876613861485158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 542
+        width: 129
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb2952edbf94cef0800000000000000
+      internalID: -88770454745437241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 542
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7c6e27b8a35ed70800000000000000
+      internalID: 9071721395010324426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 542
+        width: 35
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d629091d337af60800000000000000
+      internalID: 8045456234487377169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 542
+        width: 83
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709b612c19fc4fe30800000000000000
+      internalID: 4536478949602408711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_5
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 542
+        width: 82
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c746a0a79a744a50800000000000000
+      internalID: 6504458553483741123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_6
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 613
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b57da6c8d81af850800000000000000
+      internalID: 6411464338840581560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_7
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 613
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8966b86009e03d0f0800000000000000
+      internalID: -1093514272773020008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_8
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e7e2e1374369150800000000000000
+      internalID: 5878944032611008133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_9
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 614
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc245b7c6311dd890800000000000000
+      internalID: -7431764883114999091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_10
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 614
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b98d018930cacc0800000000000000
+      internalID: -3698577242325476603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_11
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45af0bf94a4f7c70800000000000000
+      internalID: 8970970664350491980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_12
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 613
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0417e6128bae2a8c0800000000000000
+      internalID: -3989368243341070016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_13
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 613
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b34670e86e736250800000000000000
+      internalID: 5936727722711991221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_14
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 613
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814484690c9460de0800000000000000
+      internalID: -1367324345356499944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_15
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 614
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7a87d8386702960800000000000000
+      internalID: 7575184880623462343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_16
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e9d4488b93a3c60800000000000000
+      internalID: 7798609169401880117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_17
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 613
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6bd27fb7eaa8650800000000000000
+      internalID: 6235988481499051772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_18
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 614
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f00ad5168b2b36d0800000000000000
+      internalID: -3009764071074823952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_19
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc72d81ae1f298c0800000000000000
+      internalID: -3993863931783119676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_20
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 613
+        width: 67
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c52817e9ae1573130800000000000000
+      internalID: 3546393299699991132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_21
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 613
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf19466d913098c90800000000000000
+      internalID: -7167193922477452804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_22
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf4139914628880800000000000000
+      internalID: -8610209476574380944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_23
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb6ee7d9f7d26760800000000000000
+      internalID: 7449754201693776823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_24
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195127a963d6acf40800000000000000
+      internalID: 5749527955578688913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_25
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8553546ef06398c0800000000000000
+      internalID: -3993741798826355315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_26
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718800e6b86914bc0800000000000000
+      internalID: -3800591084933838825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_27
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 614
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbd685d33357f570800000000000000
+      internalID: 8500354303775923128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_28
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fa75f27a5d5b7e0800000000000000
+      internalID: -1750257966133039302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_29
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dd8a0bf4d40d190800000000000000
+      internalID: -7939761138392572661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_30
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56da017dd98173e0800000000000000
+      internalID: -2057711970554292645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_31
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9ef17eb130909e0800000000000000
+      internalID: -1654787969705317957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_32
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616b98c3b26653220800000000000000
+      internalID: 2464988706940499478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_33
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81334c50ef5463540800000000000000
+      internalID: 4987250594680156952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_34
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5e60dce7d4b4630800000000000000
+      internalID: 3912305908302407136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_35
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 613
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afcc70e97ecd3100800000000000000
+      internalID: 89454590469918626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_36
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef081c10b323ba930800000000000000
+      internalID: 4155470310193332478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_37
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bc140f7713b8030800000000000000
+      internalID: 3497943926785035049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_38
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc0206491db1c5f0800000000000000
+      internalID: -738100947665679171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_39
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 613
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4132a7785b4640430800000000000000
+      internalID: 3748231520703882004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_40
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 613
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f795a752d62fa0c0800000000000000
+      internalID: -4562385212647565323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_41
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 613
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0a21a11eca81210800000000000000
+      internalID: 1303982174928806126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_42
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 612
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce90ec4066f0d8830800000000000000
+      internalID: 4074930168681859564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 618
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c6cb1a51e7ce7e0800000000000000
+      internalID: -1734873125071590349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_44
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 592
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11345114437e6f190800000000000000
+      internalID: -7928895882322951407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_45
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 614
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d218fd98fbdd57a0800000000000000
+      internalID: -6386706835692842285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_46
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 542
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b86b218352f88a0800000000000000
+      internalID: -6300776430905685193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_47
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 552
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511614df258e756c0800000000000000
+      internalID: -4154596688092110571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_48
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 550
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e2ecc471ed21d60800000000000000
+      internalID: 7859588491369131550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_49
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 551
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36cba310bfb7bb00800000000000000
+      internalID: 844354218120431164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_50
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 551
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5500733ed8628c2c0800000000000000
+      internalID: -4411233444165124011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_51
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 550
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435dbd2a2dffc53e0800000000000000
+      internalID: -2063493249101998796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_52
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 552
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36920f301678f070800000000000000
+      internalID: 8140386138620859964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_53
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 550
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef9f996782d27320800000000000000
+      internalID: 2554335417706979301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_54
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 551
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefc679292dba7370800000000000000
+      internalID: 8321171246007373806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_55
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 551
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c13b6ad58f1210e0800000000000000
+      internalID: -2300741799877332540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_56
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 551
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3caf640ff5adcbf0800000000000000
+      internalID: -302403085254284228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_57
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 552
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e0bbd6736c24cb0800000000000000
+      internalID: -4881121104749719943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_58
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 551
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156eb2ef30dbdc2f0800000000000000
+      internalID: -950896121458465199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 551
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674bcb2474f5da1d0800000000000000
+      internalID: -3337906989144689546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_60
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 550
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c3fb0b4c8051010800000000000000
+      internalID: 1158842119989705794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_61
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 551
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba5061168d340d80800000000000000
+      internalID: -8285429768428430659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_62
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 551
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df720a23289fbb6f0800000000000000
+      internalID: -667665782143965187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_63
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 551
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eecbeb1fe9c247a0800000000000000
+      internalID: -6394326492109877529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_64
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 552
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1fad1ca1ee04600800000000000000
+      internalID: 450621761425961418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_65
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 552
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16527fb60eaa6c120800000000000000
+      internalID: 2433820529501087073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_66
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 552
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edead7f98e5a7900800000000000000
+      internalID: 682962240161902053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_67
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 552
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9290819567a111a80800000000000000
+      internalID: -8497981926268204759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_68
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 552
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9430b7a573180a0800000000000000
+      internalID: -6881157893895009880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_69
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 551
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619e2a93234eaf550800000000000000
+      internalID: 6195515141768014102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_70
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 551
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e794972f17139c20800000000000000
+      internalID: 3211936381820770277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_71
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 551
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381c512bdda5f6680800000000000000
+      internalID: -8759682841990282877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_72
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 551
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f53274cddaad0c0800000000000000
+      internalID: -4550133311906553961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_73
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 551
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a6a01f4b5dddce0800000000000000
+      internalID: -1378710937790682538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_74
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 550
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dd7f0bbb619cbc0800000000000000
+      internalID: -3762451018307609215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_75
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 551
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a886ef1e4026fd290800000000000000
+      internalID: -7863458651254658934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_76
+      rect:
+        serializedVersion: 2
+        x: 1556
+        y: 551
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850ad6628de104120800000000000000
+      internalID: 2395948915467591768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_77
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 550
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c47b3f636c9421410800000000000000
+      internalID: 1446299546013644620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_78
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 550
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef8bad97a2116810800000000000000
+      internalID: 1756705840765308904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_79
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 551
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7570cdc6ab845f0800000000000000
+      internalID: -772162359383337039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_80
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 552
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe567bbcaf9825d0800000000000000
+      internalID: -3087041980334186768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_81
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 412
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e7f9185099eae660800000000000000
+      internalID: 7415996542581602274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_82
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 307
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f31de3fabb27f10800000000000000
+      internalID: 2266079923868352382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_83
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 307
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bf4a4b811a02810800000000000000
+      internalID: 1738566583647009642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_84
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 307
+        width: 35
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa5bafdb75c816c0800000000000000
+      internalID: -4172367918934566235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_85
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 307
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a584f99c76a9c10800000000000000
+      internalID: 2061073895133829748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_86
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 307
+        width: 35
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e66b18215a96850800000000000000
+      internalID: 6370804646796488251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_87
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 307
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8caf467d5d636a0800000000000000
+      internalID: -6469748693582296873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_88
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 307
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95a98b09a2f977c0800000000000000
+      internalID: -4072957580122937957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_89
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 307
+        width: 83
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f055ad591981d40800000000000000
+      internalID: 5555350213160668930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_90
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 307
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df091a7b3b708f230800000000000000
+      internalID: 3672693964581998845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_91
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 379
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9a8fd3cd6db9ff0800000000000000
+      internalID: -28192731226920501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_92
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 379
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9287f2c786fa86f90800000000000000
+      internalID: -6960120360806156247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_93
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 379
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62c59e5d64f50040800000000000000
+      internalID: 4613362143886426733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_94
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 379
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50b830a6469f2190800000000000000
+      internalID: -7984998384224653220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_95
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 378
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be87e401b6c8f910800000000000000
+      internalID: 1871464108766236343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_96
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 378
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f5b2a80e58aea80800000000000000
+      internalID: -8436783752487936226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_97
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 379
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5765231689a9730800000000000000
+      internalID: 4006682361723254204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_98
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 379
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b6dd70b36b40200800000000000000
+      internalID: 145441452633975681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_99
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 379
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac69e5a7509c68ef0800000000000000
+      internalID: -106176515831589174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_100
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 379
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d7afe3c42cab8f0800000000000000
+      internalID: -523892773905335004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_101
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 378
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc2b89238d96cb10800000000000000
+      internalID: 2001460271076027597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_102
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 380
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4357f31929d2f3300800000000000000
+      internalID: 233955813171885364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_103
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 379
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f995382456196fe60800000000000000
+      internalID: 7995738052536523167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_104
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 380
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ce109e8d515b610800000000000000
+      internalID: 1636238060985379914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_105
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 378
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4477f42d9b81c5b0800000000000000
+      internalID: -5349841375293115316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_106
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 379
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f623559dc1d684c10800000000000000
+      internalID: 2037998802057900655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_107
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 379
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9233207bdfd41d0800000000000000
+      internalID: -3364754384118142546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_108
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 379
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc653890c91947820800000000000000
+      internalID: 2915114958176081615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_109
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 379
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f089bca1f15a2d5b0800000000000000
+      internalID: -5345028254723237873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_110
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 379
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e73cec0c6ab6acd0800000000000000
+      internalID: -2547143565995395097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_111
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 379
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a57efb7953352e90800000000000000
+      internalID: -7051173182153263710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_112
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 378
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bc384d07cb189e0800000000000000
+      internalID: -1620807198088901807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_113
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 380
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06e9515d542169a0800000000000000
+      internalID: -6241667625343392242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_114
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 379
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf6257bea35a70f0800000000000000
+      internalID: -1118489547583098932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_115
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 378
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212e97fbea9f59750800000000000000
+      internalID: 6311224981761679890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_116
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 380
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795d84df05317c140800000000000000
+      internalID: 4739778371398456727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_117
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 354
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd5d8d245dfe5740800000000000000
+      internalID: 5142826362487004656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_118
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 307
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff534be1a792c780800000000000000
+      internalID: -8664196011414822916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_119
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 317
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce4866a05c23a0d0800000000000000
+      internalID: -3412835367715844413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_120
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 318
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c566992b2271bc0800000000000000
+      internalID: -3812540409072690021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_121
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8383d28ce0bde7da0800000000000000
+      internalID: -5945073601548044232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_122
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3e4e6671cd8c000800000000000000
+      internalID: 56536988410766321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_123
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e8d2aa0504c87e0800000000000000
+      internalID: -1761962639012032940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_124
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0729e1b5aed366140800000000000000
+      internalID: 4712522136850174576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_125
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 317
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734ef95948c40f1e0800000000000000
+      internalID: -2166147288435530697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_126
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 318
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5969636586a7a9330800000000000000
+      internalID: 3718419030889371285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_127
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 316
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe8e4b639fd7df10800000000000000
+      internalID: 2294548359422054139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_128
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 316
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b662752d5f4f4d910800000000000000
+      internalID: 1861381882643949163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_129
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1040944ee392f8a80800000000000000
+      internalID: -8462499824711171071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_130
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 317
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445c0f5136e1d7e10800000000000000
+      internalID: 2196945604145366340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_131
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 316
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73507a0c13417d9a0800000000000000
+      internalID: -6208471357388815049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_132
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 317
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f753a17ec2e0f0090800000000000000
+      internalID: -8066212821578664577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_133
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 317
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f6f6bd8f36855f0800000000000000
+      internalID: -767753815982116964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_134
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 316
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e59715daa25a5e0800000000000000
+      internalID: -1899064743982178805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_135
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 317
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c7d6cf4716e6610800000000000000
+      internalID: 1616336471351721065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_136
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 318
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f3b0b724aefdb30800000000000000
+      internalID: 4314424539297300295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_137
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 318
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7e8e1c8085f5060800000000000000
+      internalID: 6944365945064843261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_138
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 318
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592c4c75a92725740800000000000000
+      internalID: 5139296132006199957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_139
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 317
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6087353aba9d1a020800000000000000
+      internalID: 2351399811666900998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_140
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 317
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256e4f55c5ce53390800000000000000
+      internalID: -7839099695045220782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_141
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 317
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2214a61855c8adfb0800000000000000
+      internalID: -4622227768671059678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_142
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 317
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d1732839cbfbc10800000000000000
+      internalID: 2071581695344581907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_143
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 318
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6933f87bed721660800000000000000
+      internalID: 7355079591749433710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_144
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 316
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5900538fa99d3be50800000000000000
+      internalID: 6824037120008847509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_145
+      rect:
+        serializedVersion: 2
+        x: 1748
+        y: 317
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da334c9b0f1757640800000000000000
+      internalID: 5077089433652835245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_146
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 317
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6be2a4650a47ec0800000000000000
+      internalID: -3570052312125753647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_147
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 318
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c63308f21dddd90800000000000000
+      internalID: -7071265837957288851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_148
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 168
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6be86151041d690800000000000000
+      internalID: -7579206238570891583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_149
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 64
+        width: 81
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e0ebb5c2235a380800000000000000
+      internalID: -8960700717484601755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_150
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 64
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d21589f13344bff0800000000000000
+      internalID: -21318216311303468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_151
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 64
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff444dfab5cb66570800000000000000
+      internalID: 8459656052040025343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_152
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 64
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f636cc68f42ea40800000000000000
+      internalID: 5395962743916556162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_153
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 64
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7c1b9423c451d50800000000000000
+      internalID: 6707350998906685376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_154
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 64
+        width: 82
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124ce20e2b1e63a00800000000000000
+      internalID: 736023747503244321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_155
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a583e6d237d41ae0800000000000000
+      internalID: -1579400955946629724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_156
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab7ab0d6bf703880800000000000000
+      internalID: -8633260062506583124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_157
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 135
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9406459cb2ec0a0800000000000000
+      internalID: -6859497038734669389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_158
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f61cd4164b5519d0800000000000000
+      internalID: -2804234836412459280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_159
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 134
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a592dfa146a721c0800000000000000
+      internalID: -4528468099244845658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_160
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 135
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5586368da579e7170800000000000000
+      internalID: 8178140389784643669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_161
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 135
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3d5035348291fa0800000000000000
+      internalID: -5829583973033585667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_162
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 135
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917b687ef2c60ff00800000000000000
+      internalID: 1148536857983104793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_163
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93086d72eb45a08a0800000000000000
+      internalID: -6338160349881663431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_164
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5436dfaa6d3b2d470800000000000000
+      internalID: 8417988388081984325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_165
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 135
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38db814204b384070800000000000000
+      internalID: 8090781877240642947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_166
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 136
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b88b131cdbde67a0800000000000000
+      internalID: -6381921883677554506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_167
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 134
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4019d49f0e45250800000000000000
+      internalID: 5932613970506613932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_168
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 135
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70676ea4729a1bcf0800000000000000
+      internalID: -238223319048489465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_169
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 135
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273e642218d1e3360800000000000000
+      internalID: 7151185698773984114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_170
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 135
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d81507599c6cafe0800000000000000
+      internalID: -1176445996804794155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_171
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa3f424dbd5701f0800000000000000
+      internalID: -1078790518289253647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_172
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 134
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5404ec6172dd1ff0800000000000000
+      internalID: -63663435113298851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_173
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875b4af2f1bd3a0c0800000000000000
+      internalID: -4565564670233758344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_174
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf80a88cf2b865d90800000000000000
+      internalID: -7109341924413536005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_175
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 135
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e411c7a380e06c950800000000000000
+      internalID: 6468873343268032846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_176
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 136
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e4aa9284634ee00800000000000000
+      internalID: 1073042294785592853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_177
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 135
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77201cbe290f5fed0800000000000000
+      internalID: -2380732314184252809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_178
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 136
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4cf7336b0ecd2d0800000000000000
+      internalID: -3252477757715659526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_179
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3feb44cffbf2de6d0800000000000000
+      internalID: -2959656878494925069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_180
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 136
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be933c222ced8450800000000000000
+      internalID: 6092785502416772785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_181
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 135
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1e88b191bcf9b90800000000000000
+      internalID: -7232839167837150786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_182
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 136
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40766edcd466cd850800000000000000
+      internalID: 6403105254566946564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_183
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 135
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f33fccbba59c060800000000000000
+      internalID: 6974205260603801419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_184
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0152a747cc42d4480800000000000000
+      internalID: -8913427626950253296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_185
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae2ddc92b77fbb30800000000000000
+      internalID: 4305291377809108650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_186
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 134
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c14d8368b04fab40800000000000000
+      internalID: 5453648834457321920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_187
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 136
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edc54bd701575950800000000000000
+      internalID: 6437703286534819302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_188
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 135
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d8d53f60dc32740800000000000000
+      internalID: 5126166230614248774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_189
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 135
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717bd295b34ae18e0800000000000000
+      internalID: -1720757432802756841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_190
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 135
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b67215d2c98eb450800000000000000
+      internalID: 6106469614652389045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_191
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 154
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9233899d91af2f0800000000000000
+      internalID: -938409150001239627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_192
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 110
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b68f4b6e168e110800000000000000
+      internalID: 1290388936748198691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_193
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 64
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3765b2b7c9be4f50800000000000000
+      internalID: 6867630749134448444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_194
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 73
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129826e738671a8b0800000000000000
+      internalID: -5142698992347215583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_195
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 73
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ab20c5ac8da8900800000000000000
+      internalID: 687600256766097993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_196
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 74
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4150c4ad53e856e10800000000000000
+      internalID: 2190313155732440340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_197
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 73
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd6b0f0b1404bb60800000000000000
+      internalID: 7760832572129242587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_198
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 74
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b816c1fdecab1000800000000000000
+      internalID: 7789962334705848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_199
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 73
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc69c8911cfe563c0800000000000000
+      internalID: -4366820651029457204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_200
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 66
+        width: 30
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad06e6fe76b744a0800000000000000
+      internalID: -6609113271718507103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_201
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 73
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639e3b5d0398d5180800000000000000
+      internalID: -9124986427145983690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_202
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 73
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb108b7cc8f3b480800000000000000
+      internalID: -8884484082742846519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_203
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 72
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8adad96c6a7c88b60800000000000000
+      internalID: 7748662678001659304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_204
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 73
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a030490cc821edb0800000000000000
+      internalID: -4764482073987632988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_205
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 74
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0baf92508787acd0800000000000000
+      internalID: -2546918079042966774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_206
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 72
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7451eb3f4f464fdb0800000000000000
+      internalID: -4759067902999653049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_207
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 74
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b35281b80b817820800000000000000
+      internalID: 2914263303339529139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_208
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 73
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f187ea875ce1a790800000000000000
+      internalID: -7520470041995279884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_209
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 73
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f545926bd0d0554a0800000000000000
+      internalID: -6605358925927066529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_210
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 72
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df62ba2289badb00800000000000000
+      internalID: 854199048053354451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_211
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 74
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7290aaf7e8ad829c0800000000000000
+      internalID: -3951668367455549145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_212
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 73
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f69c5ddf728cd130800000000000000
+      internalID: 3592890088421103350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_213
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 73
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db604065038ed1e0800000000000000
+      internalID: -2171153911233090601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_214
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 73
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4b8d0b82df0ee50800000000000000
+      internalID: 6836742585555924166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_215
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 73
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea69bafd0bac09240800000000000000
+      internalID: 4796556464165197486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_216
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 73
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b05c90e2dcca970800000000000000
+      internalID: 8767608172199611163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_217
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 74
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c32ce654eabd510800000000000000
+      internalID: 1575044107930320010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_218
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 73
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee5ed94ef3cde4c0800000000000000
+      internalID: -4256530575866831136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_219
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 74
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13cd18a038875c40800000000000000
+      internalID: 5501015212416680733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_220
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 74
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e00761c7d793c620800000000000000
+      internalID: 2793243146818355426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_221
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 74
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ff7f9e11ab4bbf0800000000000000
+      internalID: -309417888279167091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_222
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 74
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b57ae3cdd7a3f580800000000000000
+      internalID: -8794501076407913033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_223
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 73
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6e54529dda2f280800000000000000
+      internalID: -9010948756270094663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_224
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 72
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cbc6711f7e5cfa0800000000000000
+      internalID: -5780959523994026911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_225
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 73
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5da8e2bb8cefb30800000000000000
+      internalID: 4323113398587545011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_226
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 73
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b436c60f21b81c0800000000000000
+      internalID: -4500482578806781085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_227
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 74
+        width: 12
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cca5e37e6ed96710800000000000000
+      internalID: 1687124101399162056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_228
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 72
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad10b9d69a6012b0800000000000000
+      internalID: -5615871539201172062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_229
+      rect:
+        serializedVersion: 2
+        x: 1747
+        y: 74
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebd276e74e342dd0800000000000000
+      internalID: -2511814213636006934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_230
+      rect:
+        serializedVersion: 2
+        x: 1779
+        y: 72
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1db7f40125850260800000000000000
+      internalID: 7063197967464250650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: loadingscreentips_231
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 74
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54500d24b9e768730800000000000000
+      internalID: 4001024524271224133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      loadingscreentips_0: 2115876613861485158
+      loadingscreentips_1: -88770454745437241
+      loadingscreentips_10: -3698577242325476603
+      loadingscreentips_100: -523892773905335004
+      loadingscreentips_101: 2001460271076027597
+      loadingscreentips_102: 233955813171885364
+      loadingscreentips_103: 7995738052536523167
+      loadingscreentips_104: 1636238060985379914
+      loadingscreentips_105: -5349841375293115316
+      loadingscreentips_106: 2037998802057900655
+      loadingscreentips_107: -3364754384118142546
+      loadingscreentips_108: 2915114958176081615
+      loadingscreentips_109: -5345028254723237873
+      loadingscreentips_11: 8970970664350491980
+      loadingscreentips_110: -2547143565995395097
+      loadingscreentips_111: -7051173182153263710
+      loadingscreentips_112: -1620807198088901807
+      loadingscreentips_113: -6241667625343392242
+      loadingscreentips_114: -1118489547583098932
+      loadingscreentips_115: 6311224981761679890
+      loadingscreentips_116: 4739778371398456727
+      loadingscreentips_117: 5142826362487004656
+      loadingscreentips_118: -8664196011414822916
+      loadingscreentips_119: -3412835367715844413
+      loadingscreentips_12: -3989368243341070016
+      loadingscreentips_120: -3812540409072690021
+      loadingscreentips_121: -5945073601548044232
+      loadingscreentips_122: 56536988410766321
+      loadingscreentips_123: -1761962639012032940
+      loadingscreentips_124: 4712522136850174576
+      loadingscreentips_125: -2166147288435530697
+      loadingscreentips_126: 3718419030889371285
+      loadingscreentips_127: 2294548359422054139
+      loadingscreentips_128: 1861381882643949163
+      loadingscreentips_129: -8462499824711171071
+      loadingscreentips_13: 5936727722711991221
+      loadingscreentips_130: 2196945604145366340
+      loadingscreentips_131: -6208471357388815049
+      loadingscreentips_132: -8066212821578664577
+      loadingscreentips_133: -767753815982116964
+      loadingscreentips_134: -1899064743982178805
+      loadingscreentips_135: 1616336471351721065
+      loadingscreentips_136: 4314424539297300295
+      loadingscreentips_137: 6944365945064843261
+      loadingscreentips_138: 5139296132006199957
+      loadingscreentips_139: 2351399811666900998
+      loadingscreentips_14: -1367324345356499944
+      loadingscreentips_140: -7839099695045220782
+      loadingscreentips_141: -4622227768671059678
+      loadingscreentips_142: 2071581695344581907
+      loadingscreentips_143: 7355079591749433710
+      loadingscreentips_144: 6824037120008847509
+      loadingscreentips_145: 5077089433652835245
+      loadingscreentips_146: -3570052312125753647
+      loadingscreentips_147: -7071265837957288851
+      loadingscreentips_148: -7579206238570891583
+      loadingscreentips_149: -8960700717484601755
+      loadingscreentips_15: 7575184880623462343
+      loadingscreentips_150: -21318216311303468
+      loadingscreentips_151: 8459656052040025343
+      loadingscreentips_152: 5395962743916556162
+      loadingscreentips_153: 6707350998906685376
+      loadingscreentips_154: 736023747503244321
+      loadingscreentips_155: -1579400955946629724
+      loadingscreentips_156: -8633260062506583124
+      loadingscreentips_157: -6859497038734669389
+      loadingscreentips_158: -2804234836412459280
+      loadingscreentips_159: -4528468099244845658
+      loadingscreentips_16: 7798609169401880117
+      loadingscreentips_160: 8178140389784643669
+      loadingscreentips_161: -5829583973033585667
+      loadingscreentips_162: 1148536857983104793
+      loadingscreentips_163: -6338160349881663431
+      loadingscreentips_164: 8417988388081984325
+      loadingscreentips_165: 8090781877240642947
+      loadingscreentips_166: -6381921883677554506
+      loadingscreentips_167: 5932613970506613932
+      loadingscreentips_168: -238223319048489465
+      loadingscreentips_169: 7151185698773984114
+      loadingscreentips_17: 6235988481499051772
+      loadingscreentips_170: -1176445996804794155
+      loadingscreentips_171: -1078790518289253647
+      loadingscreentips_172: -63663435113298851
+      loadingscreentips_173: -4565564670233758344
+      loadingscreentips_174: -7109341924413536005
+      loadingscreentips_175: 6468873343268032846
+      loadingscreentips_176: 1073042294785592853
+      loadingscreentips_177: -2380732314184252809
+      loadingscreentips_178: -3252477757715659526
+      loadingscreentips_179: -2959656878494925069
+      loadingscreentips_18: -3009764071074823952
+      loadingscreentips_180: 6092785502416772785
+      loadingscreentips_181: -7232839167837150786
+      loadingscreentips_182: 6403105254566946564
+      loadingscreentips_183: 6974205260603801419
+      loadingscreentips_184: -8913427626950253296
+      loadingscreentips_185: 4305291377809108650
+      loadingscreentips_186: 5453648834457321920
+      loadingscreentips_187: 6437703286534819302
+      loadingscreentips_188: 5126166230614248774
+      loadingscreentips_189: -1720757432802756841
+      loadingscreentips_19: -3993863931783119676
+      loadingscreentips_190: 6106469614652389045
+      loadingscreentips_191: -938409150001239627
+      loadingscreentips_192: 1290388936748198691
+      loadingscreentips_193: 6867630749134448444
+      loadingscreentips_194: -5142698992347215583
+      loadingscreentips_195: 687600256766097993
+      loadingscreentips_196: 2190313155732440340
+      loadingscreentips_197: 7760832572129242587
+      loadingscreentips_198: 7789962334705848
+      loadingscreentips_199: -4366820651029457204
+      loadingscreentips_2: 9071721395010324426
+      loadingscreentips_20: 3546393299699991132
+      loadingscreentips_200: -6609113271718507103
+      loadingscreentips_201: -9124986427145983690
+      loadingscreentips_202: -8884484082742846519
+      loadingscreentips_203: 7748662678001659304
+      loadingscreentips_204: -4764482073987632988
+      loadingscreentips_205: -2546918079042966774
+      loadingscreentips_206: -4759067902999653049
+      loadingscreentips_207: 2914263303339529139
+      loadingscreentips_208: -7520470041995279884
+      loadingscreentips_209: -6605358925927066529
+      loadingscreentips_21: -7167193922477452804
+      loadingscreentips_210: 854199048053354451
+      loadingscreentips_211: -3951668367455549145
+      loadingscreentips_212: 3592890088421103350
+      loadingscreentips_213: -2171153911233090601
+      loadingscreentips_214: 6836742585555924166
+      loadingscreentips_215: 4796556464165197486
+      loadingscreentips_216: 8767608172199611163
+      loadingscreentips_217: 1575044107930320010
+      loadingscreentips_218: -4256530575866831136
+      loadingscreentips_219: 5501015212416680733
+      loadingscreentips_22: -8610209476574380944
+      loadingscreentips_220: 2793243146818355426
+      loadingscreentips_221: -309417888279167091
+      loadingscreentips_222: -8794501076407913033
+      loadingscreentips_223: -9010948756270094663
+      loadingscreentips_224: -5780959523994026911
+      loadingscreentips_225: 4323113398587545011
+      loadingscreentips_226: -4500482578806781085
+      loadingscreentips_227: 1687124101399162056
+      loadingscreentips_228: -5615871539201172062
+      loadingscreentips_229: -2511814213636006934
+      loadingscreentips_23: 7449754201693776823
+      loadingscreentips_230: 7063197967464250650
+      loadingscreentips_231: 4001024524271224133
+      loadingscreentips_24: 5749527955578688913
+      loadingscreentips_25: -3993741798826355315
+      loadingscreentips_26: -3800591084933838825
+      loadingscreentips_27: 8500354303775923128
+      loadingscreentips_28: -1750257966133039302
+      loadingscreentips_29: -7939761138392572661
+      loadingscreentips_3: 8045456234487377169
+      loadingscreentips_30: -2057711970554292645
+      loadingscreentips_31: -1654787969705317957
+      loadingscreentips_32: 2464988706940499478
+      loadingscreentips_33: 4987250594680156952
+      loadingscreentips_34: 3912305908302407136
+      loadingscreentips_35: 89454590469918626
+      loadingscreentips_36: 4155470310193332478
+      loadingscreentips_37: 3497943926785035049
+      loadingscreentips_38: -738100947665679171
+      loadingscreentips_39: 3748231520703882004
+      loadingscreentips_4: 4536478949602408711
+      loadingscreentips_40: -4562385212647565323
+      loadingscreentips_41: 1303982174928806126
+      loadingscreentips_42: 4074930168681859564
+      loadingscreentips_43: -1734873125071590349
+      loadingscreentips_44: -7928895882322951407
+      loadingscreentips_45: -6386706835692842285
+      loadingscreentips_46: -6300776430905685193
+      loadingscreentips_47: -4154596688092110571
+      loadingscreentips_48: 7859588491369131550
+      loadingscreentips_49: 844354218120431164
+      loadingscreentips_5: 6504458553483741123
+      loadingscreentips_50: -4411233444165124011
+      loadingscreentips_51: -2063493249101998796
+      loadingscreentips_52: 8140386138620859964
+      loadingscreentips_53: 2554335417706979301
+      loadingscreentips_54: 8321171246007373806
+      loadingscreentips_55: -2300741799877332540
+      loadingscreentips_56: -302403085254284228
+      loadingscreentips_57: -4881121104749719943
+      loadingscreentips_58: -950896121458465199
+      loadingscreentips_59: -3337906989144689546
+      loadingscreentips_6: 6411464338840581560
+      loadingscreentips_60: 1158842119989705794
+      loadingscreentips_61: -8285429768428430659
+      loadingscreentips_62: -667665782143965187
+      loadingscreentips_63: -6394326492109877529
+      loadingscreentips_64: 450621761425961418
+      loadingscreentips_65: 2433820529501087073
+      loadingscreentips_66: 682962240161902053
+      loadingscreentips_67: -8497981926268204759
+      loadingscreentips_68: -6881157893895009880
+      loadingscreentips_69: 6195515141768014102
+      loadingscreentips_7: -1093514272773020008
+      loadingscreentips_70: 3211936381820770277
+      loadingscreentips_71: -8759682841990282877
+      loadingscreentips_72: -4550133311906553961
+      loadingscreentips_73: -1378710937790682538
+      loadingscreentips_74: -3762451018307609215
+      loadingscreentips_75: -7863458651254658934
+      loadingscreentips_76: 2395948915467591768
+      loadingscreentips_77: 1446299546013644620
+      loadingscreentips_78: 1756705840765308904
+      loadingscreentips_79: -772162359383337039
+      loadingscreentips_8: 5878944032611008133
+      loadingscreentips_80: -3087041980334186768
+      loadingscreentips_81: 7415996542581602274
+      loadingscreentips_82: 2266079923868352382
+      loadingscreentips_83: 1738566583647009642
+      loadingscreentips_84: -4172367918934566235
+      loadingscreentips_85: 2061073895133829748
+      loadingscreentips_86: 6370804646796488251
+      loadingscreentips_87: -6469748693582296873
+      loadingscreentips_88: -4072957580122937957
+      loadingscreentips_89: 5555350213160668930
+      loadingscreentips_9: -7431764883114999091
+      loadingscreentips_90: 3672693964581998845
+      loadingscreentips_91: -28192731226920501
+      loadingscreentips_92: -6960120360806156247
+      loadingscreentips_93: 4613362143886426733
+      loadingscreentips_94: -7984998384224653220
+      loadingscreentips_95: 1871464108766236343
+      loadingscreentips_96: -8436783752487936226
+      loadingscreentips_97: 4006682361723254204
+      loadingscreentips_98: 145441452633975681
+      loadingscreentips_99: -106176515831589174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: ab4cb51e92f98e447a8bc3f833379750
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 863728430465811532
+    second: Round11Results_0
+  - first:
+      213: -8961280278328767627
+    second: Round11Results_1
+  - first:
+      213: 2475222952068544326
+    second: Round11Results_2
+  - first:
+      213: -213779158003535711
+    second: Round11Results_3
+  - first:
+      213: -5643185231217942694
+    second: Round11Results_4
+  - first:
+      213: 1339934403014365587
+    second: Round11Results_5
+  - first:
+      213: 8423686600642510363
+    second: Round11Results_6
+  - first:
+      213: -183140718469629240
+    second: Round11Results_7
+  - first:
+      213: 6194947199198276916
+    second: Round11Results_8
+  - first:
+      213: 3391238421759864164
+    second: Round11Results_9
+  - first:
+      213: 8706708960018694396
+    second: Round11Results_10
+  - first:
+      213: -2511707384439182335
+    second: Round11Results_11
+  - first:
+      213: -5857510669468151877
+    second: Round11Results_12
+  - first:
+      213: -1369196823951526755
+    second: Round11Results_13
+  - first:
+      213: -2233491873011833381
+    second: Round11Results_14
+  - first:
+      213: -8735997521169187834
+    second: Round11Results_15
+  - first:
+      213: 2925546695872269048
+    second: Round11Results_16
+  - first:
+      213: -451170373091273374
+    second: Round11Results_17
+  - first:
+      213: 6632361198238121631
+    second: Round11Results_18
+  - first:
+      213: -1965900536253771532
+    second: Round11Results_19
+  - first:
+      213: -4967695212646998518
+    second: Round11Results_20
+  - first:
+      213: 6784478056396715313
+    second: Round11Results_21
+  - first:
+      213: -7702512367792045749
+    second: Round11Results_22
+  - first:
+      213: -7128149046102217700
+    second: Round11Results_23
+  - first:
+      213: 2487965445862323346
+    second: Round11Results_24
+  - first:
+      213: -7115071904472592077
+    second: Round11Results_25
+  - first:
+      213: -5158404405523307079
+    second: Round11Results_26
+  - first:
+      213: 3625621488611314387
+    second: Round11Results_27
+  - first:
+      213: -619388504745812857
+    second: Round11Results_28
+  - first:
+      213: -5405754913225875261
+    second: Round11Results_29
+  - first:
+      213: 5942723700114350580
+    second: Round11Results_30
+  - first:
+      213: 5606897381573864946
+    second: Round11Results_31
+  - first:
+      213: 1528393418126564813
+    second: Round11Results_32
+  - first:
+      213: -5338842791644534919
+    second: Round11Results_33
+  - first:
+      213: -5592913654204319353
+    second: Round11Results_34
+  - first:
+      213: -5469195644645514416
+    second: Round11Results_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Round11Results_0
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 829
+        width: 44
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4402586e649cfb00800000000000000
+      internalID: 863728430465811532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 884
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b0085d01323a380800000000000000
+      internalID: -8961280278328767627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_2
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 880
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64770fd1922c95220800000000000000
+      internalID: 2475222952068544326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 59
+        width: 754
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a031da0df0880df0800000000000000
+      internalID: -213779158003535711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 854
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f168b5ee06fa1b0800000000000000
+      internalID: -5643185231217942694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 860
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3911ff18d37689210800000000000000
+      internalID: 1339934403014365587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 838
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1eb38a2552f6e470800000000000000
+      internalID: 8423686600642510363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 850
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca35b3ac7a557df0800000000000000
+      internalID: -183140718469629240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 792
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43da38ac7afd8f550800000000000000
+      internalID: 6194947199198276916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 755
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d27a58069101f20800000000000000
+      internalID: 3391238421759864164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 761
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf000a44ba174d870800000000000000
+      internalID: 8706708960018694396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_11
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 673
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ce6c2017f942dd0800000000000000
+      internalID: -2511707384439182335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 651
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf4a4e9411f5bea0800000000000000
+      internalID: -5857510669468151877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 642
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94b6c03eb2affce0800000000000000
+      internalID: -1369196823951526755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_14
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 632
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5686c99fa0101e0800000000000000
+      internalID: -2233491873011833381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c74003a8083c680800000000000000
+      internalID: -8735997521169187834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 589
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fac84d3831a99820800000000000000
+      internalID: 2925546695872269048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_17
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 578
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265d6b2afee1db9f0800000000000000
+      internalID: -451170373091273374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_18
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 534
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e311bbe51ea0c50800000000000000
+      internalID: 6632361198238121631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_19
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 275
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f018d8c0e7b7b4e0800000000000000
+      internalID: -1965900536253771532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_20
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 253
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e54c926833f0bb0800000000000000
+      internalID: -4967695212646998518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_21
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 259
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13575f9b8de472e50800000000000000
+      internalID: 6784478056396715313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_22
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 214
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41c3b7afcd2b1590800000000000000
+      internalID: -7702512367792045749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_23
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 220
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ca909853ab31d90800000000000000
+      internalID: -7128149046102217700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_24
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 204
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294f1162467078220800000000000000
+      internalID: 2487965445862323346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_25
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 195
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319c86dccf224d90800000000000000
+      internalID: -7115071904472592077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_26
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 183
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b529f8068aa968b0800000000000000
+      internalID: -5158404405523307079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_27
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 168
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da43b6d88bc05230800000000000000
+      internalID: 3625621488611314387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_28
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 135
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c5aa4cf6d7767f0800000000000000
+      internalID: -619388504745812857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_29
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 51
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0695e1c86eaf4b0800000000000000
+      internalID: -5405754913225875261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_30
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 52
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f16c9728bbc87250800000000000000
+      internalID: 5942723700114350580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_31
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 47
+        width: 85
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd27c04673bfcd40800000000000000
+      internalID: 5606897381573864946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_32
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 28
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd9a7c47b1f53510800000000000000
+      internalID: 1528393418126564813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_33
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 31
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9776f5474ce98e5b0800000000000000
+      internalID: -5338842791644534919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 23
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78938bdf9aaf162b0800000000000000
+      internalID: -5592913654204319353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Round11Results_35
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0536ac9c9838914b0800000000000000
+      internalID: -5469195644645514416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Round11Results_0: 863728430465811532
+      Round11Results_1: -8961280278328767627
+      Round11Results_10: 8706708960018694396
+      Round11Results_11: -2511707384439182335
+      Round11Results_12: -5857510669468151877
+      Round11Results_13: -1369196823951526755
+      Round11Results_14: -2233491873011833381
+      Round11Results_15: -8735997521169187834
+      Round11Results_16: 2925546695872269048
+      Round11Results_17: -451170373091273374
+      Round11Results_18: 6632361198238121631
+      Round11Results_19: -1965900536253771532
+      Round11Results_2: 2475222952068544326
+      Round11Results_20: -4967695212646998518
+      Round11Results_21: 6784478056396715313
+      Round11Results_22: -7702512367792045749
+      Round11Results_23: -7128149046102217700
+      Round11Results_24: 2487965445862323346
+      Round11Results_25: -7115071904472592077
+      Round11Results_26: -5158404405523307079
+      Round11Results_27: 3625621488611314387
+      Round11Results_28: -619388504745812857
+      Round11Results_29: -5405754913225875261
+      Round11Results_3: -213779158003535711
+      Round11Results_30: 5942723700114350580
+      Round11Results_31: 5606897381573864946
+      Round11Results_32: 1528393418126564813
+      Round11Results_33: -5338842791644534919
+      Round11Results_34: -5592913654204319353
+      Round11Results_35: -5469195644645514416
+      Round11Results_4: -5643185231217942694
+      Round11Results_5: 1339934403014365587
+      Round11Results_6: 8423686600642510363
+      Round11Results_7: -183140718469629240
+      Round11Results_8: 6194947199198276916
+      Round11Results_9: 3391238421759864164
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

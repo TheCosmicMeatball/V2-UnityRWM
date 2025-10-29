@@ -1,0 +1,55 @@
+# Banned Words List for Content Filtering
+# Lines starting with # are comments and will be ignored
+# One word per line
+
+# Profanity
+cunt
+
+
+# Slurs (racial, homophobic, ableist)
+nigger
+nigga
+fag
+faggot
+retard
+retarded
+spic
+chink
+gook
+kike
+beaner
+dyke
+hooker
+nazi
+hitler
+wetback
+wet back
+goy
+gypsy
+honky
+honkey
+towel head
+pedo
+pedophile
+groomer
+rapist
+whitey
+
+
+# Sexual content
+rape
+molest
+twat
+hoe
+whore
+
+
+# Variations and common misspellings (add as needed)
+n1gga
+n1gger
+n i g g e r
+f a g 
+nigg3r
+
+
+# Add more words as needed for your game's content policy

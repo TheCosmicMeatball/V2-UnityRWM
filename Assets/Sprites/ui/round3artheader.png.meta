@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 890f7b7ac4144884faa8925897c8913a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7514981662235644494
+    second: round3artheader_0
+  - first:
+      213: -1181610100149976362
+    second: round3artheader_1
+  - first:
+      213: 5033434687161512375
+    second: round3artheader_2
+  - first:
+      213: 497307689948687549
+    second: round3artheader_3
+  - first:
+      213: 3320942144407479523
+    second: round3artheader_4
+  - first:
+      213: 2391270705109953096
+    second: round3artheader_5
+  - first:
+      213: 5127950720445414717
+    second: round3artheader_6
+  - first:
+      213: -8794679372818662593
+    second: round3artheader_7
+  - first:
+      213: -2180882555151807414
+    second: round3artheader_8
+  - first:
+      213: -8441499380751169986
+    second: round3artheader_9
+  - first:
+      213: 5698979084773453728
+    second: round3artheader_10
+  - first:
+      213: -8717866964189989415
+    second: round3artheader_11
+  - first:
+      213: 1599399310153742956
+    second: round3artheader_12
+  - first:
+      213: 6063210485894398490
+    second: round3artheader_13
+  - first:
+      213: 7096064189876316073
+    second: round3artheader_14
+  - first:
+      213: -1945857267405069612
+    second: round3artheader_15
+  - first:
+      213: -1073464407496287538
+    second: round3artheader_16
+  - first:
+      213: -7290483072585244496
+    second: round3artheader_17
+  - first:
+      213: -7956866439868510439
+    second: round3artheader_18
+  - first:
+      213: 5265312459037285451
+    second: round3artheader_19
+  - first:
+      213: 519819104452557938
+    second: round3artheader_20
+  - first:
+      213: 3509885373069381256
+    second: round3artheader_21
+  - first:
+      213: -3299499494485303794
+    second: round3artheader_22
+  - first:
+      213: -5934259240608286157
+    second: round3artheader_23
+  - first:
+      213: -6052970532392164379
+    second: round3artheader_24
+  - first:
+      213: 4313061674490937546
+    second: round3artheader_25
+  - first:
+      213: 5447428964024684621
+    second: round3artheader_26
+  - first:
+      213: -8327801436287610105
+    second: round3artheader_27
+  - first:
+      213: 1795378953735194889
+    second: round3artheader_28
+  - first:
+      213: -3743735061670739662
+    second: round3artheader_29
+  - first:
+      213: 22869225426103617
+    second: round3artheader_30
+  - first:
+      213: -3704895913531260783
+    second: round3artheader_31
+  - first:
+      213: -3058185448981855868
+    second: round3artheader_32
+  - first:
+      213: 768299292576351990
+    second: round3artheader_33
+  - first:
+      213: 6194505780439702840
+    second: round3artheader_34
+  - first:
+      213: -1576799406700969746
+    second: round3artheader_35
+  - first:
+      213: -422326228395710750
+    second: round3artheader_36
+  - first:
+      213: 6945379528533061887
+    second: round3artheader_37
+  - first:
+      213: -6771041267543371958
+    second: round3artheader_38
+  - first:
+      213: -3244105328204594677
+    second: round3artheader_39
+  - first:
+      213: 5928365821810923194
+    second: round3artheader_40
+  - first:
+      213: -5989851772574346074
+    second: round3artheader_41
+  - first:
+      213: 5493037227142971610
+    second: round3artheader_42
+  - first:
+      213: -7547892154755493008
+    second: round3artheader_43
+  - first:
+      213: 2717684449135630711
+    second: round3artheader_44
+  - first:
+      213: -5498995744724672259
+    second: round3artheader_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: round3artheader_0
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 886
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42512771049a4860800000000000000
+      internalID: 7514981662235644494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 892
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d20c85dfd31a9fe0800000000000000
+      internalID: -1181610100149976362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 872
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b134600e2a5ad540800000000000000
+      internalID: 5033434687161512375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_3
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 885
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc267b85bac6e600800000000000000
+      internalID: 497307689948687549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 1101
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e42805094b561e20800000000000000
+      internalID: 3320942144407479523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 885
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a60eb69008f2120800000000000000
+      internalID: 2391270705109953096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 876
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d7bddd2042a2740800000000000000
+      internalID: 5127950720445414717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_7
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 871
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b30b5e4b503f580800000000000000
+      internalID: -8794679372818662593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 871
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4c8453fed2fbb1e0800000000000000
+      internalID: -2180882555151807414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 864
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3685a6c905c9da80800000000000000
+      internalID: -8441499380751169986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 874
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af6d4a7847d61f40800000000000000
+      internalID: 5698979084773453728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_11
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 865
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5b7507f2ae30780800000000000000
+      internalID: -8717866964189989415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 863
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6af7b7d235323610800000000000000
+      internalID: 1599399310153742956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 864
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12c82a00d9d42450800000000000000
+      internalID: 6063210485894398490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 862
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7a2fcb8c84a7260800000000000000
+      internalID: 7096064189876316073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 864
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d265b8ff1deef4e0800000000000000
+      internalID: -1945857267405069612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_16
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 862
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca98201fc94a11f0800000000000000
+      internalID: -1073464407496287538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_17
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 859
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0ee89a54003da90800000000000000
+      internalID: -7290483072585244496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_18
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 863
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f09665128839190800000000000000
+      internalID: -7956866439868510439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 862
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c1b50e8c5221940800000000000000
+      internalID: 5265312459037285451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_20
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 861
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c3b5ca8b4c63700800000000000000
+      internalID: 519819104452557938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_21
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 862
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ec320962e95b030800000000000000
+      internalID: 3509885373069381256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 784
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e5f96f0b2d532d0800000000000000
+      internalID: -3299499494485303794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 736
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ab67669a645ada0800000000000000
+      internalID: -5934259240608286157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_24
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 726
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3abdcee578ffba0800000000000000
+      internalID: -6052970532392164379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_25
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 738
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0426acdb21bdb30800000000000000
+      internalID: 4313061674490937546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_26
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 714
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d409dd3f7c7299b40800000000000000
+      internalID: 5447428964024684621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 709
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703d61e57b4bd6c80800000000000000
+      internalID: -8327801436287610105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 689
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909499665a77ae810800000000000000
+      internalID: 1795378953735194889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_29
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 688
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 231c0fbebc49b0cc0800000000000000
+      internalID: -3743735061670739662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_30
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 694
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dafc9707f315000800000000000000
+      internalID: 22869225426103617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_31
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 684
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1904c28cbc0959cc0800000000000000
+      internalID: -3704895913531260783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_32
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 627
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4810b2089842f85d0800000000000000
+      internalID: -3058185448981855868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_33
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 663
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6823fc22c89aa00800000000000000
+      internalID: 768299292576351990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_34
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 621
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d563aff2e47f550800000000000000
+      internalID: 6194505780439702840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_35
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 562
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0ca893b451e1ae0800000000000000
+      internalID: -1576799406700969746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_36
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 558
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6a4296888932af0800000000000000
+      internalID: -422326228395710750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_37
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 564
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0bb7c02e1f26060800000000000000
+      internalID: 6945379528533061887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_38
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 251
+        width: 14
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f019877dd6802a0800000000000000
+      internalID: -6771041267543371958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_39
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 277
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02c96a546f9af2d0800000000000000
+      internalID: -3244105328204594677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_40
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 255
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab65b9b1e49c54250800000000000000
+      internalID: 5928365821810923194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_41
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 19
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a456766c85cfdca0800000000000000
+      internalID: -5989851772574346074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_42
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 21
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad08ad531403b3c40800000000000000
+      internalID: 5493037227142971610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 15
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07357d06310804790800000000000000
+      internalID: -7547892154755493008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_44
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779155a8b9727b520800000000000000
+      internalID: 2717684449135630711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round3artheader_45
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df02d4e4184afa3b0800000000000000
+      internalID: -5498995744724672259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      round3artheader_0: 7514981662235644494
+      round3artheader_1: -1181610100149976362
+      round3artheader_10: 5698979084773453728
+      round3artheader_11: -8717866964189989415
+      round3artheader_12: 1599399310153742956
+      round3artheader_13: 6063210485894398490
+      round3artheader_14: 7096064189876316073
+      round3artheader_15: -1945857267405069612
+      round3artheader_16: -1073464407496287538
+      round3artheader_17: -7290483072585244496
+      round3artheader_18: -7956866439868510439
+      round3artheader_19: 5265312459037285451
+      round3artheader_2: 5033434687161512375
+      round3artheader_20: 519819104452557938
+      round3artheader_21: 3509885373069381256
+      round3artheader_22: -3299499494485303794
+      round3artheader_23: -5934259240608286157
+      round3artheader_24: -6052970532392164379
+      round3artheader_25: 4313061674490937546
+      round3artheader_26: 5447428964024684621
+      round3artheader_27: -8327801436287610105
+      round3artheader_28: 1795378953735194889
+      round3artheader_29: -3743735061670739662
+      round3artheader_3: 497307689948687549
+      round3artheader_30: 22869225426103617
+      round3artheader_31: -3704895913531260783
+      round3artheader_32: -3058185448981855868
+      round3artheader_33: 768299292576351990
+      round3artheader_34: 6194505780439702840
+      round3artheader_35: -1576799406700969746
+      round3artheader_36: -422326228395710750
+      round3artheader_37: 6945379528533061887
+      round3artheader_38: -6771041267543371958
+      round3artheader_39: -3244105328204594677
+      round3artheader_4: 3320942144407479523
+      round3artheader_40: 5928365821810923194
+      round3artheader_41: -5989851772574346074
+      round3artheader_42: 5493037227142971610
+      round3artheader_43: -7547892154755493008
+      round3artheader_44: 2717684449135630711
+      round3artheader_45: -5498995744724672259
+      round3artheader_5: 2391270705109953096
+      round3artheader_6: 5127950720445414717
+      round3artheader_7: -8794679372818662593
+      round3artheader_8: -2180882555151807414
+      round3artheader_9: -8441499380751169986
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

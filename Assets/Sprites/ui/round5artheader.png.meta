@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 9c2c1f7ae5d007642af7e0bc2365e5ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -195187632296627013
+    second: round5artheader_0
+  - first:
+      213: -9115123692322559283
+    second: round5artheader_1
+  - first:
+      213: 995357858761060301
+    second: round5artheader_2
+  - first:
+      213: 6810942806174094490
+    second: round5artheader_3
+  - first:
+      213: -208509326118213588
+    second: round5artheader_4
+  - first:
+      213: 3917719212385992448
+    second: round5artheader_5
+  - first:
+      213: 8487649518355311013
+    second: round5artheader_6
+  - first:
+      213: -6841202675033607946
+    second: round5artheader_7
+  - first:
+      213: 4313670126289135149
+    second: round5artheader_8
+  - first:
+      213: 8994365496976714097
+    second: round5artheader_9
+  - first:
+      213: -7220086705324382851
+    second: round5artheader_10
+  - first:
+      213: -4092243074265286281
+    second: round5artheader_11
+  - first:
+      213: -6657034040474549408
+    second: round5artheader_12
+  - first:
+      213: -2582482367540517805
+    second: round5artheader_13
+  - first:
+      213: 7310730094667133371
+    second: round5artheader_14
+  - first:
+      213: 3935920290866314083
+    second: round5artheader_15
+  - first:
+      213: -1044517941876136476
+    second: round5artheader_16
+  - first:
+      213: 3260333076066108873
+    second: round5artheader_17
+  - first:
+      213: -1799010403577594843
+    second: round5artheader_18
+  - first:
+      213: 9157897580967862193
+    second: round5artheader_19
+  - first:
+      213: 2765689406623930311
+    second: round5artheader_20
+  - first:
+      213: -6695675670048090780
+    second: round5artheader_21
+  - first:
+      213: -8470207212161200133
+    second: round5artheader_22
+  - first:
+      213: 2007398042500542923
+    second: round5artheader_23
+  - first:
+      213: -3285889498762579122
+    second: round5artheader_24
+  - first:
+      213: -5476151339144513698
+    second: round5artheader_25
+  - first:
+      213: 1017435045469403282
+    second: round5artheader_26
+  - first:
+      213: -1280709939811003861
+    second: round5artheader_27
+  - first:
+      213: -9009273938774468466
+    second: round5artheader_28
+  - first:
+      213: -6546918680583091246
+    second: round5artheader_29
+  - first:
+      213: -4870808009552773332
+    second: round5artheader_30
+  - first:
+      213: -9083422842904491239
+    second: round5artheader_31
+  - first:
+      213: 7199663971702900514
+    second: round5artheader_32
+  - first:
+      213: -6568267129410931458
+    second: round5artheader_33
+  - first:
+      213: 4853827985642109186
+    second: round5artheader_34
+  - first:
+      213: -5582391356865847458
+    second: round5artheader_35
+  - first:
+      213: -1328095467239996257
+    second: round5artheader_36
+  - first:
+      213: 1104098395936353366
+    second: round5artheader_37
+  - first:
+      213: -2356037797557225714
+    second: round5artheader_38
+  - first:
+      213: 6716481196751928206
+    second: round5artheader_39
+  - first:
+      213: -7165921362024543772
+    second: round5artheader_40
+  - first:
+      213: -7924243266621674470
+    second: round5artheader_41
+  - first:
+      213: 5236933011344072935
+    second: round5artheader_42
+  - first:
+      213: -8247872135053800762
+    second: round5artheader_43
+  - first:
+      213: 7743279423892959685
+    second: round5artheader_44
+  - first:
+      213: 7449826157562126454
+    second: round5artheader_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: round5artheader_0
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 886
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4f860f1ed8a4df0800000000000000
+      internalID: -195187632296627013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 892
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaed5bbb43908180800000000000000
+      internalID: -9115123692322559283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 872
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcfa8dbe2b830dd00800000000000000
+      internalID: 995357858761060301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_3
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 885
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9452837564558e50800000000000000
+      internalID: 6810942806174094490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 1101
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c282e546fd93b1df0800000000000000
+      internalID: -208509326118213588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 885
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f7dffddd88e5630800000000000000
+      internalID: 3917719212385992448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 876
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9659774403ac570800000000000000
+      internalID: 8487649518355311013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_7
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 871
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f07b2ec96a2f01a0800000000000000
+      internalID: -6841202675033607946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 871
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d26ada3002c3ddb30800000000000000
+      internalID: 4313670126289135149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 864
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179a35be3c762dc70800000000000000
+      internalID: 8994365496976714097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 874
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75ae9925691dcb90800000000000000
+      internalID: -7220086705324382851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_11
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 865
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7797dd70b9e6537c0800000000000000
+      internalID: -4092243074265286281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 863
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063c4d78fc67d93a0800000000000000
+      internalID: -6657034040474549408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 864
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354a90428fd292cd0800000000000000
+      internalID: -2582482367540517805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 862
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb17465894ee47560800000000000000
+      internalID: 7310730094667133371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 864
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36bb651b6a23f9630800000000000000
+      internalID: 3935920290866314083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_16
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 862
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e563f847702181f0800000000000000
+      internalID: -1044517941876136476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_17
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 859
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c58060a8a70f3d20800000000000000
+      internalID: 3260333076066108873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_18
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 863
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c768bc191a807e0800000000000000
+      internalID: -1799010403577594843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 862
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf9ffa4453671f70800000000000000
+      internalID: 9157897580967862193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_20
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 861
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c751e0bcd3b16620800000000000000
+      internalID: 2765689406623930311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_21
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 862
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465de8b047e2413a0800000000000000
+      internalID: -6695675670048090780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 784
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff0e29ea67c37a80800000000000000
+      internalID: -8470207212161200133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 736
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc13f0e42e5bbdb10800000000000000
+      internalID: 2007398042500542923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_24
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 726
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43f11709ec2662d0800000000000000
+      internalID: -3285889498762579122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_25
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 738
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57f206fe5dc004b0800000000000000
+      internalID: -5476151339144513698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_26
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 714
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298bc3388c7ae1e00800000000000000
+      internalID: 1017435045469403282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 709
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22d04168110a3ee0800000000000000
+      internalID: -1280709939811003861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 689
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88d92bf511a8f280800000000000000
+      internalID: -9009273938774468466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_29
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 688
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbc976a52ca425a0800000000000000
+      internalID: -6546918680583091246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_30
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 694
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2fba750ce9676cb0800000000000000
+      internalID: -4870808009552773332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_31
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 684
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b4208ec0331f180800000000000000
+      internalID: -9083422842904491239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_32
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 627
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227878f9c385ae360800000000000000
+      internalID: 7199663971702900514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_33
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 663
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4369198d3d8d4a0800000000000000
+      internalID: -6568267129410931458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_34
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 621
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2093c0516d24c5340800000000000000
+      internalID: 4853827985642109186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_35
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 562
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fdcc043ac5782b0800000000000000
+      internalID: -5582391356865847458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_36
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 558
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f948a578538a19de0800000000000000
+      internalID: -1328095467239996257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_37
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 564
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65c6dde24ab825f00800000000000000
+      internalID: 1104098395936353366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_38
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 251
+        width: 14
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07353f1b1cad4fd0800000000000000
+      internalID: -2356037797557225714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_39
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 277
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b3df0201cb53d50800000000000000
+      internalID: 6716481196751928206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_40
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 255
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9c428ec788d8c90800000000000000
+      internalID: -7165921362024543772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_41
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 19
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ceb33cbbe670290800000000000000
+      internalID: -7924243266621674470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_42
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 21
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e02eadc3d25da840800000000000000
+      internalID: 5236933011344072935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 15
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca86450efba98d80800000000000000
+      internalID: -8247872135053800762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_44
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c13bb14c97a57b60800000000000000
+      internalID: 7743279423892959685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round5artheader_45
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67067ef5b69136760800000000000000
+      internalID: 7449826157562126454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      round5artheader_0: -195187632296627013
+      round5artheader_1: -9115123692322559283
+      round5artheader_10: -7220086705324382851
+      round5artheader_11: -4092243074265286281
+      round5artheader_12: -6657034040474549408
+      round5artheader_13: -2582482367540517805
+      round5artheader_14: 7310730094667133371
+      round5artheader_15: 3935920290866314083
+      round5artheader_16: -1044517941876136476
+      round5artheader_17: 3260333076066108873
+      round5artheader_18: -1799010403577594843
+      round5artheader_19: 9157897580967862193
+      round5artheader_2: 995357858761060301
+      round5artheader_20: 2765689406623930311
+      round5artheader_21: -6695675670048090780
+      round5artheader_22: -8470207212161200133
+      round5artheader_23: 2007398042500542923
+      round5artheader_24: -3285889498762579122
+      round5artheader_25: -5476151339144513698
+      round5artheader_26: 1017435045469403282
+      round5artheader_27: -1280709939811003861
+      round5artheader_28: -9009273938774468466
+      round5artheader_29: -6546918680583091246
+      round5artheader_3: 6810942806174094490
+      round5artheader_30: -4870808009552773332
+      round5artheader_31: -9083422842904491239
+      round5artheader_32: 7199663971702900514
+      round5artheader_33: -6568267129410931458
+      round5artheader_34: 4853827985642109186
+      round5artheader_35: -5582391356865847458
+      round5artheader_36: -1328095467239996257
+      round5artheader_37: 1104098395936353366
+      round5artheader_38: -2356037797557225714
+      round5artheader_39: 6716481196751928206
+      round5artheader_4: -208509326118213588
+      round5artheader_40: -7165921362024543772
+      round5artheader_41: -7924243266621674470
+      round5artheader_42: 5236933011344072935
+      round5artheader_43: -8247872135053800762
+      round5artheader_44: 7743279423892959685
+      round5artheader_45: 7449826157562126454
+      round5artheader_5: 3917719212385992448
+      round5artheader_6: 8487649518355311013
+      round5artheader_7: -6841202675033607946
+      round5artheader_8: 4313670126289135149
+      round5artheader_9: 8994365496976714097
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

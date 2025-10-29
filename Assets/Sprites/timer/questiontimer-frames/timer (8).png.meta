@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: f6cdce05c89e64d49955d8c6d5476e7b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2447117059966687692
+    second: timer (8)_0
+  - first:
+      213: -9056513030656143837
+    second: timer (8)_1
+  - first:
+      213: -8520829138289327556
+    second: timer (8)_2
+  - first:
+      213: 4115196801207209386
+    second: timer (8)_3
+  - first:
+      213: -6005076588921139692
+    second: timer (8)_4
+  - first:
+      213: -5125871481868346972
+    second: timer (8)_5
+  - first:
+      213: 8633208240387437586
+    second: timer (8)_6
+  - first:
+      213: -615556299143890828
+    second: timer (8)_7
+  - first:
+      213: 492168396933311640
+    second: timer (8)_8
+  - first:
+      213: 5963589701494007225
+    second: timer (8)_9
+  - first:
+      213: -6388680698844834610
+    second: timer (8)_10
+  - first:
+      213: -3493049446059169421
+    second: timer (8)_11
+  - first:
+      213: 7389126624552038469
+    second: timer (8)_12
+  - first:
+      213: 7918333974459392619
+    second: timer (8)_13
+  - first:
+      213: 8268876932733483622
+    second: timer (8)_14
+  - first:
+      213: 1159569661193135173
+    second: timer (8)_15
+  - first:
+      213: -5867480646162232188
+    second: timer (8)_16
+  - first:
+      213: -4754687450648133154
+    second: timer (8)_17
+  - first:
+      213: 3283127713279070877
+    second: timer (8)_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: timer (8)_0
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 388
+        width: 1183
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9dc1b2008e5f120800000000000000
+      internalID: 2447117059966687692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1610
+        width: 71
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e4b00d16dc05280800000000000000
+      internalID: -9056513030656143837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_2
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 1115
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3287744b0fefb980800000000000000
+      internalID: -8520829138289327556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_3
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1116
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad87ccffad1c1930800000000000000
+      internalID: 4115196801207209386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_4
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1097
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e475c98aea9aca0800000000000000
+      internalID: -6005076588921139692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_5
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1088
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a99ee69b0f3dd8b0800000000000000
+      internalID: -5125871481868346972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1016
+        width: 139
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214b44867215fc770800000000000000
+      internalID: 8633208240387437586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_7
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 1073
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478364aaeca1577f0800000000000000
+      internalID: -615556299143890828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_8
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1053
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c22e4ac8884d600800000000000000
+      internalID: 492168396933311640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_9
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1050
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b56abfac3de2c250800000000000000
+      internalID: 5963589701494007225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_10
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 987
+        width: 111
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec495f9c0c8d657a0800000000000000
+      internalID: -6388680698844834610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 839
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379a4c82902368fc0800000000000000
+      internalID: -3493049446059169421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 881
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5403ec804837b8660800000000000000
+      internalID: 7389126624552038469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_13
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 819
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b622f80fbc293ed60800000000000000
+      internalID: 7918333974459392619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_14
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 854
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a300b82c3f0c270800000000000000
+      internalID: 8268876932733483622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_15
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 882
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544acb3967e971010800000000000000
+      internalID: 1159569661193135173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_16
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 824
+        width: 101
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c45078075829ea0800000000000000
+      internalID: -5867480646162232188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_17
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 816
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed14c1e74f4f30eb0800000000000000
+      internalID: -4754687450648133154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timer (8)_18
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 386
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d925d3ea243009d20800000000000000
+      internalID: 3283127713279070877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      timer (8)_0: 2447117059966687692
+      timer (8)_1: -9056513030656143837
+      timer (8)_10: -6388680698844834610
+      timer (8)_11: -3493049446059169421
+      timer (8)_12: 7389126624552038469
+      timer (8)_13: 7918333974459392619
+      timer (8)_14: 8268876932733483622
+      timer (8)_15: 1159569661193135173
+      timer (8)_16: -5867480646162232188
+      timer (8)_17: -4754687450648133154
+      timer (8)_18: 3283127713279070877
+      timer (8)_2: -8520829138289327556
+      timer (8)_3: 4115196801207209386
+      timer (8)_4: -6005076588921139692
+      timer (8)_5: -5125871481868346972
+      timer (8)_6: 8633208240387437586
+      timer (8)_7: -615556299143890828
+      timer (8)_8: 492168396933311640
+      timer (8)_9: 5963589701494007225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

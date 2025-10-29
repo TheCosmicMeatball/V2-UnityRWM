@@ -1,0 +1,1300 @@
+fileFormatVersion: 2
+guid: 52be11f138d41e8448ad469321f391b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3025476014975156645
+    second: eliminatehero_0
+  - first:
+      213: -1473720225507248640
+    second: eliminatehero_1
+  - first:
+      213: -7034637291270984485
+    second: eliminatehero_2
+  - first:
+      213: 341470900443805084
+    second: eliminatehero_3
+  - first:
+      213: 5011713342229979386
+    second: eliminatehero_4
+  - first:
+      213: -8281846659126830227
+    second: eliminatehero_5
+  - first:
+      213: 4611570034810735097
+    second: eliminatehero_6
+  - first:
+      213: 1116099366009852227
+    second: eliminatehero_7
+  - first:
+      213: 59790876577900002
+    second: eliminatehero_8
+  - first:
+      213: -8212355709859307670
+    second: eliminatehero_9
+  - first:
+      213: -2742669151743372093
+    second: eliminatehero_10
+  - first:
+      213: -5011821102725677360
+    second: eliminatehero_11
+  - first:
+      213: -5624984212826597191
+    second: eliminatehero_12
+  - first:
+      213: 3893186599493638634
+    second: eliminatehero_13
+  - first:
+      213: 7170361887228583933
+    second: eliminatehero_14
+  - first:
+      213: 6341494637800851495
+    second: eliminatehero_15
+  - first:
+      213: -9068519876557487528
+    second: eliminatehero_16
+  - first:
+      213: 2715157143327817848
+    second: eliminatehero_17
+  - first:
+      213: -4904177293970429976
+    second: eliminatehero_18
+  - first:
+      213: 3876166612643582775
+    second: eliminatehero_19
+  - first:
+      213: 1627983415014190417
+    second: eliminatehero_20
+  - first:
+      213: 3882579351251248660
+    second: eliminatehero_21
+  - first:
+      213: 3785692585728947954
+    second: eliminatehero_22
+  - first:
+      213: -2852686720517929036
+    second: eliminatehero_23
+  - first:
+      213: -3345659527624589211
+    second: eliminatehero_24
+  - first:
+      213: -711095241593140063
+    second: eliminatehero_25
+  - first:
+      213: 6211379167746245371
+    second: eliminatehero_26
+  - first:
+      213: -4457670396561601224
+    second: eliminatehero_27
+  - first:
+      213: 7202537521011218587
+    second: eliminatehero_28
+  - first:
+      213: 249197105904484545
+    second: eliminatehero_29
+  - first:
+      213: -1420951711651826050
+    second: eliminatehero_30
+  - first:
+      213: -8536350221124894719
+    second: eliminatehero_31
+  - first:
+      213: -2874339669867109183
+    second: eliminatehero_32
+  - first:
+      213: 2742165969654345159
+    second: eliminatehero_33
+  - first:
+      213: 8831875826105390610
+    second: eliminatehero_34
+  - first:
+      213: -4907207202123543661
+    second: eliminatehero_35
+  - first:
+      213: -4532757058180250565
+    second: eliminatehero_36
+  - first:
+      213: 6182695206972220776
+    second: eliminatehero_37
+  - first:
+      213: 2616601571767768303
+    second: eliminatehero_38
+  - first:
+      213: 5727606430892750831
+    second: eliminatehero_39
+  - first:
+      213: -667818405635314829
+    second: eliminatehero_40
+  - first:
+      213: 5454564332609918203
+    second: eliminatehero_41
+  - first:
+      213: 1359276950477860113
+    second: eliminatehero_42
+  - first:
+      213: -5923062271222422422
+    second: eliminatehero_43
+  - first:
+      213: -834987698457679444
+    second: eliminatehero_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: eliminatehero_0
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 873
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a10f0de766acf920800000000000000
+      internalID: 3025476014975156645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_1
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 876
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006f454534b4c8be0800000000000000
+      internalID: -1473720225507248640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 826
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdca31a97a2ff5e90800000000000000
+      internalID: -7034637291270984485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_3
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 862
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95f51a89f52db400800000000000000
+      internalID: 341470900443805084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_4
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 864
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af024b74bbe2d8540800000000000000
+      internalID: 5011713342229979386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 820
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b5d76b758f01d80800000000000000
+      internalID: -8281846659126830227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 814
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9cab573869fff30800000000000000
+      internalID: 4611570034810735097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_7
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 844
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3415e05c57e2d7f00800000000000000
+      internalID: 1116099366009852227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 801
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e52c374c7b64d000800000000000000
+      internalID: 59790876577900002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 837
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f5fa82ef9d70e80800000000000000
+      internalID: -8212355709859307670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 820
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c41ae110f410f9d0800000000000000
+      internalID: -2742669151743372093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_11
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 825
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deba36c24f627ab0800000000000000
+      internalID: -5011821102725677360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 810
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b85a4f29aa00f1b0800000000000000
+      internalID: -5624984212826597191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 822
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae91123d590670630800000000000000
+      internalID: 3893186599493638634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 816
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff524f652e328360800000000000000
+      internalID: 7170361887228583933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 821
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7280a2f36c3810850800000000000000
+      internalID: 6341494637800851495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_16
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 815
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852c8372835262280800000000000000
+      internalID: -9068519876557487528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 816
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8704b6d490d2ea520800000000000000
+      internalID: 2715157143327817848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_18
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 807
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e72b5d0cbcd0fbb0800000000000000
+      internalID: -4904177293970429976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_19
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 813
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73399d45ff8eac530800000000000000
+      internalID: 3876166612643582775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 811
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15de5206a42c79610800000000000000
+      internalID: 1627983415014190417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_21
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 806
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e8936951b1e530800000000000000
+      internalID: 3882579351251248660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_22
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 804
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f63439695b798430800000000000000
+      internalID: 3785692585728947954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_23
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 810
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b70e08ba883968d0800000000000000
+      internalID: -2852686720517929036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_24
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 811
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560098cb264d191d0800000000000000
+      internalID: -3345659527624589211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 90
+        width: 790
+        height: 724
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acce5335aea126f0800000000000000
+      internalID: -711095241593140063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 806
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2c6ca9170433650800000000000000
+      internalID: 6211379167746245371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_27
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 807
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dcb2f546c2322c0800000000000000
+      internalID: -4457670396561601224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_28
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 809
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98db45f6bd84f360800000000000000
+      internalID: 7202537521011218587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_29
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 714
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c00e709273557300800000000000000
+      internalID: 249197105904484545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_30
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 719
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76720062f3c74ce0800000000000000
+      internalID: -1420951711651826050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 568
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100068f83bac88980800000000000000
+      internalID: -8536350221124894719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_32
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 545
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4e1c59c4b4c18d0800000000000000
+      internalID: -2874339669867109183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_33
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 457
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd6968bb612e0620800000000000000
+      internalID: 2742165969654345159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 337
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2161f534540219a70800000000000000
+      internalID: 8831875826105390610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_35
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 324
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b00369c0916ebb0800000000000000
+      internalID: -4907207202123543661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_36
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 82
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34850e98796811c0800000000000000
+      internalID: -4532757058180250565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_37
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 88
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865e61e88885dc550800000000000000
+      internalID: 6182695206972220776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_38
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 80
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe452f32449005420800000000000000
+      internalID: 2616601571767768303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_39
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 80
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7fa96e3bb8c7f40800000000000000
+      internalID: 5727606430892750831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_40
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 74
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ba3a5c2be6bb6f0800000000000000
+      internalID: -667818405635314829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_41
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 74
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4dab96c5182bb40800000000000000
+      internalID: 5454564332609918203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_42
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 72
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11deb984f2f1dd210800000000000000
+      internalID: 1359276950477860113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_43
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 64
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e44dfe3e0dcda0800000000000000
+      internalID: -5923062271222422422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: eliminatehero_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 48
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9eb99bc178964f0800000000000000
+      internalID: -834987698457679444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      eliminatehero_0: 3025476014975156645
+      eliminatehero_1: -1473720225507248640
+      eliminatehero_10: -2742669151743372093
+      eliminatehero_11: -5011821102725677360
+      eliminatehero_12: -5624984212826597191
+      eliminatehero_13: 3893186599493638634
+      eliminatehero_14: 7170361887228583933
+      eliminatehero_15: 6341494637800851495
+      eliminatehero_16: -9068519876557487528
+      eliminatehero_17: 2715157143327817848
+      eliminatehero_18: -4904177293970429976
+      eliminatehero_19: 3876166612643582775
+      eliminatehero_2: -7034637291270984485
+      eliminatehero_20: 1627983415014190417
+      eliminatehero_21: 3882579351251248660
+      eliminatehero_22: 3785692585728947954
+      eliminatehero_23: -2852686720517929036
+      eliminatehero_24: -3345659527624589211
+      eliminatehero_25: -711095241593140063
+      eliminatehero_26: 6211379167746245371
+      eliminatehero_27: -4457670396561601224
+      eliminatehero_28: 7202537521011218587
+      eliminatehero_29: 249197105904484545
+      eliminatehero_3: 341470900443805084
+      eliminatehero_30: -1420951711651826050
+      eliminatehero_31: -8536350221124894719
+      eliminatehero_32: -2874339669867109183
+      eliminatehero_33: 2742165969654345159
+      eliminatehero_34: 8831875826105390610
+      eliminatehero_35: -4907207202123543661
+      eliminatehero_36: -4532757058180250565
+      eliminatehero_37: 6182695206972220776
+      eliminatehero_38: 2616601571767768303
+      eliminatehero_39: 5727606430892750831
+      eliminatehero_4: 5011713342229979386
+      eliminatehero_40: -667818405635314829
+      eliminatehero_41: 5454564332609918203
+      eliminatehero_42: 1359276950477860113
+      eliminatehero_43: -5923062271222422422
+      eliminatehero_44: -834987698457679444
+      eliminatehero_5: -8281846659126830227
+      eliminatehero_6: 4611570034810735097
+      eliminatehero_7: 1116099366009852227
+      eliminatehero_8: 59790876577900002
+      eliminatehero_9: -8212355709859307670
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

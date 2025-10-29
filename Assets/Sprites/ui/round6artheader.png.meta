@@ -1,0 +1,1326 @@
+fileFormatVersion: 2
+guid: 7bb555e103afb724eadf77b9296d6da0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8096941779208202488
+    second: round6artheader_0
+  - first:
+      213: -5826505891791795703
+    second: round6artheader_1
+  - first:
+      213: -4951213748033357704
+    second: round6artheader_2
+  - first:
+      213: 7949809400454000877
+    second: round6artheader_3
+  - first:
+      213: 2325813235516925689
+    second: round6artheader_4
+  - first:
+      213: 7948024682493454332
+    second: round6artheader_5
+  - first:
+      213: -5586548774810301340
+    second: round6artheader_6
+  - first:
+      213: 9087862810835948632
+    second: round6artheader_7
+  - first:
+      213: 3183836753227457058
+    second: round6artheader_8
+  - first:
+      213: -882857518209551682
+    second: round6artheader_9
+  - first:
+      213: 5986421019913390726
+    second: round6artheader_10
+  - first:
+      213: -5745372785924017260
+    second: round6artheader_11
+  - first:
+      213: 5174525221982106351
+    second: round6artheader_12
+  - first:
+      213: -7183352096538732451
+    second: round6artheader_13
+  - first:
+      213: -2509369138415922880
+    second: round6artheader_14
+  - first:
+      213: 1592841634784356779
+    second: round6artheader_15
+  - first:
+      213: -1137529278883506664
+    second: round6artheader_16
+  - first:
+      213: -3414537317772279226
+    second: round6artheader_17
+  - first:
+      213: -2902458977202956482
+    second: round6artheader_18
+  - first:
+      213: 3107734427568704482
+    second: round6artheader_19
+  - first:
+      213: -4828642709963808654
+    second: round6artheader_20
+  - first:
+      213: 2934026677842625803
+    second: round6artheader_21
+  - first:
+      213: 9186972246477803450
+    second: round6artheader_22
+  - first:
+      213: 2899569612817698686
+    second: round6artheader_23
+  - first:
+      213: -4045967663262386812
+    second: round6artheader_24
+  - first:
+      213: 2424402793764684319
+    second: round6artheader_25
+  - first:
+      213: 8170876329841036021
+    second: round6artheader_26
+  - first:
+      213: -6263491372766623844
+    second: round6artheader_27
+  - first:
+      213: 5281211364077710850
+    second: round6artheader_28
+  - first:
+      213: -7728444352028283283
+    second: round6artheader_29
+  - first:
+      213: 6687594674199244894
+    second: round6artheader_30
+  - first:
+      213: 1109300004222233597
+    second: round6artheader_31
+  - first:
+      213: 902134331943417981
+    second: round6artheader_32
+  - first:
+      213: -3296796237317214704
+    second: round6artheader_33
+  - first:
+      213: 5155893669539125429
+    second: round6artheader_34
+  - first:
+      213: -3008269280550764159
+    second: round6artheader_35
+  - first:
+      213: -4897145462845731976
+    second: round6artheader_36
+  - first:
+      213: 2185519962214059358
+    second: round6artheader_37
+  - first:
+      213: 6988833891677544306
+    second: round6artheader_38
+  - first:
+      213: 679911757228890684
+    second: round6artheader_39
+  - first:
+      213: -306698158439621335
+    second: round6artheader_40
+  - first:
+      213: -1488507512548420671
+    second: round6artheader_41
+  - first:
+      213: -4647754828860086842
+    second: round6artheader_42
+  - first:
+      213: 8417482660949255008
+    second: round6artheader_43
+  - first:
+      213: -3835577006241062533
+    second: round6artheader_44
+  - first:
+      213: 6158059670802302675
+    second: round6artheader_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: round6artheader_0
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 886
+        width: 33
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807964be952e1af80800000000000000
+      internalID: -8096941779208202488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 892
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a8706f2c7142fa0800000000000000
+      internalID: -5826505891791795703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 872
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878f07d2451c94bb0800000000000000
+      internalID: -4951213748033357704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_3
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 885
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de03f12a785635e60800000000000000
+      internalID: 7949809400454000877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 1101
+        height: 861
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f663e4a0d2f64020800000000000000
+      internalID: 2325813235516925689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_5
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 885
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72f0a965e0d4e60800000000000000
+      internalID: 7948024682493454332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 876
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cc905fc779872b0800000000000000
+      internalID: -5586548774810301340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_7
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 871
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8541c5fa3139e1e70800000000000000
+      internalID: 9087862810835948632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 871
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222a4fa88a24f2c20800000000000000
+      internalID: 3183836753227457058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_9
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 864
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb236d7c3c57fb3f0800000000000000
+      internalID: -882857518209551682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_10
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 874
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a8edf333a041350800000000000000
+      internalID: 5986421019913390726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_11
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 865
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4937dc834e55440b0800000000000000
+      internalID: -5745372785924017260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_12
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 863
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2fa89064b9fc740800000000000000
+      internalID: 5174525221982106351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_13
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 864
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d585045c35b9f4c90800000000000000
+      internalID: -7183352096538732451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_14
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 862
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0411466501eec2dd0800000000000000
+      internalID: -2509369138415922880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_15
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 864
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba926c01709ea1610800000000000000
+      internalID: 1592841634784356779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_16
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 862
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816da82d52fa630f0800000000000000
+      internalID: -1137529278883506664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_17
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 859
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6424ed586602d90d0800000000000000
+      internalID: -3414537317772279226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_18
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 863
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e379ca820f468b7d0800000000000000
+      internalID: -2902458977202956482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_19
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 862
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb0c731ff3e02b20800000000000000
+      internalID: 3107734427568704482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_20
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 861
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270e35dd9073dfcb0800000000000000
+      internalID: -4828642709963808654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_21
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 862
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b054456e7b1c7b820800000000000000
+      internalID: 2934026677842625803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 784
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf8ea0659eae7f70800000000000000
+      internalID: 9186972246477803450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_23
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 736
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f048543375d3820800000000000000
+      internalID: 2899569612817698686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_24
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 726
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4853782c8d5d9d7c0800000000000000
+      internalID: -4045967663262386812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_25
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 738
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f120fc2fe7535a120800000000000000
+      internalID: 2424402793764684319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_26
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 714
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa82d71bb8c46170800000000000000
+      internalID: 8170876329841036021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_27
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 709
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97858828cb9319a0800000000000000
+      internalID: -6263491372766623844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 689
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eab9b21c1aa4940800000000000000
+      internalID: 5281211364077710850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_29
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 688
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6eeaf21fcc0fb490800000000000000
+      internalID: -7728444352028283283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_30
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 694
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50b07d7ceb1fcc50800000000000000
+      internalID: 6687594674199244894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_31
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 684
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb610df976056f00800000000000000
+      internalID: 1109300004222233597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_32
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 627
+        width: 49
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78fb2b2566058c00800000000000000
+      internalID: 902134331943417981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_33
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 663
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01eecd11a4d6f32d0800000000000000
+      internalID: -3296796237317214704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_34
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 621
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b89090b9f96d8740800000000000000
+      internalID: 5155893669539125429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_35
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 562
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1814d00270b7046d0800000000000000
+      internalID: -3008269280550764159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_36
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 558
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b0aa1d528d90cb0800000000000000
+      internalID: -4897145462845731976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_37
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 564
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d4b4583d6845e10800000000000000
+      internalID: 2185519962214059358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_38
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 251
+        width: 14
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f96a365635df060800000000000000
+      internalID: 6988833891677544306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_39
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 277
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a5d3014288f6900800000000000000
+      internalID: 679911757228890684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_40
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 255
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d90fc56a36ebbf0800000000000000
+      internalID: -306698158439621335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_41
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 19
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c31d05cd42c75be0800000000000000
+      internalID: -1488507512548420671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_42
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 21
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c520b6ab9bdf7fb0800000000000000
+      internalID: -4647754828860086842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_43
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 15
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063e3e4e1e7e0d470800000000000000
+      internalID: 8417482660949255008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_44
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 2
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71685ad80b45cac0800000000000000
+      internalID: -3835577006241062533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: round6artheader_45
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 9
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d684dfc4a2d57550800000000000000
+      internalID: 6158059670802302675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      round6artheader_0: -8096941779208202488
+      round6artheader_1: -5826505891791795703
+      round6artheader_10: 5986421019913390726
+      round6artheader_11: -5745372785924017260
+      round6artheader_12: 5174525221982106351
+      round6artheader_13: -7183352096538732451
+      round6artheader_14: -2509369138415922880
+      round6artheader_15: 1592841634784356779
+      round6artheader_16: -1137529278883506664
+      round6artheader_17: -3414537317772279226
+      round6artheader_18: -2902458977202956482
+      round6artheader_19: 3107734427568704482
+      round6artheader_2: -4951213748033357704
+      round6artheader_20: -4828642709963808654
+      round6artheader_21: 2934026677842625803
+      round6artheader_22: 9186972246477803450
+      round6artheader_23: 2899569612817698686
+      round6artheader_24: -4045967663262386812
+      round6artheader_25: 2424402793764684319
+      round6artheader_26: 8170876329841036021
+      round6artheader_27: -6263491372766623844
+      round6artheader_28: 5281211364077710850
+      round6artheader_29: -7728444352028283283
+      round6artheader_3: 7949809400454000877
+      round6artheader_30: 6687594674199244894
+      round6artheader_31: 1109300004222233597
+      round6artheader_32: 902134331943417981
+      round6artheader_33: -3296796237317214704
+      round6artheader_34: 5155893669539125429
+      round6artheader_35: -3008269280550764159
+      round6artheader_36: -4897145462845731976
+      round6artheader_37: 2185519962214059358
+      round6artheader_38: 6988833891677544306
+      round6artheader_39: 679911757228890684
+      round6artheader_4: 2325813235516925689
+      round6artheader_40: -306698158439621335
+      round6artheader_41: -1488507512548420671
+      round6artheader_42: -4647754828860086842
+      round6artheader_43: 8417482660949255008
+      round6artheader_44: -3835577006241062533
+      round6artheader_45: 6158059670802302675
+      round6artheader_5: 7948024682493454332
+      round6artheader_6: -5586548774810301340
+      round6artheader_7: 9087862810835948632
+      round6artheader_8: 3183836753227457058
+      round6artheader_9: -882857518209551682
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

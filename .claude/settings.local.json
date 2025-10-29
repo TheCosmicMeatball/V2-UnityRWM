@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(done)",
+      "Bash(while read scene)",
+      "Bash(do echo \"=== $scene ===\")",
+      "Bash(find:*)",
+      "Bash(while read file)",
+      "Bash(for i in {1..20})",
+      "Bash(do if [ -f \"playericon ($i).png\" ])",
+      "Bash(then mv \"playericon ($i).png\" \"player icon ($i).png\")",
+      "Bash(tasklist)",
+      "Bash(git pull:*)",
+      "Bash(git log:*)",
+      "Bash(git stash:*)",
+      "Bash(git commit:*)",
+      "Bash(git fetch:*)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(npm install:*)",
+      "Bash(dir)",
+      "Bash(dir:*)",
+      "Bash(for scene in Assets/Scenes/*.unity)",
+      "Bash(for scene in BonusIntroScreen.unity LobbyScreen.unity RoundArtScreen.unity)",
+      "Bash(git checkout:*)",
+      "Bash(ls:*)",
+      "Bash(findstr:*)",
+      "Bash(npm start)",
+      "Bash(python:*)",
+      "Bash(del server.js package.json package-lock.json)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

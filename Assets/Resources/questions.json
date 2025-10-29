@@ -1,0 +1,502 @@
+[
+  {
+    "QUESTION": "Tasty Pizza in Omaha, NE named a pizza after this 90s dance: \"________\" pizza",
+    "CORRECT ANSWER": "Macarena",
+    "ROBOT ANSWER": "Tootsee Roll"
+  },
+  {
+    "QUESTION": "Point Pleasant, WV celebrates a historic local monster with an annual \"________\" festival",
+    "CORRECT ANSWER": "Mothman",
+    "ROBOT ANSWER": "Wicked Witch"
+  },
+  {
+    "QUESTION": "Every May, Conway, AR drunkenly celebrates sucking on what creature?",
+    "CORRECT ANSWER": "Toad",
+    "ROBOT ANSWER": "Snail"
+  },
+  {
+    "QUESTION": "What's the name of the private road leading up to Constipation Ridge in Fannie, AR?",
+    "CORRECT ANSWER": "Farfrompoopen Rd",
+    "ROBOT ANSWER": "Hardstool Road"
+  },
+  {
+    "QUESTION":  "Halifax, NS named three parrallel streets: This St, That St and \"________\". Dont get lost.",
+    "CORRECT ANSWER": "The Other St",
+    "ROBOT ANSWER": "The St"
+  },
+  {
+    "QUESTION": "What road in Canyon County, Idaho is named after something tasty?",
+    "CORRECT ANSWER": "Chicken Dinner Road",
+    "ROBOT ANSWER": "Candy Lane Rd"
+  },
+  {
+    "QUESTION": "Fountain, Colorado has a street sign: \"A Dog Will Lick His Butt But Won't Eat A ________\" Rd.",
+    "CORRECT ANSWER": "Pickle",
+    "ROBOT ANSWER": "Lemon"
+  },
+  {
+    "QUESTION": "An 18th century stable-boy misspelled 'Potatoes' when naming his racehorse: \"________\"",
+    "CORRECT ANSWER": "Potoooooooo",
+    "ROBOT ANSWER": "patatos"
+  },
+  {
+    "QUESTION": "At MonMouth Park, a horse raced named \"________\" hilariously raced against one named \"Thewifedoesntknow\"",
+    "CORRECT ANSWER": "Mywifenosevrything",
+    "ROBOT ANSWER": "Sleepingwithmysecretary"
+  },
+  {
+    "QUESTION": "An infamous New Zealand racehorse was named \"________.\" (Pronounced 'Why kick a moo cow')",
+    "CORRECT ANSWER": "Waikikamukau",
+    "ROBOT ANSWER": "wikykumoocoi"
+  },
+  {
+    "QUESTION": "This Texas AA baseball team starts each game feeling like the ultimate underdogs. They are the Amarillo \"________\".",
+    "CORRECT ANSWER": "Dirt Puppies",
+    "ROBOT ANSWER": "Game Losers"
+  },
+  {
+    "QUESTION": "Fans of Jacksonville, Florida's AAA baseball team cover themselves in what sea creature?",
+    "CORRECT ANSWER": "Jumbo Shrimp",
+    "ROBOT ANSWER": "Seahorse"
+  },
+  {
+    "QUESTION": "What seafood-inspired ice cream flavor does The Charmery in Maryland serve?",
+    "CORRECT ANSWER": "Old Bay",
+    "ROBOT ANSWER": "Rocky Shores"
+  },
+  {
+    "QUESTION": "\"Sweet Rock Ice Cream\" in Newfoundland has broken all ice cream rules by serving their bright red \"________\" flavor.",
+    "CORRECT ANSWER": "Devil's Footprints",
+    "ROBOT ANSWER": "Stranger Things"
+  },
+  {
+    "QUESTION": "North Carolina's \"________\" ice cream with ghost peppers requires customers sign a legal waiver",
+    "CORRECT ANSWER": "Cold Sweat",
+    "ROBOT ANSWER": "Ghostbuster"
+  },
+  {
+    "QUESTION": "Humans eating at this dangerously named food-truck in Tucson, AZ are taking their lives into their own hands.",
+    "CORRECT ANSWER": "Serial Grillers",
+    "ROBOT ANSWER": "Poison Panini"
+  },
+  {
+    "QUESTION": "Pun-loving humans in Seattle might choose to eat at this food truck just for the spicey wordplay.",
+    "CORRECT ANSWER": "Naansense",
+    "ROBOT ANSWER": "Cumin For Dinner"
+  },
+  {
+    "QUESTION": "What was the name of the Vietnamese food truck that went internet viral for their controversial sign?",
+    "CORRECT ANSWER": "Pho King",
+    "ROBOT ANSWER": "Pho Inches Is Plenty"
+  },
+  {
+    "QUESTION": "Australian children might want to avoid this nightmare-inducing food truck: \"________\"",
+    "CORRECT ANSWER": "Frying Nemo",
+    "ROBOT ANSWER": "Snakes on a Plate"
+  },
+  {
+    "QUESTION": "Portland's Voodoo Doughnut sells this jelly-filled treat inspired by what late rapper?",
+    "CORRECT ANSWER": "Old Dirty Bastard",
+    "ROBOT ANSWER": "Tupac"
+  },
+  {
+    "QUESTION": "Fitznuggy's in Massachusetts named their tuna sandwich after which iconic duo: \"________ Tuna\"",
+    "CORRECT ANSWER": "Ike and Tina",
+    "ROBOT ANSWER": "Shaq and Kobe"
+  },
+  {
+    "QUESTION": "What Northern California marijuana strain sounds like a smelly jungle disease?",
+    "CORRECT ANSWER": "Purple Monkey Balls",
+    "ROBOT ANSWER": "Zika Fever"
+  },
+  {
+    "QUESTION": "Maine dispensaries sell what strain of marijuana that sounds like a bad wrestling move?",
+    "CORRECT ANSWER": "Slap N Tickle",
+    "ROBOT ANSWER": "The Ball Flicker"
+  },
+  {
+    "QUESTION": "At Indiana's Candle Daddy store, what does \"M.I.L.F\" stand for?",
+    "CORRECT ANSWER": "Melts Into Lasting Fragrance",
+    "ROBOT ANSWER": "Matches I'd Like to Flick"
+  },
+  {
+    "QUESTION": "Kurt Braunohler and Scotty Landes host what phallic-named comedy podcast?",
+    "CORRECT ANSWER": "Bananas",
+    "ROBOT ANSWER": "Rocket in my Pocket"
+  },
+  {
+    "QUESTION": "This award-winning audio podcast is all about the ghosts that haunt the small town of Biggleswade, England.",
+    "CORRECT ANSWER": "Weird in the Wade",
+    "ROBOT ANSWER": "Spirits & Scones"
+  },
+  {
+    "QUESTION": "Band \"Naked Roommate\" released what 2024 song about showering together with your friends?",
+    "CORRECT ANSWER": "Pass the Loofah",
+    "ROBOT ANSWER": "Bubble Bath Bros"
+  },
+  {
+    "QUESTION": "What $49.95 infomercial product uses military-grade technology to absorb your spouse's flatulence?",
+    "CORRECT ANSWER": "Better Marriage Blanket",
+    "ROBOT ANSWER": "Fart Cartridge"
+  },
+  {
+    "QUESTION": "What late-night infomercial promised to helps golfers practice their game while on the toilet?",
+    "CORRECT ANSWER": "Potty Putter",
+    "ROBOT ANSWER": "Hole In Two"
+  },
+  {
+    "QUESTION": "This unnecessary, but real informercial product was for a stuffed animal to be worn under your car's seatbelt.",
+    "CORRECT ANSWER": "Tiddy Bear",
+    "ROBOT ANSWER": "Safety Sam"
+  },
+  {
+    "QUESTION": "This early 2000s infomercial promised instant 'bootylicious' results just by wearing these undies with padding built in.",
+    "CORRECT ANSWER": "Booty Pop",
+    "ROBOT ANSWER": "Cushionel"
+  },
+  {
+    "QUESTION": "A Los Angeles trivia team named themselves after what trivia rule violation?",
+    "CORRECT ANSWER": "We Googled It",
+    "ROBOT ANSWER": "Hidden Phones Club"
+  },
+  {
+    "QUESTION": "An online review of the Hutzler Banana Slicer praised what lesser-known feature?",
+    "CORRECT ANSWER": "Saliva-free way of slicing bananas",
+    "ROBOT ANSWER": "You get to pick the thickness!"
+  },
+  {
+    "QUESTION": "Baby strollers often display this warning label for human parents that lack common sense.",
+    "CORRECT ANSWER": "Remove child before folding",
+    "ROBOT ANSWER": "Do not pull behind car"
+  },
+  {
+    "QUESTION": "What candidate name caused a stink on a New Hampshire election ballot?",
+    "CORRECT ANSWER": "Dick Swett",
+    "ROBOT ANSWER": "Gina Lipps"
+  },
+  {
+    "QUESTION": "What was the name of Talkeetna, Alaska's honorary cat-mayor for more than 20 years?",
+    "CORRECT ANSWER": "Whiskers",
+    "ROBOT ANSWER": "Snowball"
+  },
+  {
+    "QUESTION": "In Tongue, Scotland road signs feature what terrifying creature attacking cars?",
+    "CORRECT ANSWER": "Octopus",
+    "ROBOT ANSWER": "Wildcat"
+  },
+  {
+    "QUESTION": "In Dildo NL, you'll find a naughty little road named \"Captain ________ Crescent\".",
+    "CORRECT ANSWER": "Willy Jackman",
+    "ROBOT ANSWER": "Crotchet"
+  },
+  {
+    "QUESTION": "Humans in Yellowknife, NT are apt to regret taking a left turn down \"________ Road\".",
+    "CORRECT ANSWER": "Ragged Ass",
+    "ROBOT ANSWER": "Ohdamn"
+  },
+  {
+    "QUESTION": "Nederland, Colorado celebrate the death and cryogenic freezing of a beloved local figure with what festival?",
+    "CORRECT ANSWER": "Frozen Dead Guy Days",
+    "ROBOT ANSWER": "Frosty Father Fest"
+  },
+  {
+    "QUESTION": "Yale, Michigan crowns local royalty at their annual lunch-themed \"________ Festival\" every July",
+    "CORRECT ANSWER": "Bologna",
+    "ROBOT ANSWER": "juicebox"
+  },
+  {
+    "QUESTION": "Scented candle company \"Yankee Candle\" produces this scent for male humans with smelly homes.",
+    "CORRECT ANSWER": "Man Town",
+    "ROBOT ANSWER": "Bachelor Pad Paradise"
+  },
+  {
+    "QUESTION": "The innovators at \"Yankee Candle\" cannot be stopped. There breakfast themed scent is called \"________\".",
+    "CORRECT ANSWER": "Mmm, Bacon!",
+    "ROBOT ANSWER": "Waffle House"
+  },
+  {
+    "QUESTION": "Memphis, Tennessee has a politician claiming to be from planet Zambodia. His alien name is Prince \"________\"",
+    "CORRECT ANSWER": "Mongo",
+    "ROBOT ANSWER": "Zeeka"
+  },
+  {
+    "QUESTION": "This podcast all about \"The Muppets\" might leave you feeling unsatisfied.",
+    "CORRECT ANSWER": "Getting Felt Up",
+    "ROBOT ANSWER": "Hand to Mouth"
+  },
+  {
+    "QUESTION": "Humans named Luba, Becca and Erin can be heard sharing naughty secrets in their podcast: \"________\".",
+    "CORRECT ANSWER": "Between Both Cheeks",
+    "ROBOT ANSWER": "Under The Covers"
+  },
+  {
+    "QUESTION": "This popular podcast about human health sounds pretty icky if you ask me.",
+    "CORRECT ANSWER": "What's That Rash",
+    "ROBOT ANSWER": "So Many Fluids"
+  },
+  {
+    "QUESTION": "This podcast tragically ran just 3 episodes in 2024 and was 'a podcast by dog groomers, for dog groomers'",
+    "CORRECT ANSWER": "The Dingleberry Fairies",
+    "ROBOT ANSWER": "Between Two Furballs"
+  },
+  {
+    "QUESTION": "Host Jessica recommends burnt bean water when tuning into her anatomically confusing podcast: \"________\".",
+    "CORRECT ANSWER": "In Your Ear Balls",
+    "ROBOT ANSWER": "Funny Bones To Pick"
+  },
+  {
+    "QUESTION": "Alliance, Nebraska has a bizarre American tribute to England's Stonehenge appropriately titled: \"________-henge\"",
+    "CORRECT ANSWER": "Car",
+    "ROBOT ANSWER": "Phone"
+  },
+  {
+    "QUESTION": "Mecca, California has this peculiar but nutritious museum: \"The International ________ Museum\".",
+    "CORRECT ANSWER": "Banana",
+    "ROBOT ANSWER": "Protein"
+  },
+  {
+    "QUESTION": "North Dakota's Enchanted Highway features massive sculptures of \"________\", geese and fish.",
+    "CORRECT ANSWER": "Grasshoppers",
+    "ROBOT ANSWER": "Wolves"
+  },
+  {
+    "QUESTION": "In Rockport MA, there remains a house built in the 1920's made entirely of what?",
+    "CORRECT ANSWER": "Newspapers",
+    "ROBOT ANSWER": "Popsicle Sticks"
+  },
+  {
+    "QUESTION": "In Massachusetts, you might pass \"The Museum of ________\" and wonder if it's worth the price of admission.",
+    "CORRECT ANSWER": "Bad Art",
+    "ROBOT ANSWER": "Butt-holes"
+  },
+  {
+    "QUESTION": "How many feet long is the world's largest ball of twine, located in Cawker City, Kansas?",
+    "CORRECT ANSWER": "8 Million",
+    "ROBOT ANSWER": "750,000"
+  },
+  {
+    "QUESTION": "Ashburn, Georgia has the world's biggest \"________\" with a creepy smile painted on the side.",
+    "CORRECT ANSWER": "Peanut",
+    "ROBOT ANSWER": "Peach"
+  },
+  {
+    "QUESTION": "Travelers in Cottonwood, ID have two options: A normal hotel and a one-of-a-kind inn with this unusual shape.",
+    "CORRECT ANSWER": "Dog",
+    "ROBOT ANSWER": "Apple"
+  },
+  {
+    "QUESTION": "Humans in Collinsville, IL painted the \"World's Biggest ________\" on a water tower.",
+    "CORRECT ANSWER": "Ketchup Bottle",
+    "ROBOT ANSWER": "Cupcake"
+  },
+  {
+    "QUESTION": "Which year did Harold Davisson love so much that he created a 45-ton time capsule of it in Nebraska?",
+    "CORRECT ANSWER": 1975,
+    "ROBOT ANSWER": 1969
+  },
+  {
+    "QUESTION": "In an unexpected twist you can find a Garden full of Buddhas in Arlee, Montana. How many are there?",
+    "CORRECT ANSWER": 1000,
+    "ROBOT ANSWER": 222
+  },
+  {
+    "QUESTION": "How many chickens can be cooked simultaneously in the world's largest frying pan in Rose Hill, NC?",
+    "CORRECT ANSWER": 365,
+    "ROBOT ANSWER": 99
+  },
+  {
+    "QUESTION": "Once a year in South Dakota, burly men gather to wrestle in this delicious food.",
+    "CORRECT ANSWER": "Mashed Potatos",
+    "ROBOT ANSWER": "Macaroni and Cheese"
+  },
+  {
+    "QUESTION": "Middleton, WI must have picked late at the museum draft. They got \"The National ________ Museum\".",
+    "CORRECT ANSWER": "Mustard",
+    "ROBOT ANSWER": "Belly Button"
+  },
+  {
+    "QUESTION": "How many people live in Buford, Wyoming - America's smallest town?",
+    "CORRECT ANSWER": 1,
+    "ROBOT ANSWER": 12
+  },
+  {
+    "QUESTION": "How old was Dorset, Minnesota's unusually young mayor elected in 2012?",
+    "CORRECT ANSWER": 3,
+    "ROBOT ANSWER": 10
+  },
+  {
+    "QUESTION": "What's been banned in Singapore public places since 1992?",
+    "CORRECT ANSWER": "Chewing gum",
+    "ROBOT ANSWER": "Velcro shoes"
+  },
+  {
+    "QUESTION": "American President John Quincky Adams kept what creature as a pet in the White House bathroom?",
+    "CORRECT ANSWER": "Alligator",
+    "ROBOT ANSWER": "Piranha"
+  },
+  {
+    "QUESTION": "What did John Young smuggle onto the space shuttle Gemini 3 in 1965?",
+    "CORRECT ANSWER": "corned beef sandwich",
+    "ROBOT ANSWER": "harmonica"
+  },
+  {
+    "QUESTION": "How many seconds long is the world's longest recorded human burp?",
+    "CORRECT ANSWER": 73,
+    "ROBOT ANSWER": 44
+  },
+  {
+    "QUESTION": "How many hot dogs can the human stomach theoretically hold?",
+    "CORRECT ANSWER": 74,
+    "ROBOT ANSWER": 18
+  },
+  {
+    "QUESTION": "What was bubble wrap originally invented to be used as?",
+    "CORRECT ANSWER": "3D wallpaper",
+    "ROBOT ANSWER": "Space pillows"
+  },
+  {
+    "QUESTION": "New Year's Eve 2011, 5000 \"________\" fell from the sky in Beebe, Arkansas.",
+    "CORRECT ANSWER": "dead blackbirds",
+    "ROBOT ANSWER": "fake butterflies"
+  },
+  {
+    "QUESTION": "What romance novel features a love interest that's literally just a weather event?",
+    "CORRECT ANSWER": "Taken by the Tornado",
+    "ROBOT ANSWER": "Earthquakin'"
+  },
+  {
+    "QUESTION": "How long is Portland, Oregon's Mill Ends Park, the world's smallest park?",
+    "CORRECT ANSWER": "2 feet",
+    "ROBOT ANSWER": "21 feet"
+  },
+  {
+    "QUESTION": "What was the cancelled 1990 sitcom about Hitler living next to a Jewish couple?",
+    "CORRECT ANSWER": "Heil Honey I'm Home",
+    "ROBOT ANSWER": "Be Mein"
+  },
+  {
+    "QUESTION": "Owner, Harry leads you to into his basement in New Carrollton, MD: Home of \"the Museum of ________\".",
+    "CORRECT ANSWER": "Menstruation",
+    "ROBOT ANSWER": "Toenails"
+  },
+  {
+    "QUESTION": "Hundreds of pounds of what delicious meal mysteriously appeared in the New Jersey woods?",
+    "CORRECT ANSWER": "Pasta",
+    "ROBOT ANSWER": "Mashed Potatoes"
+  },
+  {
+    "QUESTION": "A Japanese teacher lost their job in 2025 for having what side-hustle?",
+    "CORRECT ANSWER": "convenience store clerk",
+    "ROBOT ANSWER": "Stripper"
+  },
+  {
+    "QUESTION": "What did a Wisconsin pizzeria accidentally poison 80 people with in 2024?",
+    "CORRECT ANSWER": "THC",
+    "ROBOT ANSWER": "Magic Mushrooms"
+  },
+  {
+    "QUESTION": "California wild pigs are mysteriously turning what bright color?",
+    "CORRECT ANSWER": "Neon Blue",
+    "ROBOT ANSWER": "Magenta"
+  },
+  {
+    "QUESTION": "What did 15th century humans mistranslate and start eating to cure headaches?",
+    "CORRECT ANSWER": "Mummies",
+    "ROBOT ANSWER": "Snake heads"
+  },
+  {
+    "QUESTION": "What did 1 million passengers sue two airlines for in a recent class action lawsuit?",
+    "CORRECT ANSWER": "Windowless window seats",
+    "ROBOT ANSWER": "Bathroom surcharges"
+  },
+  {
+    "QUESTION": "A 1980's news program's gave these wealth tips: Get a job, Borrow money, and \"________\".",
+    "CORRECT ANSWER": "Marry a rich very sick person",
+    "ROBOT ANSWER": "Sell your belongings"
+  },
+  {
+    "QUESTION": "What is a Denmark zoo feeding animals to save on costs?",
+    "CORRECT ANSWER": "Your dog",
+    "ROBOT ANSWER": "Recycled paper"
+  },
+  {
+    "QUESTION": "Boston mayoral candidate \"________ ________\" struggled due to this unfortunate name similarity.",
+    "CORRECT ANSWER": "Geoffery Epstein",
+    "ROBOT ANSWER": "Harvey Whinestine"
+  },
+  {
+    "QUESTION": "How old is Govinda from Bankatwa, India who bit a cobra to death?",
+    "CORRECT ANSWER": 2,
+    "ROBOT ANSWER": 11
+  },
+  {
+    "QUESTION": "What old fashion trend have Zambian chimps resurrected?",
+    "CORRECT ANSWER": "Sticks in their butts",
+    "ROBOT ANSWER": "Grass skirts"
+  },
+  {
+    "QUESTION": "What did a woman do on web camera that got her booted from Detroit court?",
+    "CORRECT ANSWER": "Making a sandwich",
+    "ROBOT ANSWER": "Changing her clothes"
+  },
+  {
+    "QUESTION": "What brand mascot was arrested in Florida for credit card fraud?",
+    "CORRECT ANSWER": "Chuck E Cheese",
+    "ROBOT ANSWER": "Trix Rabbit"
+  },
+  {
+    "QUESTION": "A Mobile, AB coffee employee needed rabies shots after what pet jumped through the drive-thru window?",
+    "CORRECT ANSWER": "Monkey",
+    "ROBOT ANSWER": "Raccoon"
+  },
+  {
+    "QUESTION": "What procedure did a Taiwan plastic surgeon perform on himself and post on social media?",
+    "CORRECT ANSWER": "Vasectomy",
+    "ROBOT ANSWER": "Penis enlargement"
+  },
+  {
+    "QUESTION": "In the name of equality, a Chinese influencer is calling guys to start wearing \"________\", on par with a bra.",
+    "CORRECT ANSWER": "adams apple cover",
+    "ROBOT ANSWER": "ballbag"
+  },
+  {
+    "QUESTION": "Beeston, England residents are perplexed by random monthly appearances of what around town?",
+    "CORRECT ANSWER": "peeled bananas",
+    "ROBOT ANSWER": "beans on toast"
+  },
+  {
+    "QUESTION": "What did Minnesota Golden Gophers dump on their coach after beating Virginia Tech?",
+    "CORRECT ANSWER": "Mayonaise",
+    "ROBOT ANSWER": "Lite beer"
+  },
+  {
+    "QUESTION": "How many hours did the winner of China's 'don't touch your phone challenge' last?",
+    "CORRECT ANSWER": 1,
+    "ROBOT ANSWER": 24
+  },
+  {
+    "QUESTION": "Jimmy, Jonny and Denzale smoke marijuana and discuss fairy tales on what podcast?",
+    "CORRECT ANSWER": "Blunts Upon A Time",
+    "ROBOT ANSWER": "Three Little Spliffs"
+  },
+  {
+    "QUESTION": "Host Sean asks what all-important question about art in his comedy podcast title?",
+    "CORRECT ANSWER": "Is Art Shit?",
+    "ROBOT ANSWER": "WTF?"
+  },
+  {
+    "QUESTION": "For young audiences, the podcast \"Atomic ________\" sounds more gross than educational.",
+    "CORRECT ANSWER": "Booger",
+    "ROBOT ANSWER": "Pizza"
+  },
+  {
+    "QUESTION": "Todd Parker and the Witches released what nerve-wracking song title?",
+    "CORRECT ANSWER": "The Witch Is Dead",
+    "ROBOT ANSWER": "Band of Bodies"
+  },
+  {
+    "QUESTION": "Where did Psychedelic Porn Crumpets find God in their biggest hit song?",
+    "CORRECT ANSWER": "In a tomato",
+    "ROBOT ANSWER": "Up your nose"
+  }
+]

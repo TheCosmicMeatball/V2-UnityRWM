@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 4c961d2ee7495834488e1b90a751ddca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5763782763936163404
+    second: votinghero_0
+  - first:
+      213: 2397327734440103160
+    second: votinghero_1
+  - first:
+      213: 1543027938299393471
+    second: votinghero_2
+  - first:
+      213: 532640998165557140
+    second: votinghero_3
+  - first:
+      213: 5003374267701304975
+    second: votinghero_4
+  - first:
+      213: 6335531517232631782
+    second: votinghero_5
+  - first:
+      213: -1181182682434505870
+    second: votinghero_6
+  - first:
+      213: 4200801844211991980
+    second: votinghero_7
+  - first:
+      213: -8111495909169462001
+    second: votinghero_8
+  - first:
+      213: 4829185845596876007
+    second: votinghero_9
+  - first:
+      213: -3099600804879430257
+    second: votinghero_10
+  - first:
+      213: -6444168026357181139
+    second: votinghero_11
+  - first:
+      213: 4934768103272668676
+    second: votinghero_12
+  - first:
+      213: 1808867007557542886
+    second: votinghero_13
+  - first:
+      213: 6704330602639405363
+    second: votinghero_14
+  - first:
+      213: 2832765528554455155
+    second: votinghero_15
+  - first:
+      213: 7495991051404682176
+    second: votinghero_16
+  - first:
+      213: -1690758552477642009
+    second: votinghero_17
+  - first:
+      213: -7905261932258350392
+    second: votinghero_18
+  - first:
+      213: -4894666324944804016
+    second: votinghero_19
+  - first:
+      213: 6245448994848170688
+    second: votinghero_20
+  - first:
+      213: 8236237416776635126
+    second: votinghero_21
+  - first:
+      213: -6875805455404572523
+    second: votinghero_22
+  - first:
+      213: 4111132220462973075
+    second: votinghero_23
+  - first:
+      213: -410476974460854259
+    second: votinghero_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: votinghero_0
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 869
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c462feec2e11dff40800000000000000
+      internalID: 5763782763936163404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 43
+        width: 826
+        height: 817
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc8e757fd4054120800000000000000
+      internalID: 2397327734440103160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_2
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 832
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5b6dc0cbfe96510800000000000000
+      internalID: 1543027938299393471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_3
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 698
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fa7707a22546700800000000000000
+      internalID: 532640998165557140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_4
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 504
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e9aa0336e8f6540800000000000000
+      internalID: 5003374267701304975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 473
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef41fb09545ce750800000000000000
+      internalID: 6335531517232631782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 491
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273f5a6cb989b9fe0800000000000000
+      internalID: -1181182682434505870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5cf00450f3c4a30800000000000000
+      internalID: 4200801844211991980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 366
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f058be8727d2e6f80800000000000000
+      internalID: -8111495909169462001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_9
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 74
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec6521c0f6b40340800000000000000
+      internalID: 4829185845596876007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 70
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d85a78d710cf4d0800000000000000
+      internalID: -3099600804879430257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_11
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 76
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25dc0c9257b196a0800000000000000
+      internalID: -6444168026357181139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_12
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 58
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ede74c171db7440800000000000000
+      internalID: 4934768103272668676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_13
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 59
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e32467a5f26a1910800000000000000
+      internalID: 1808867007557542886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_14
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 76
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3313a1b79219a0d50800000000000000
+      internalID: 6704330602639405363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_15
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 69
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370c5755d31005720800000000000000
+      internalID: 2832765528554455155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_16
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3ab72552c170860800000000000000
+      internalID: 7495991051404682176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 64
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2dd96fd083988e0800000000000000
+      internalID: -1690758552477642009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_18
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 63
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caa25f082eda4290800000000000000
+      internalID: -7905261932258350392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 69
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057299719e6a21cb0800000000000000
+      internalID: -4894666324944804016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_20
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 64
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c2eeb065ca4ca650800000000000000
+      internalID: 6245448994848170688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f290c80b4efc4270800000000000000
+      internalID: 8236237416776635126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 60
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590eaed2e5b3490a0800000000000000
+      internalID: -6875805455404572523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 59
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390cb5909fcad0930800000000000000
+      internalID: 4111132220462973075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: votinghero_24
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 50
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00a8c4dd51bd4af0800000000000000
+      internalID: -410476974460854259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      votinghero_0: 5763782763936163404
+      votinghero_1: 2397327734440103160
+      votinghero_10: -3099600804879430257
+      votinghero_11: -6444168026357181139
+      votinghero_12: 4934768103272668676
+      votinghero_13: 1808867007557542886
+      votinghero_14: 6704330602639405363
+      votinghero_15: 2832765528554455155
+      votinghero_16: 7495991051404682176
+      votinghero_17: -1690758552477642009
+      votinghero_18: -7905261932258350392
+      votinghero_19: -4894666324944804016
+      votinghero_2: 1543027938299393471
+      votinghero_20: 6245448994848170688
+      votinghero_21: 8236237416776635126
+      votinghero_22: -6875805455404572523
+      votinghero_23: 4111132220462973075
+      votinghero_24: -410476974460854259
+      votinghero_3: 532640998165557140
+      votinghero_4: 5003374267701304975
+      votinghero_5: 6335531517232631782
+      votinghero_6: -1181182682434505870
+      votinghero_7: 4200801844211991980
+      votinghero_8: -8111495909169462001
+      votinghero_9: 4829185845596876007
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "picq1",
+    "correctAnswer": "Aglet",
+    "robotAnswer": "Peepil"
+  },
+  {
+    "question": "picq2",
+    "correctAnswer": "Barm",
+    "robotAnswer": "Scrat"
+  },
+  {
+    "question": "picq3",
+    "correctAnswer": "Ferrule",
+    "robotAnswer": "Cannus"
+  },
+  {
+    "question": "picq4",
+    "correctAnswer": "Glabella",
+    "robotAnswer": "Twarf"
+  },
+  {
+    "question": "picq5",
+    "correctAnswer": "Nurdle",
+    "robotAnswer": "Drob"
+  },
+  {
+    "question": "picq6",
+    "correctAnswer": "Obelus",
+    "robotAnswer": "Rectan"
+  },
+  {
+    "question": "picq7",
+    "correctAnswer": "Octothorpe",
+    "robotAnswer": "Prill"
+  },
+  {
+    "question": "picq8",
+    "correctAnswer": "Pappus",
+    "robotAnswer": "Fauna"
+  },
+  {
+    "question": "picq9",
+    "correctAnswer": "Peen",
+    "robotAnswer": "Pull"
+  },
+  {
+    "question": "picq10",
+    "correctAnswer": "Punt",
+    "robotAnswer": "Rumble"
+  },
+  {
+    "question": "picq11",
+    "correctAnswer": "Tragus",
+    "robotAnswer": "Lorne"
+  },
+  {
+    "question": "picq12",
+    "correctAnswer": "Zarf",
+    "robotAnswer": "Swipper"
+  }
+]
