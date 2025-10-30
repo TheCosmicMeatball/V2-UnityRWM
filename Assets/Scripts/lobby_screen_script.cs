@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -28,6 +29,7 @@ public class LobbyScreen : MonoBehaviour
     public TMP_InputField roomCodeInput;
     public Button joinButton; // Button on JoinForm to submit name/icon
     public Transform scrollingPlayerIconContainer;
+    public MobileIconSelectionButton mobileIconSelectionButtonPrefab;
     public Image selectedIcon;
     public Transform playerIconSelectionContainer;
     public Image namebar;
@@ -53,6 +55,7 @@ public class LobbyScreen : MonoBehaviour
     private string roomCode = "";
     private bool isMobile = false;
     private List<GameObject> spawnedPlayerIcons = new List<GameObject>();
+    private MobileIconSelectionButton currentlySelectedMobileIconButton;
     private readonly Dictionary<string, PlayerDisplayState> displayedPlayerStates = new Dictionary<string, PlayerDisplayState>();
     private Coroutine errorCoroutine;
     private bool awaitingNetworkConnection = false;
@@ -104,6 +107,13 @@ public class LobbyScreen : MonoBehaviour
         {
             joinButton.onClick.AddListener(OnJoinButtonClicked);
         }
+
+        if (nameInput != null)
+        {
+            nameInput.onValueChanged.AddListener(OnNameInputChanged);
+        }
+
+        UpdateJoinButtonState();
 
         RegisterNetworkCallbacks();
 
@@ -432,6 +442,18 @@ public class LobbyScreen : MonoBehaviour
             if (ENABLE_DEBUG_LOGS)
                 Debug.Log("[LobbyScreen] joinWait hidden");
         }
+
+        selectedPlayerIconName = string.Empty;
+        currentlySelectedMobileIconButton = null;
+
+        if (selectedIcon != null)
+        {
+            selectedIcon.sprite = null;
+            selectedIcon.enabled = false;
+        }
+
+        BuildIconSelectionList();
+        UpdateJoinButtonState();
     }
 
     void ShowJoinWait()
@@ -482,9 +504,167 @@ public class LobbyScreen : MonoBehaviour
         if (selectedIcon != null && PlayerManager.Instance != null)
         {
             selectedIcon.sprite = PlayerManager.Instance.GetPlayerIcon(iconName);
+            selectedIcon.enabled = selectedIcon.sprite != null;
         }
 
         Debug.Log("Player icon selected: " + iconName);
+
+        UpdateJoinButtonState();
+    }
+
+    void OnIconSelectionButtonClicked(MobileIconSelectionButton button, string iconName)
+    {
+        if (currentlySelectedMobileIconButton != null && currentlySelectedMobileIconButton != button)
+        {
+            currentlySelectedMobileIconButton.SetSelected(false);
+        }
+
+        currentlySelectedMobileIconButton = button;
+        if (currentlySelectedMobileIconButton != null)
+        {
+            currentlySelectedMobileIconButton.SetSelected(true);
+        }
+
+        OnPlayerIconSelected(iconName);
+    }
+
+    void BuildIconSelectionList()
+    {
+        if (scrollingPlayerIconContainer == null || mobileIconSelectionButtonPrefab == null || PlayerManager.Instance == null)
+        {
+            return;
+        }
+
+        currentlySelectedMobileIconButton = null;
+
+        for (int i = scrollingPlayerIconContainer.childCount - 1; i >= 0; i--)
+        {
+            Transform child = scrollingPlayerIconContainer.GetChild(i);
+            if (child == null)
+            {
+                continue;
+            }
+
+            child.SetParent(null);
+            Destroy(child.gameObject);
+        }
+
+        IEnumerable<string> iconNames = PlayerManager.Instance.GetAvailableIconNames();
+        if (iconNames == null)
+        {
+            return;
+        }
+
+        foreach (string iconName in iconNames)
+        {
+            MobileIconSelectionButton button = Instantiate(mobileIconSelectionButtonPrefab, scrollingPlayerIconContainer);
+            if (button == null)
+            {
+                continue;
+            }
+
+            Sprite iconSprite = PlayerManager.Instance.GetPlayerIcon(iconName);
+            button.SetIcon(iconSprite);
+            button.SetSelected(false);
+
+            string capturedIconName = iconName;
+            button.Button.onClick.AddListener(() => OnIconSelectionButtonClicked(button, capturedIconName));
+        }
+
+        UpdateIconContentLayoutMetrics();
+    }
+
+    void OnNameInputChanged(string value)
+    {
+        UpdateJoinButtonState();
+    }
+
+    void UpdateJoinButtonState()
+    {
+        if (joinButton == null)
+        {
+            return;
+        }
+
+        bool hasName = nameInput == null || !string.IsNullOrWhiteSpace(nameInput.text);
+        bool hasIcon = !string.IsNullOrEmpty(selectedPlayerIconName);
+        joinButton.interactable = hasName && hasIcon;
+    }
+
+    void UpdateIconContentLayoutMetrics()
+    {
+        if (scrollingPlayerIconContainer == null)
+        {
+            return;
+        }
+
+        RectTransform contentRect = scrollingPlayerIconContainer as RectTransform;
+        if (contentRect == null)
+        {
+            return;
+        }
+
+        HorizontalLayoutGroup layoutGroup = contentRect.GetComponent<HorizontalLayoutGroup>();
+        if (layoutGroup == null)
+        {
+            return;
+        }
+
+        int childCount = contentRect.childCount;
+        float totalWidth = layoutGroup.padding.left + layoutGroup.padding.right;
+        float spacing = layoutGroup.spacing;
+
+        for (int i = 0; i < childCount; i++)
+        {
+            RectTransform childRect = contentRect.GetChild(i) as RectTransform;
+            if (childRect == null)
+            {
+                continue;
+            }
+
+            float preferredWidth = 0f;
+
+            LayoutElement layoutElement = childRect.GetComponent<LayoutElement>();
+            if (layoutElement != null)
+            {
+                if (layoutElement.preferredWidth > 0)
+                {
+                    preferredWidth = layoutElement.preferredWidth;
+                }
+                else if (layoutElement.minWidth > 0)
+                {
+                    preferredWidth = layoutElement.minWidth;
+                }
+            }
+
+            if (preferredWidth <= 0f)
+            {
+                float rectWidth = childRect.rect.width;
+                if (rectWidth > 0f)
+                {
+                    preferredWidth = rectWidth;
+                }
+            }
+
+            if (preferredWidth <= 0f)
+            {
+                preferredWidth = Mathf.Abs(childRect.sizeDelta.x);
+            }
+
+            totalWidth += Mathf.Max(0f, preferredWidth);
+            if (i < childCount - 1)
+            {
+                totalWidth += spacing;
+            }
+        }
+
+        if (childCount == 0)
+        {
+            totalWidth = 0f;
+        }
+
+        contentRect.sizeDelta = new Vector2(totalWidth, contentRect.sizeDelta.y);
+        LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
     }
     
     public void OnJoinButtonClicked()
@@ -947,6 +1127,11 @@ public class LobbyScreen : MonoBehaviour
         if (joinButton != null)
         {
             joinButton.onClick.RemoveListener(OnJoinButtonClicked);
+        }
+
+        if (nameInput != null)
+        {
+            nameInput.onValueChanged.RemoveListener(OnNameInputChanged);
         }
     }
 }
