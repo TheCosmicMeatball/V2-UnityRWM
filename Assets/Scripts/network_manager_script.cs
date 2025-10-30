@@ -92,34 +92,84 @@ public class RWMNetworkManager : NetworkBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // Ensure one NetworkManager
+        if (!EnsureNetworkingComponents())
+        {
+            Debug.LogError("[NetworkManager] Unable to initialize networking components during Awake().");
+            enabled = false;
+            return;
+        }
+
+        if (networkManager == null)
+        {
+            networkManager = NetworkManager.Singleton;
+        }
+
         if (networkManager == null)
         {
             networkManager = GetComponent<NetworkManager>();
         }
 
-        // === Prevent Unity from auto-adding a new UnityTransport ===
-        // Try to find existing transport
-        unityTransport = networkManager.GetComponent<UnityTransport>();
+        if (networkManager == null)
+        {
+            networkManager = FindFirstObjectByType<NetworkManager>();
+        }
+
+        if (networkManager == null)
+        {
+            Debug.LogError("[NetworkManager] NetworkManager instance could not be located during Awake().");
+            enabled = false;
+            return;
+        }
+
         if (unityTransport == null)
         {
-            Debug.LogWarning("[NetworkManager] No UnityTransport found, adding one manually.");
-            unityTransport = networkManager.gameObject.AddComponent<UnityTransport>();
+            unityTransport = networkManager.GetComponent<UnityTransport>();
+        }
+
+        if (unityTransport == null)
+        {
+            var singleton = NetworkManager.Singleton;
+            if (singleton != null)
+            {
+                unityTransport = singleton.GetComponent<UnityTransport>();
+            }
+        }
+
+        if (unityTransport == null)
+        {
+            unityTransport = FindFirstObjectByType<UnityTransport>();
+        }
+
+        if (unityTransport == null)
+        {
+            Debug.LogError("[NetworkManager] UnityTransport component is missing and could not be created during Awake().");
+            enabled = false;
+            return;
+        }
+
+        if (networkManager.NetworkConfig.NetworkTransport != unityTransport)
+        {
             networkManager.NetworkConfig.NetworkTransport = unityTransport;
         }
 
-        // Apply your preferred connection data *before* Netcode starts
-        unityTransport.SetConnectionData("127.0.0.1", 7778, "0.0.0.0");
-        Debug.Log("[NetworkManager] Applied transport config at Awake() -> Port 7778");
+        // Apply preferred connection data *before* Netcode starts
+        var advertisedAddress = string.IsNullOrWhiteSpace(hostAddress) ? "127.0.0.1" : hostAddress;
+        var bindAddress = string.IsNullOrWhiteSpace(listenAddress) ? "0.0.0.0" : listenAddress;
+        unityTransport.SetConnectionData(advertisedAddress, port, bindAddress);
+        Debug.Log($"[NetworkManager] Applied transport config at Awake() -> Port {port}");
 
         // Subscribe to reapply after scene load (safety)
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += (scene, mode) =>
         {
-            unityTransport.SetConnectionData("127.0.0.1", 7778, "0.0.0.0");
+            if (unityTransport == null)
+            {
+                Debug.LogError("[NetworkManager] UnityTransport missing when reapplying transport settings after scene load.");
+                return;
+            }
+
+            unityTransport.SetConnectionData(advertisedAddress, port, bindAddress);
             Debug.Log($"[NetworkManager] Reapplied transport settings in scene '{scene.name}'");
         };
-
-        EnsureNetworkingComponents();
     }
 
     private void ApplyTransportSettings()
@@ -260,6 +310,20 @@ public class RWMNetworkManager : NetworkBehaviour
 
     public void StartHost()
     {
+        if (!EnsureNetworkingComponents())
+        {
+            Debug.LogError("[NetworkManager] Cannot start host because networking components are not ready.");
+            OnConnectionError?.Invoke();
+            return;
+        }
+
+        if (networkManager == null || unityTransport == null)
+        {
+            Debug.LogError("[NetworkManager] Cannot start host because NetworkManager or UnityTransport is missing.");
+            OnConnectionError?.Invoke();
+            return;
+        }
+
         isHost = true;
 
         // Generate room code
