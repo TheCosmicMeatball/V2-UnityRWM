@@ -334,7 +334,9 @@ public class GameManager : NetworkBehaviour
                 // Check device type - mobile skips IntroVideo and Landing, goes directly to join flow
                 if (DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile())
                 {
-                    LoadScene("JoinRoomScreen");
+                    // Mobile clients jump directly into the lobby flow where the Join/JoinForm/JoinWait
+                    // subscreens are orchestrated.
+                    LoadScene("LobbyScreen");
                     currentGameState.Value = GameState.Lobby;
                 }
                 else

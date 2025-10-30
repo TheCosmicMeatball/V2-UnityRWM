@@ -28,7 +28,6 @@ public class SceneTransitionManager : MonoBehaviour
         "LoadingScreen",
         "LandingScreen",
         "LobbyScreen",
-        "JoinRoomScreen",
         "IntroVideoScreen",
         "CreditsScreen",
         "GameTerminatedScreen"
