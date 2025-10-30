@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using Unity.Netcode;
 using System.Collections;
 
 public class LoadingScreen : MonoBehaviour
@@ -23,6 +24,12 @@ public class LoadingScreen : MonoBehaviour
     
     private bool isLoaded = false;
     private float loadTimer = 0f;
+    
+    void Awake()
+    {
+        CoreSystemsBootstrapper.EnsureInitialized();
+        AssertNoNetworkObjects();
+    }
     
     void Start()
     {
@@ -128,37 +135,37 @@ public class LoadingScreen : MonoBehaviour
         if (ENABLE_DEBUG_LOGS)
             Debug.Log("[LoadingScreen] AdvanceToLanding invoked");
 
-        // Use GameManager's server-authoritative method to advance when available
-        if (GameManager.Instance != null)
-        {
-            if (GameManager.Instance.IsServer)
-            {
-                if (ENABLE_DEBUG_LOGS)
-                    Debug.Log("[LoadingScreen] Host detected, delegating to GameManager.AdvanceToNextScreen()");
+        SceneFlow.LoadLocal("LandingScreen");
+    }
 
-                GameManager.Instance.AdvanceToNextScreen();
-                return;
+    void AssertNoNetworkObjects()
+    {
+        var sceneName = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        if (sceneName != "LoadingScreen" && sceneName != "LandingScreen" && sceneName != "LobbyScreen")
+        {
+            return;
+        }
+
+        NetworkObject[] networkObjects = FindObjectsByType<NetworkObject>(FindObjectsSortMode.None);
+        bool hasForbiddenObject = false;
+
+        for (int i = 0; i < networkObjects.Length; i++)
+        {
+            NetworkObject netObj = networkObjects[i];
+            if (netObj == null)
+            {
+                continue;
+            }
+
+            string ownerScene = netObj.gameObject.scene.name;
+            if (ownerScene == "LoadingScreen" || ownerScene == "LandingScreen" || ownerScene == "LobbyScreen")
+            {
+                hasForbiddenObject = true;
+                break;
             }
         }
 
-        bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
-        string targetScene = isMobile ? "LobbyScreen" : "LandingScreen";
-
-        if (ENABLE_DEBUG_LOGS)
-            Debug.Log($"[LoadingScreen] Non-server client loading '{targetScene}' locally");
-
-        if (SceneTransitionManager.Instance != null)
-        {
-            if (SceneTransitionManager.Instance.LoadSceneLocally(targetScene))
-            {
-                return;
-            }
-        }
-
-        if (ENABLE_DEBUG_LOGS)
-            Debug.LogWarning("[LoadingScreen] SceneTransitionManager unavailable or rejected load. Falling back to SceneManager.LoadScene");
-
-        UnityEngine.SceneManagement.SceneManager.LoadScene(targetScene);
+        Debug.Assert(!hasForbiddenObject, "Pre-network scenes must not contain NetworkObjects.");
     }
     
     // Optional: Add actual asset loading here

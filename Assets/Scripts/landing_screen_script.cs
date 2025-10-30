@@ -16,7 +16,9 @@ public class LandingScreen : MonoBehaviour
     public Button joinGameButton;
     public Image mobileBackground;
     
-    private bool awaitingHostStart = false;
+    [Header("Scene Names")]
+    [SerializeField] private string lobbySceneName = "LobbyScreen";
+
     private bool automatedAdvanceAttempted = false;
 
     void Start()
@@ -68,23 +70,7 @@ public class LandingScreen : MonoBehaviour
     {
         MobileHaptics.MediumImpact();
 
-        // Mobile player wants to join - go to lobby/join screen
-        Debug.Log("Join Game clicked - transitioning to Lobby");
-
-        if (GameManager.Instance == null)
-        {
-            Debug.LogError("GameManager.Instance is NULL! Cannot advance to next screen. Make sure to start from LoadingScreen scene.");
-            return;
-        }
-
-        if (GameManager.Instance != null && GameManager.Instance.IsServer)
-        {
-            GameManager.Instance.AdvanceToNextScreen();
-        }
-        else
-        {
-            Debug.LogWarning("[LandingScreen] Only the host can advance to the next screen.");
-        }
+        SceneFlow.LoadLocal(lobbySceneName);
     }
     
     void OnVideoPrepared(VideoPlayer source)
@@ -102,11 +88,6 @@ public class LandingScreen : MonoBehaviour
     
     void OnDestroy()
     {
-        if (RWMNetworkManager.Instance != null)
-        {
-            RWMNetworkManager.Instance.OnRoomCreated -= OnLandingHostReady;
-        }
-
         // Clean up button listeners
         if (startTestButton != null)
         {
@@ -123,26 +104,6 @@ public class LandingScreen : MonoBehaviour
         {
             rulesVideo.prepareCompleted -= OnVideoPrepared;
             rulesVideo.loopPointReached -= OnVideoFinished;
-        }
-    }
-
-    private void OnLandingHostReady(string roomCode)
-    {
-        if (RWMNetworkManager.Instance != null)
-        {
-            RWMNetworkManager.Instance.OnRoomCreated -= OnLandingHostReady;
-        }
-
-        awaitingHostStart = false;
-
-        if (GameManager.Instance != null && GameManager.Instance.IsServer)
-        {
-            Debug.Log("[LandingScreen] Host started successfully from landing. Advancing to next screen.");
-            GameManager.Instance.AdvanceToNextScreen();
-        }
-        else
-        {
-            Debug.LogWarning("[LandingScreen] Host reported ready but GameManager does not have server authority yet.");
         }
     }
 
@@ -163,42 +124,7 @@ public class LandingScreen : MonoBehaviour
             MobileHaptics.MediumImpact();
         }
 
-        // Desktop host starts the game - go to lobby
         Debug.Log("Attempting to transition to Lobby");
-
-        if (GameManager.Instance == null)
-        {
-            Debug.LogError("GameManager.Instance is NULL! Cannot advance to next screen. Make sure to start from LoadingScreen scene.");
-            return;
-        }
-
-        if (GameManager.Instance != null && GameManager.Instance.IsServer)
-        {
-            GameManager.Instance.AdvanceToNextScreen();
-        }
-        else
-        {
-            // Desktop should always host. If host networking hasn't spun up yet, start it now.
-            bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
-
-            if (!isMobile && RWMNetworkManager.Instance != null)
-            {
-                if (!awaitingHostStart)
-                {
-                    awaitingHostStart = true;
-                    RWMNetworkManager.Instance.OnRoomCreated += OnLandingHostReady;
-                    Debug.Log("[LandingScreen] Host authority not yet established. Starting host now.");
-                    RWMNetworkManager.Instance.StartHost();
-                }
-                else
-                {
-                    Debug.Log("[LandingScreen] Waiting for host startup confirmation...");
-                }
-            }
-            else
-            {
-                Debug.LogWarning("[LandingScreen] Only the host can advance to the next screen.");
-            }
-        }
+        SceneFlow.LoadLocal(lobbySceneName);
     }
 }

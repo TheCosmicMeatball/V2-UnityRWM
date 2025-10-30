@@ -452,6 +452,22 @@ public class GameManager : NetworkBehaviour
         }
     }
 
+    public void BeginMatch()
+    {
+        if (!IsServer)
+        {
+            Debug.LogWarning("[GameManager] BeginMatch called without server authority.");
+            return;
+        }
+
+        if (currentGameState.Value != GameState.Lobby)
+        {
+            Debug.LogWarning($"[GameManager] BeginMatch requested while in state {currentGameState.Value}. Advancing anyway.");
+        }
+
+        AdvanceToNextScreen();
+    }
+
     private bool TryStartEliminationTransition()
     {
         if (eliminationTransitionDispatched)

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System;
+using System.Threading.Tasks;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 
@@ -308,6 +309,12 @@ public class RWMNetworkManager : NetworkBehaviour
 
     // === HOST METHODS ===
 
+    public Task StartHostAsync()
+    {
+        StartHost();
+        return Task.CompletedTask;
+    }
+
     public void StartHost()
     {
         if (!EnsureNetworkingComponents())
@@ -374,6 +381,12 @@ public class RWMNetworkManager : NetworkBehaviour
     }
 
     // === CLIENT METHODS ===
+
+    public Task StartClientAsync(string code, string hostIP = "127.0.0.1")
+    {
+        JoinGame(code, hostIP);
+        return Task.CompletedTask;
+    }
 
     public bool JoinGame(string code, string hostIP = "127.0.0.1")
     {
@@ -684,6 +697,10 @@ public class RWMNetworkManager : NetworkBehaviour
     {
         return roomCode;
     }
+
+    public string CurrentRoomCode => roomCode;
+
+    public bool IsInPreNetworkScene => networkManager == null || !networkManager.IsListening;
 
     // === CLEANUP ===
 

@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -14,6 +15,7 @@ public class LobbyScreen : MonoBehaviour
     public Transform playerIconContainer;
     public GameObject playerIconLobbyPrefab;
     public Button startTestButton;
+    public Button createRoomButton;
     public Button eightQButton;
     public Button twelveQButton;
     public TextMeshProUGUI headlineText;
@@ -29,7 +31,7 @@ public class LobbyScreen : MonoBehaviour
     public TMP_InputField roomCodeInput;
     public Button joinButton; // Button on JoinForm to submit name/icon
     public Transform scrollingPlayerIconContainer;
-    public MobileIconSelectionButton mobileIconSelectionButtonPrefab;
+    public GameObject mobileIconSelectionButtonPrefab;
     public Image selectedIcon;
     public Transform playerIconSelectionContainer;
     public Image namebar;
@@ -55,12 +57,22 @@ public class LobbyScreen : MonoBehaviour
     private string roomCode = "";
     private bool isMobile = false;
     private List<GameObject> spawnedPlayerIcons = new List<GameObject>();
-    private MobileIconSelectionButton currentlySelectedMobileIconButton;
+    private IconSelectionButton currentlySelectedIconButton;
+    private bool hostRoomCreated = false;
+    private Coroutine iconSelectionBuildCoroutine;
     private readonly Dictionary<string, PlayerDisplayState> displayedPlayerStates = new Dictionary<string, PlayerDisplayState>();
     private Coroutine errorCoroutine;
     private bool awaitingNetworkConnection = false;
     private bool hasConnectedToHost = false;
     private bool networkCallbacksRegistered = false;
+
+    private class IconSelectionButton
+    {
+        public GameObject Root;
+        public Button Button;
+        public Image IconImage;
+        public GameObject SelectionHighlight;
+    }
     
     void Start()
     {
@@ -84,6 +96,12 @@ public class LobbyScreen : MonoBehaviour
         if (startTestButton != null)
         {
             startTestButton.onClick.AddListener(OnStartGameClicked);
+            startTestButton.gameObject.SetActive(false);
+        }
+
+        if (createRoomButton != null)
+        {
+            createRoomButton.onClick.AddListener(OnCreateRoomButtonClicked);
         }
 
         if (eightQButton != null)
@@ -121,13 +139,7 @@ public class LobbyScreen : MonoBehaviour
         ShowAppropriateDisplay();
 
         // Initialize networking flow based on device type
-        if (!isMobile)
-        {
-            SetupDesktopHost();
-
-            // Add desktop host as a player
-            AddDesktopHostPlayer();
-        }
+        // Host must explicitly choose to create a room; nothing happens automatically here.
 
         // Play landing page music
         if (AudioManager.Instance != null)
@@ -136,23 +148,6 @@ public class LobbyScreen : MonoBehaviour
         }
     }
 
-    void AddDesktopHostPlayer()
-    {
-        // Create host player ID
-        string hostPlayerID = PlayerAuthSystem.Instance != null ?
-            PlayerAuthSystem.Instance.GetLocalPlayerID() :
-            "host_" + SystemInfo.deviceUniqueIdentifier;
-
-        // Use a default icon for the host
-        string hostIconName = PlayerManager.Instance != null ?
-            PlayerManager.Instance.GetRandomIconName() :
-            "player icon (1)";
-
-        // Desktop host is NOT a player - it's just a display screen
-        // Players join via mobile devices only
-        Debug.Log("Desktop is host - not added as a player");
-    }
-    
     void Update()
     {
         // Update player list
@@ -176,6 +171,11 @@ public class LobbyScreen : MonoBehaviour
             mobileDisplay.SetActive(isMobile);
             if (ENABLE_DEBUG_LOGS)
                 Debug.Log($"[LobbyScreen] mobileDisplay set to: {isMobile}");
+        }
+
+        if (createRoomButton != null)
+        {
+            createRoomButton.gameObject.SetActive(!isMobile);
         }
 
         // Mobile starts with joinScreen visible, then shows JoinForm when button clicked
@@ -280,44 +280,6 @@ public class LobbyScreen : MonoBehaviour
         }
     }
 
-    void SetupDesktopHost()
-    {
-        if (RWMNetworkManager.Instance != null)
-        {
-            // Register callback for when room is created
-            RWMNetworkManager.Instance.OnRoomCreated += OnHostRoomCreated;
-
-            // Start host immediately
-            RWMNetworkManager.Instance.StartHost();
-            roomCode = RWMNetworkManager.Instance.GetRoomCode();
-
-            if (roomCodeDisplay != null)
-            {
-                roomCodeDisplay.text = roomCode;
-            }
-        }
-        else
-        {
-            // Fallback: generate a local code so the UI isn't empty when networking is unavailable
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            System.Text.StringBuilder code = new System.Text.StringBuilder();
-
-            for (int i = 0; i < 5; i++)
-            {
-                code.Append(chars[UnityEngine.Random.Range(0, chars.Length)]);
-            }
-
-            roomCode = code.ToString();
-
-            if (roomCodeDisplay != null)
-            {
-                roomCodeDisplay.text = roomCode;
-            }
-
-            Debug.LogWarning("Networking not available - using locally generated room code");
-        }
-    }
-
     void OnHostRoomCreated(string createdRoomCode)
     {
         roomCode = createdRoomCode;
@@ -330,7 +292,102 @@ public class LobbyScreen : MonoBehaviour
             Debug.Log($"[LobbyScreen] Host room created: {roomCode}");
 
         // Unsubscribe after handling
+        if (RWMNetworkManager.Instance != null)
+        {
+            RWMNetworkManager.Instance.OnRoomCreated -= OnHostRoomCreated;
+        }
+        hostRoomCreated = true;
+
+        if (startTestButton != null)
+        {
+            startTestButton.gameObject.SetActive(true);
+        }
+
+        if (createRoomButton != null)
+        {
+            createRoomButton.interactable = false;
+        }
+    }
+
+
+    async void OnCreateRoomButtonClicked()
+    {
+        MobileHaptics.LightImpact();
+
+        if (createRoomButton != null)
+        {
+            createRoomButton.interactable = false;
+        }
+
+        if (RWMNetworkManager.Instance == null)
+        {
+            Debug.LogError("[LobbyScreen] RWMNetworkManager not available. Cannot create network room.");
+            GenerateLocalRoomCode();
+            if (createRoomButton != null)
+            {
+                createRoomButton.interactable = true;
+            }
+            return;
+        }
+
         RWMNetworkManager.Instance.OnRoomCreated -= OnHostRoomCreated;
+        RWMNetworkManager.Instance.OnRoomCreated += OnHostRoomCreated;
+
+        try
+        {
+            await RWMNetworkManager.Instance.StartHostAsync();
+
+            if (!hostRoomCreated)
+            {
+                string code = RWMNetworkManager.Instance.CurrentRoomCode;
+                if (!string.IsNullOrEmpty(code))
+                {
+                    OnHostRoomCreated(code);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[LobbyScreen] Failed to start host: {ex.Message}");
+            RWMNetworkManager.Instance.OnRoomCreated -= OnHostRoomCreated;
+            GenerateLocalRoomCode();
+            if (createRoomButton != null)
+            {
+                createRoomButton.interactable = true;
+            }
+        }
+    }
+
+    void GenerateLocalRoomCode()
+    {
+        const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        System.Text.StringBuilder code = new System.Text.StringBuilder();
+
+        for (int i = 0; i < 5; i++)
+        {
+            code.Append(chars[UnityEngine.Random.Range(0, chars.Length)]);
+        }
+
+        roomCode = code.ToString();
+
+        if (roomCodeDisplay != null)
+        {
+            roomCodeDisplay.text = roomCode;
+        }
+
+        hostRoomCreated = true;
+
+        if (startTestButton != null)
+        {
+            startTestButton.gameObject.SetActive(true);
+        }
+
+        if (createRoomButton != null)
+        {
+            createRoomButton.interactable = false;
+        }
+
+        Debug.LogWarning("Networking not available - using locally generated room code");
     }
 
 
@@ -390,7 +447,7 @@ public class LobbyScreen : MonoBehaviour
         // Advance to Round Art (which will load Round 1)
         if (GameManager.Instance != null && GameManager.Instance.IsServer)
         {
-            GameManager.Instance.AdvanceToNextScreen();
+            GameManager.Instance.BeginMatch();
         }
         else
         {
@@ -444,7 +501,7 @@ public class LobbyScreen : MonoBehaviour
         }
 
         selectedPlayerIconName = string.Empty;
-        currentlySelectedMobileIconButton = null;
+        currentlySelectedIconButton = null;
 
         if (selectedIcon != null)
         {
@@ -452,7 +509,7 @@ public class LobbyScreen : MonoBehaviour
             selectedIcon.enabled = false;
         }
 
-        BuildIconSelectionList();
+        RequestIconSelectionListRebuild();
         UpdateJoinButtonState();
     }
 
@@ -512,30 +569,90 @@ public class LobbyScreen : MonoBehaviour
         UpdateJoinButtonState();
     }
 
-    void OnIconSelectionButtonClicked(MobileIconSelectionButton button, string iconName)
+    void OnIconSelectionButtonClicked(IconSelectionButton button, string iconName)
     {
-        if (currentlySelectedMobileIconButton != null && currentlySelectedMobileIconButton != button)
-        {
-            currentlySelectedMobileIconButton.SetSelected(false);
-        }
-
-        currentlySelectedMobileIconButton = button;
-        if (currentlySelectedMobileIconButton != null)
-        {
-            currentlySelectedMobileIconButton.SetSelected(true);
-        }
-
-        OnPlayerIconSelected(iconName);
-    }
-
-    void BuildIconSelectionList()
-    {
-        if (scrollingPlayerIconContainer == null || mobileIconSelectionButtonPrefab == null || PlayerManager.Instance == null)
+        if (button == null)
         {
             return;
         }
 
-        currentlySelectedMobileIconButton = null;
+        if (currentlySelectedIconButton != null && currentlySelectedIconButton != button)
+        {
+            SetButtonSelected(currentlySelectedIconButton, false);
+        }
+
+        if (ENABLE_DEBUG_LOGS)
+            Debug.Log($"[LobbyScreen] Icon button clicked for '{iconName}'");
+
+        currentlySelectedIconButton = button;
+        SetButtonSelected(currentlySelectedIconButton, true);
+
+        OnPlayerIconSelected(iconName);
+    }
+
+    void RequestIconSelectionListRebuild()
+    {
+        if (iconSelectionBuildCoroutine != null)
+        {
+            StopCoroutine(iconSelectionBuildCoroutine);
+            iconSelectionBuildCoroutine = null;
+        }
+
+        if (PlayerManager.Instance != null)
+        {
+            if (ENABLE_DEBUG_LOGS)
+                Debug.Log("[LobbyScreen] PlayerManager ready - building icon list immediately");
+
+            BuildIconSelectionList();
+            return;
+        }
+
+        if (ENABLE_DEBUG_LOGS)
+            Debug.Log("[LobbyScreen] PlayerManager not ready - waiting before building icon selection list");
+
+        CoreSystemsBootstrapper.EnsureInitialized();
+        iconSelectionBuildCoroutine = StartCoroutine(WaitForPlayerManagerAndBuildIcons());
+    }
+
+    System.Collections.IEnumerator WaitForPlayerManagerAndBuildIcons()
+    {
+        const float timeoutSeconds = 5f;
+        float startTime = Time.realtimeSinceStartup;
+
+        while (PlayerManager.Instance == null && (Time.realtimeSinceStartup - startTime) < timeoutSeconds)
+        {
+            yield return null;
+        }
+
+        iconSelectionBuildCoroutine = null;
+
+        if (PlayerManager.Instance == null)
+        {
+            Debug.LogError("[LobbyScreen] PlayerManager failed to initialize in time - icon selection cannot be shown");
+            ShowErrorMessage("Icon library failed to load. Please restart the app and try again.", false);
+            yield break;
+        }
+
+        BuildIconSelectionList();
+    }
+
+    void BuildIconSelectionList()
+    {
+        if (scrollingPlayerIconContainer == null || mobileIconSelectionButtonPrefab == null)
+        {
+            if (ENABLE_DEBUG_LOGS)
+                Debug.LogWarning("[LobbyScreen] Cannot build icon list - container or prefab missing");
+
+            return;
+        }
+
+        if (PlayerManager.Instance == null)
+        {
+            RequestIconSelectionListRebuild();
+            return;
+        }
+
+        currentlySelectedIconButton = null;
 
         for (int i = scrollingPlayerIconContainer.childCount - 1; i >= 0; i--)
         {
@@ -552,26 +669,236 @@ public class LobbyScreen : MonoBehaviour
         IEnumerable<string> iconNames = PlayerManager.Instance.GetAvailableIconNames();
         if (iconNames == null)
         {
+            if (ENABLE_DEBUG_LOGS)
+                Debug.LogWarning("[LobbyScreen] PlayerManager returned null icon list");
+
+            UpdateJoinButtonState();
             return;
         }
 
+        IconSelectionButton firstButton = null;
+        string firstIconName = null;
+        IconSelectionButton matchedSelectionButton = null;
+        string desiredSelection = selectedPlayerIconName;
+        bool anyIcons = false;
+        int builtCount = 0;
+
         foreach (string iconName in iconNames)
         {
-            MobileIconSelectionButton button = Instantiate(mobileIconSelectionButtonPrefab, scrollingPlayerIconContainer);
-            if (button == null)
+            GameObject instance = Instantiate(mobileIconSelectionButtonPrefab, scrollingPlayerIconContainer);
+            if (instance == null)
             {
                 continue;
             }
 
-            Sprite iconSprite = PlayerManager.Instance.GetPlayerIcon(iconName);
-            button.SetIcon(iconSprite);
-            button.SetSelected(false);
+            IconSelectionButton binding = BindIconSelectionButton(instance);
+            if (binding == null)
+            {
+                if (ENABLE_DEBUG_LOGS)
+                    Debug.LogWarning($"[LobbyScreen] Unable to bind icon button for '{iconName}'");
 
+                Destroy(instance);
+                continue;
+            }
+
+            Sprite iconSprite = PlayerManager.Instance.GetPlayerIcon(iconName);
+            if (iconSprite == null && ENABLE_DEBUG_LOGS)
+            {
+                Debug.LogWarning($"[LobbyScreen] Sprite not found for icon '{iconName}'");
+            }
+
+            ApplyIconSprite(binding, iconSprite);
+            SetButtonSelected(binding, false);
+
+            IconSelectionButton capturedBinding = binding;
             string capturedIconName = iconName;
-            button.Button.onClick.AddListener(() => OnIconSelectionButtonClicked(button, capturedIconName));
+
+            if (capturedBinding.Button != null)
+            {
+                capturedBinding.Button.onClick.AddListener(() => OnIconSelectionButtonClicked(capturedBinding, capturedIconName));
+            }
+            else if (ENABLE_DEBUG_LOGS)
+            {
+                Debug.LogWarning("[LobbyScreen] Icon selection prefab is missing a Button component.");
+            }
+
+            if (firstButton == null)
+            {
+                firstButton = binding;
+                firstIconName = iconName;
+            }
+
+            if (!string.IsNullOrEmpty(desiredSelection) && iconName == desiredSelection)
+            {
+                matchedSelectionButton = binding;
+            }
+
+            anyIcons = true;
+            builtCount++;
         }
 
         UpdateIconContentLayoutMetrics();
+
+        if (ENABLE_DEBUG_LOGS)
+            Debug.Log($"[LobbyScreen] Icon selection build complete. Built {builtCount} buttons. Container child count: {scrollingPlayerIconContainer.childCount}");
+
+        if (!anyIcons)
+        {
+            selectedPlayerIconName = string.Empty;
+            if (selectedIcon != null)
+            {
+                selectedIcon.sprite = null;
+                selectedIcon.enabled = false;
+            }
+            UpdateJoinButtonState();
+            return;
+        }
+
+        if (matchedSelectionButton != null)
+        {
+            if (ENABLE_DEBUG_LOGS)
+                Debug.Log($"[LobbyScreen] Restoring previously selected icon '{desiredSelection}'");
+
+            OnIconSelectionButtonClicked(matchedSelectionButton, desiredSelection);
+        }
+        else if (string.IsNullOrEmpty(selectedPlayerIconName) && firstButton != null && !string.IsNullOrEmpty(firstIconName))
+        {
+            if (ENABLE_DEBUG_LOGS)
+                Debug.Log($"[LobbyScreen] Auto-selecting first icon '{firstIconName}'");
+
+            OnIconSelectionButtonClicked(firstButton, firstIconName);
+        }
+        else
+        {
+            UpdateJoinButtonState();
+        }
+    }
+
+    IconSelectionButton BindIconSelectionButton(GameObject instance)
+    {
+        if (instance == null)
+        {
+            return null;
+        }
+
+        IconSelectionButton binding = new IconSelectionButton
+        {
+            Root = instance,
+            Button = instance.GetComponent<Button>()
+        };
+
+        if (binding.Button == null)
+        {
+            binding.Button = instance.GetComponentInChildren<Button>(true);
+        }
+
+        Image iconImage = null;
+        Transform iconTransform = instance.transform.Find("Icon");
+        if (iconTransform != null)
+        {
+            iconImage = iconTransform.GetComponent<Image>();
+        }
+
+        if (iconImage == null)
+        {
+            Image[] images = instance.GetComponentsInChildren<Image>(true);
+            for (int i = 0; i < images.Length; i++)
+            {
+                Image candidate = images[i];
+                if (candidate == null)
+                {
+                    continue;
+                }
+
+                if (candidate.gameObject == instance)
+                {
+                    continue;
+                }
+
+                if (string.Equals(candidate.gameObject.name, "SelectionHighlight", StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                iconImage = candidate;
+                break;
+            }
+        }
+
+        binding.IconImage = iconImage;
+        if (binding.IconImage == null && ENABLE_DEBUG_LOGS)
+        {
+            Debug.LogWarning("[LobbyScreen] Icon selection prefab is missing an Image component for the icon artwork.");
+        }
+
+        binding.SelectionHighlight = FindChildGameObject(instance.transform, "SelectionHighlight");
+        if (binding.SelectionHighlight != null)
+        {
+            binding.SelectionHighlight.SetActive(false);
+        }
+        else if (ENABLE_DEBUG_LOGS)
+        {
+            Debug.LogWarning("[LobbyScreen] Icon selection prefab is missing a 'SelectionHighlight' child GameObject.");
+        }
+
+        return binding;
+    }
+
+    void ApplyIconSprite(IconSelectionButton binding, Sprite sprite)
+    {
+        if (binding == null)
+        {
+            return;
+        }
+
+        if (binding.IconImage != null)
+        {
+            binding.IconImage.sprite = sprite;
+            binding.IconImage.enabled = sprite != null;
+        }
+    }
+
+    void SetButtonSelected(IconSelectionButton binding, bool selected)
+    {
+        if (binding == null)
+        {
+            return;
+        }
+
+        if (binding.SelectionHighlight != null)
+        {
+            binding.SelectionHighlight.SetActive(selected);
+        }
+    }
+
+    GameObject FindChildGameObject(Transform parent, string childName)
+    {
+        if (parent == null || string.IsNullOrEmpty(childName))
+        {
+            return null;
+        }
+
+        for (int i = 0; i < parent.childCount; i++)
+        {
+            Transform child = parent.GetChild(i);
+            if (child == null)
+            {
+                continue;
+            }
+
+            if (string.Equals(child.name, childName, StringComparison.Ordinal))
+            {
+                return child.gameObject;
+            }
+
+            GameObject nested = FindChildGameObject(child, childName);
+            if (nested != null)
+            {
+                return nested;
+            }
+        }
+
+        return null;
     }
 
     void OnNameInputChanged(string value)
@@ -1108,7 +1435,12 @@ public class LobbyScreen : MonoBehaviour
         {
             startTestButton.onClick.RemoveListener(OnStartGameClicked);
         }
-        
+
+        if (createRoomButton != null)
+        {
+            createRoomButton.onClick.RemoveListener(OnCreateRoomButtonClicked);
+        }
+
         if (eightQButton != null)
         {
             eightQButton.onClick.RemoveAllListeners();
@@ -1129,9 +1461,20 @@ public class LobbyScreen : MonoBehaviour
             joinButton.onClick.RemoveListener(OnJoinButtonClicked);
         }
 
+        if (RWMNetworkManager.Instance != null)
+        {
+            RWMNetworkManager.Instance.OnRoomCreated -= OnHostRoomCreated;
+        }
+
         if (nameInput != null)
         {
             nameInput.onValueChanged.RemoveListener(OnNameInputChanged);
+        }
+
+        if (iconSelectionBuildCoroutine != null)
+        {
+            StopCoroutine(iconSelectionBuildCoroutine);
+            iconSelectionBuildCoroutine = null;
         }
     }
 }
