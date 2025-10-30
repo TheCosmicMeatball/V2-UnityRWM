@@ -17,6 +17,7 @@ public class LandingScreen : MonoBehaviour
     public Image mobileBackground;
     
     private bool awaitingHostStart = false;
+    private bool automatedAdvanceAttempted = false;
 
     void Start()
     {
@@ -60,45 +61,7 @@ public class LandingScreen : MonoBehaviour
     
     public void OnStartGameClicked()
     {
-        MobileHaptics.MediumImpact();
-
-        // Desktop host starts the game - go to lobby
-        Debug.Log("Start Game clicked - transitioning to Lobby");
-
-        if (GameManager.Instance == null)
-        {
-            Debug.LogError("GameManager.Instance is NULL! Cannot advance to next screen. Make sure to start from LoadingScreen scene.");
-            return;
-        }
-
-        if (GameManager.Instance != null && GameManager.Instance.IsServer)
-        {
-            GameManager.Instance.AdvanceToNextScreen();
-        }
-        else
-        {
-            // Desktop should always host. If host networking hasn't spun up yet, start it now.
-            bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
-
-            if (!isMobile && RWMNetworkManager.Instance != null)
-            {
-                if (!awaitingHostStart)
-                {
-                    awaitingHostStart = true;
-                    RWMNetworkManager.Instance.OnRoomCreated += OnLandingHostReady;
-                    Debug.Log("[LandingScreen] Host authority not yet established. Starting host now.");
-                    RWMNetworkManager.Instance.StartHost();
-                }
-                else
-                {
-                    Debug.Log("[LandingScreen] Waiting for host startup confirmation...");
-                }
-            }
-            else
-            {
-                Debug.LogWarning("[LandingScreen] Only the host can advance to the next screen.");
-            }
-        }
+        AttemptAdvanceToNextScreen(false);
     }
 
     public void OnJoinGameClicked()
@@ -134,6 +97,7 @@ public class LandingScreen : MonoBehaviour
     {
         // Video finished playing
         Debug.Log("Rules video finished");
+        AttemptAdvanceToNextScreen(true);
     }
     
     void OnDestroy()
@@ -179,6 +143,62 @@ public class LandingScreen : MonoBehaviour
         else
         {
             Debug.LogWarning("[LandingScreen] Host reported ready but GameManager does not have server authority yet.");
+        }
+    }
+
+    private void AttemptAdvanceToNextScreen(bool triggeredByVideo)
+    {
+        if (triggeredByVideo)
+        {
+            if (automatedAdvanceAttempted)
+            {
+                Debug.Log("[LandingScreen] Automated advance already attempted. Ignoring repeated trigger.");
+                return;
+            }
+
+            automatedAdvanceAttempted = true;
+        }
+        else
+        {
+            MobileHaptics.MediumImpact();
+        }
+
+        // Desktop host starts the game - go to lobby
+        Debug.Log("Attempting to transition to Lobby");
+
+        if (GameManager.Instance == null)
+        {
+            Debug.LogError("GameManager.Instance is NULL! Cannot advance to next screen. Make sure to start from LoadingScreen scene.");
+            return;
+        }
+
+        if (GameManager.Instance != null && GameManager.Instance.IsServer)
+        {
+            GameManager.Instance.AdvanceToNextScreen();
+        }
+        else
+        {
+            // Desktop should always host. If host networking hasn't spun up yet, start it now.
+            bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
+
+            if (!isMobile && RWMNetworkManager.Instance != null)
+            {
+                if (!awaitingHostStart)
+                {
+                    awaitingHostStart = true;
+                    RWMNetworkManager.Instance.OnRoomCreated += OnLandingHostReady;
+                    Debug.Log("[LandingScreen] Host authority not yet established. Starting host now.");
+                    RWMNetworkManager.Instance.StartHost();
+                }
+                else
+                {
+                    Debug.Log("[LandingScreen] Waiting for host startup confirmation...");
+                }
+            }
+            else
+            {
+                Debug.LogWarning("[LandingScreen] Only the host can advance to the next screen.");
+            }
         }
     }
 }
