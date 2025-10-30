@@ -142,7 +142,7 @@ public class LoadingScreen : MonoBehaviour
         }
 
         bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
-        string targetScene = isMobile ? "JoinRoomScreen" : "LandingScreen";
+        string targetScene = isMobile ? "LobbyScreen" : "LandingScreen";
 
         if (ENABLE_DEBUG_LOGS)
             Debug.Log($"[LoadingScreen] Non-server client loading '{targetScene}' locally");
