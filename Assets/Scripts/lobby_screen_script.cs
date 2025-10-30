@@ -304,7 +304,7 @@ public class LobbyScreen : MonoBehaviour
 
             for (int i = 0; i < 5; i++)
             {
-                code.Append(chars[Random.Range(0, chars.Length)]);
+                code.Append(chars[UnityEngine.Random.Range(0, chars.Length)]);
             }
 
             roomCode = code.ToString();
