@@ -126,31 +126,39 @@ public class LoadingScreen : MonoBehaviour
     void AdvanceToLanding()
     {
         if (ENABLE_DEBUG_LOGS)
-            Debug.Log("[LoadingScreen] Advancing to IntroVideoScreen");
+            Debug.Log("[LoadingScreen] AdvanceToLanding invoked");
 
-        // Use GameManager's server-authoritative method to advance
-        if (GameManager.Instance != null && GameManager.Instance.IsServer)
+        // Use GameManager's server-authoritative method to advance when available
+        if (GameManager.Instance != null)
         {
-            GameManager.Instance.AdvanceToNextScreen();
+            if (GameManager.Instance.IsServer)
+            {
+                if (ENABLE_DEBUG_LOGS)
+                    Debug.Log("[LoadingScreen] Host detected, delegating to GameManager.AdvanceToNextScreen()");
+
+                GameManager.Instance.AdvanceToNextScreen();
+                return;
+            }
         }
-        else
+
+        bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
+        string targetScene = isMobile ? "JoinRoomScreen" : "LandingScreen";
+
+        if (ENABLE_DEBUG_LOGS)
+            Debug.Log($"[LoadingScreen] Non-server client loading '{targetScene}' locally");
+
+        if (SceneTransitionManager.Instance != null)
         {
-            // Clients should not trigger scene loads - this should only happen on host
-            Debug.LogWarning("[LoadingScreen] Non-server tried to advance scene - this should not happen");
+            if (SceneTransitionManager.Instance.LoadSceneLocally(targetScene))
+            {
+                return;
+            }
         }
 
-        // if (GameManager.Instance == null || GameManager.Instance.IsServer)
-        // {
-        //     bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
-        //     if (!clickToAdvance || (isMobile && autoAdvanceOnMobile))
-        //     {
-        //         if (ENABLE_DEBUG_LOGS)
-        //             Debug.Log("[LoadingScreen] Auto-advancing (clickToAdvance=" + clickToAdvance + ", isMobile=" + isMobile + ", autoAdvanceOnMobile=" + autoAdvanceOnMobile + ")");
-                
-        //         AdvanceToLanding();
-        //     }
-        // }
+        if (ENABLE_DEBUG_LOGS)
+            Debug.LogWarning("[LoadingScreen] SceneTransitionManager unavailable or rejected load. Falling back to SceneManager.LoadScene");
 
+        UnityEngine.SceneManagement.SceneManager.LoadScene(targetScene);
     }
     
     // Optional: Add actual asset loading here
