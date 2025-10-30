@@ -82,36 +82,45 @@ public class RWMNetworkManager : NetworkBehaviour
     //     }
     // }
     private void Awake()
-{
-    // Ensure one NetworkManager
-    if (networkManager == null)
-        networkManager = GetComponent<NetworkManager>();
-
-    // === Prevent Unity from auto-adding a new UnityTransport ===
-    // Try to find existing transport
-    unityTransport = networkManager.GetComponent<UnityTransport>();
-    if (unityTransport == null)
     {
-        Debug.LogWarning("[NetworkManager] No UnityTransport found, adding one manually.");
-        unityTransport = networkManager.gameObject.AddComponent<UnityTransport>();
-        networkManager.NetworkConfig.NetworkTransport = unityTransport;
-    }
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
 
-    // Apply your preferred connection data *before* Netcode starts
-    unityTransport.SetConnectionData("127.0.0.1", 7778, "0.0.0.0");
-    Debug.Log("[NetworkManager] Applied transport config at Awake() -> Port 7778");
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
 
-    DontDestroyOnLoad(gameObject);
+        // Ensure one NetworkManager
+        if (networkManager == null)
+        {
+            networkManager = GetComponent<NetworkManager>();
+        }
 
-    // Subscribe to reapply after scene load (safety)
-    UnityEngine.SceneManagement.SceneManager.sceneLoaded += (scene, mode) =>
-    {
+        // === Prevent Unity from auto-adding a new UnityTransport ===
+        // Try to find existing transport
+        unityTransport = networkManager.GetComponent<UnityTransport>();
+        if (unityTransport == null)
+        {
+            Debug.LogWarning("[NetworkManager] No UnityTransport found, adding one manually.");
+            unityTransport = networkManager.gameObject.AddComponent<UnityTransport>();
+            networkManager.NetworkConfig.NetworkTransport = unityTransport;
+        }
+
+        // Apply your preferred connection data *before* Netcode starts
         unityTransport.SetConnectionData("127.0.0.1", 7778, "0.0.0.0");
-        Debug.Log($"[NetworkManager] Reapplied transport settings in scene '{scene.name}'");
-    };
+        Debug.Log("[NetworkManager] Applied transport config at Awake() -> Port 7778");
 
-    EnsureNetworkingComponents();
-}
+        // Subscribe to reapply after scene load (safety)
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += (scene, mode) =>
+        {
+            unityTransport.SetConnectionData("127.0.0.1", 7778, "0.0.0.0");
+            Debug.Log($"[NetworkManager] Reapplied transport settings in scene '{scene.name}'");
+        };
+
+        EnsureNetworkingComponents();
+    }
 
     private void ApplyTransportSettings()
     {
