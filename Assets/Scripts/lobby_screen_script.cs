@@ -509,8 +509,70 @@ public class LobbyScreen : MonoBehaviour
             selectedIcon.enabled = false;
         }
 
-        RequestIconSelectionListRebuild();
+        // Defer icon build by one frame to allow layout to size on mobile
+        StartCoroutine(BuildIconsAfterLayout());
         UpdateJoinButtonState();
+    }
+
+    System.Collections.IEnumerator BuildIconsAfterLayout()
+    {
+        // Wait at least one frame so the JoinForm hierarchy activates and layouts run
+        yield return null;
+
+        Canvas.ForceUpdateCanvases();
+
+        RectTransform contentRect = scrollingPlayerIconContainer as RectTransform;
+        ScrollRect scrollRect = null;
+        RectTransform viewportRect = null;
+
+        if (contentRect != null)
+        {
+            scrollRect = contentRect.GetComponentInParent<ScrollRect>();
+            if (scrollRect != null)
+            {
+                viewportRect = scrollRect.viewport;
+            }
+        }
+
+        // Give layout a few frames to stabilize on mobile if sizes are zero
+        for (int i = 0; i < 5; i++)
+        {
+            if (viewportRect != null)
+            {
+                LayoutRebuilder.ForceRebuildLayoutImmediate(viewportRect);
+            }
+
+            if (contentRect != null)
+            {
+                LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
+            }
+
+            if (contentRect == null || (contentRect.rect.width > 0f && contentRect.rect.height > 0f))
+            {
+                break;
+            }
+
+            yield return null;
+            Canvas.ForceUpdateCanvases();
+        }
+
+        if (ENABLE_DEBUG_LOGS)
+        {
+            string contentSize = contentRect != null ? contentRect.rect.size.ToString() : "null";
+            string viewportSize = viewportRect != null ? viewportRect.rect.size.ToString() : "null";
+            Debug.Log($"[LobbyScreen] BuildIconsAfterLayout - contentRect={contentSize} viewport={viewportSize}");
+        }
+
+        RequestIconSelectionListRebuild();
+
+        if (viewportRect != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(viewportRect);
+        }
+        if (contentRect != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
+        }
     }
 
     void ShowJoinWait()
@@ -739,8 +801,24 @@ public class LobbyScreen : MonoBehaviour
 
         UpdateIconContentLayoutMetrics();
 
+        // Ensure final layout updates after building buttons
+        RectTransform contentRectPost = scrollingPlayerIconContainer as RectTransform;
+        if (contentRectPost != null)
+        {
+            ScrollRect srPost = contentRectPost.GetComponentInParent<ScrollRect>();
+            if (srPost != null && srPost.viewport != null)
+            {
+                LayoutRebuilder.ForceRebuildLayoutImmediate(srPost.viewport);
+            }
+            LayoutRebuilder.ForceRebuildLayoutImmediate(contentRectPost);
+        }
+
         if (ENABLE_DEBUG_LOGS)
-            Debug.Log($"[LobbyScreen] Icon selection build complete. Built {builtCount} buttons. Container child count: {scrollingPlayerIconContainer.childCount}");
+        {
+            RectTransform dbgRect = scrollingPlayerIconContainer as RectTransform;
+            string dbgSize = dbgRect != null ? dbgRect.rect.size.ToString() : "null";
+            Debug.Log($"[LobbyScreen] Icon selection build complete. Built {builtCount} buttons. Container child count: {scrollingPlayerIconContainer.childCount} size={dbgSize}");
+        }
 
         if (!anyIcons)
         {
@@ -978,6 +1056,12 @@ public class LobbyScreen : MonoBehaviour
                 preferredWidth = Mathf.Abs(childRect.sizeDelta.x);
             }
 
+            // Guard against zero-sized children on first layout pass
+            if (preferredWidth <= 0f)
+            {
+                preferredWidth = 64f; // sensible minimum to ensure visibility
+            }
+
             totalWidth += Mathf.Max(0f, preferredWidth);
             if (i < childCount - 1)
             {
@@ -991,6 +1075,13 @@ public class LobbyScreen : MonoBehaviour
         }
 
         contentRect.sizeDelta = new Vector2(totalWidth, contentRect.sizeDelta.y);
+
+        // Force rebuild of content and viewport, if present
+        ScrollRect sr = contentRect.GetComponentInParent<ScrollRect>();
+        if (sr != null && sr.viewport != null)
+        {
+            LayoutRebuilder.ForceRebuildLayoutImmediate(sr.viewport);
+        }
         LayoutRebuilder.ForceRebuildLayoutImmediate(contentRect);
     }
     
