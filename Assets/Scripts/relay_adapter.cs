@@ -10,7 +10,7 @@ public static class RelayAdapter
     {
         get
         {
-#if UNITY_RELAY
+#if UNITY_RELAY || UNITY_MULTIPLAYER
             return true;
 #else
             return false;
@@ -20,7 +20,7 @@ public static class RelayAdapter
 
     public static async Task<(bool ok, string joinCode, string error)> StartHostAsync(NetworkManager networkManager, UnityTransport transport, int maxConnections = 16)
     {
-#if UNITY_RELAY
+#if UNITY_RELAY || UNITY_MULTIPLAYER
         try
         {
             await EnsureUnityServicesAsync();
@@ -48,7 +48,7 @@ public static class RelayAdapter
 
     public static async Task<(bool ok, string error)> JoinAsync(NetworkManager networkManager, UnityTransport transport, string joinCode)
     {
-#if UNITY_RELAY
+#if UNITY_RELAY || UNITY_MULTIPLAYER
         try
         {
             await EnsureUnityServicesAsync();
@@ -72,7 +72,7 @@ public static class RelayAdapter
 #endif
     }
 
-#if UNITY_RELAY
+#if UNITY_RELAY || UNITY_MULTIPLAYER
     private static bool _servicesReady;
     private static async Task EnsureUnityServicesAsync()
     {
@@ -93,4 +93,3 @@ public static class RelayAdapter
     }
 #endif
 }
-

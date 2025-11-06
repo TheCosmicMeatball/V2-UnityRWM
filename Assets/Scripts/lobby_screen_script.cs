@@ -1281,11 +1281,7 @@ public class LobbyScreen : MonoBehaviour
             return;
         }
 
-#if UNITY_WEBGL && !UNITY_EDITOR
-        // WebGL cannot use UDP transport; this project does not use WebSockets
-        ShowErrorMessage("WebGL client cannot join (no WebSockets). Use native mobile or desktop.", false);
-        return;
-#endif
+        // WebGL is supported when using Multiplayer Services (Relay) path
 
         if (!string.IsNullOrEmpty(enteredRoomCode))
         {
