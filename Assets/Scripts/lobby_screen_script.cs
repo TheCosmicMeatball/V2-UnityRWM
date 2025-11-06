@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using Unity.Netcode;
 
 public class LobbyScreen : MonoBehaviour
 {
@@ -1505,15 +1506,15 @@ public class LobbyScreen : MonoBehaviour
             }
         }
 
+        // Update start button interactable based on player count (desktop/host)
+        UpdateStartButtonInteractable();
+
         bool requiresRefresh = false;
 
         if (nonHostPlayers.Count != displayedPlayerStates.Count)
         {
             requiresRefresh = true;
         }
-
-        // Update start button interactable based on player count (desktop/host)
-        UpdateStartButtonInteractable();
         else
         {
             foreach (PlayerData player in nonHostPlayers)
