@@ -1251,6 +1251,32 @@ public class LobbyScreen : MonoBehaviour
         // Unsubscribe
         RWMNetworkManager.Instance.OnRoomJoined -= OnPlayerJoinedRoom;
 
+        // Ensure NetworkBehaviour is spawned before attempting RPC registration
+        StartCoroutine(RegisterPlayerWhenNetworkReady());
+    }
+
+    System.Collections.IEnumerator RegisterPlayerWhenNetworkReady()
+    {
+        var net = RWMNetworkManager.Instance;
+        float start = Time.realtimeSinceStartup;
+        const float timeout = 5f;
+
+        while (net != null && !net.IsSpawned && (Time.realtimeSinceStartup - start) < timeout)
+        {
+            yield return null;
+        }
+
+        if (net == null)
+        {
+            ShowErrorMessage("Network system became unavailable while joining.", false);
+            yield break;
+        }
+
+        if (!net.IsSpawned)
+        {
+            Debug.LogWarning("[LobbyScreen] Network object not spawned after timeout; attempting registration anyway.");
+        }
+
         // Register the player - PlayerAuthSystem will handle sending RPC to server
         if (PlayerAuthSystem.Instance != null)
         {
@@ -1260,14 +1286,11 @@ public class LobbyScreen : MonoBehaviour
         {
             // Fallback: directly call network manager if auth system unavailable
             Debug.LogWarning("[LobbyScreen] PlayerAuthSystem unavailable, using fallback registration");
-            if (RWMNetworkManager.Instance != null)
-            {
-                RWMNetworkManager.Instance.AddPlayer(pendingPlayerName, selectedPlayerIconName);
-            }
+            net.AddPlayer(pendingPlayerName, selectedPlayerIconName);
         }
 
         UpdateWaitingScreenUI(pendingPlayerName);
-        Debug.Log("Player successfully joined and registered: " + pendingPlayerName);
+        Debug.Log("Player successfully joined and registration dispatched: " + pendingPlayerName);
     }
 
     void ConnectToHostIfNeeded()
