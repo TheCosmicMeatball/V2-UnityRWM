@@ -770,6 +770,17 @@ public class LobbyScreen : MonoBehaviour
             }
 
             ApplyIconSprite(binding, iconSprite);
+
+            // Ensure base visuals are enabled and visible
+            Image rootImage = instance.GetComponent<Image>();
+            if (rootImage != null)
+            {
+                rootImage.enabled = true;
+                if (rootImage.color.a <= 0f)
+                {
+                    var c = rootImage.color; c.a = 1f; rootImage.color = c;
+                }
+            }
             SetButtonSelected(binding, false);
 
             IconSelectionButton capturedBinding = binding;
@@ -811,13 +822,37 @@ public class LobbyScreen : MonoBehaviour
                 LayoutRebuilder.ForceRebuildLayoutImmediate(srPost.viewport);
             }
             LayoutRebuilder.ForceRebuildLayoutImmediate(contentRectPost);
+
+            // Reset scroll position to start so first icons are in view
+            contentRectPost.anchoredPosition = Vector2.zero;
+
+            // Add a faint background on the ScrollRect root to ensure contrast (debug aid)
+            if (srPost != null)
+            {
+                var srImage = srPost.GetComponent<Image>();
+                if (srImage != null && srImage.color.a == 0f)
+                {
+                    var bg = srImage.color; bg.a = 0.08f; srImage.color = bg;
+                }
+            }
         }
 
         if (ENABLE_DEBUG_LOGS)
         {
             RectTransform dbgRect = scrollingPlayerIconContainer as RectTransform;
             string dbgSize = dbgRect != null ? dbgRect.rect.size.ToString() : "null";
-            Debug.Log($"[LobbyScreen] Icon selection build complete. Built {builtCount} buttons. Container child count: {scrollingPlayerIconContainer.childCount} size={dbgSize}");
+
+            string firstInfo = "none";
+            if (dbgRect != null && dbgRect.childCount > 0)
+            {
+                var first = dbgRect.GetChild(0) as RectTransform;
+                if (first != null)
+                {
+                    firstInfo = $"anchored={first.anchoredPosition} size={first.rect.size} localPos={first.localPosition}";
+                }
+            }
+
+            Debug.Log($"[LobbyScreen] Icon selection build complete. Built {builtCount} buttons. Container child count: {scrollingPlayerIconContainer.childCount} size={dbgSize} first={firstInfo}");
         }
 
         if (!anyIcons)
