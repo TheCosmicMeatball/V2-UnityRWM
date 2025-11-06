@@ -745,6 +745,23 @@ public class LobbyScreen : MonoBehaviour
         bool anyIcons = false;
         int builtCount = 0;
 
+        // Determine a sane button size based on viewport height
+        float buttonSize = 180f;
+        RectTransform containerRect = scrollingPlayerIconContainer as RectTransform;
+        ScrollRect parentScroll = containerRect != null ? containerRect.GetComponentInParent<ScrollRect>() : null;
+        RectTransform vp = parentScroll != null ? parentScroll.viewport : null;
+        if (vp != null)
+        {
+            float vh = vp.rect.height;
+            if (vh > 0f)
+            {
+                buttonSize = Mathf.Clamp(vh - 20f, 80f, 280f);
+            }
+        }
+
+        if (ENABLE_DEBUG_LOGS)
+            Debug.Log($"[LobbyScreen] Building icons with buttonSize={buttonSize}");
+
         foreach (string iconName in iconNames)
         {
             GameObject instance = Instantiate(mobileIconSelectionButtonPrefab, scrollingPlayerIconContainer);
@@ -781,6 +798,19 @@ public class LobbyScreen : MonoBehaviour
                     var c = rootImage.color; c.a = 1f; rootImage.color = c;
                 }
             }
+
+            // Ensure layout provides a preferred size so HorizontalLayoutGroup sizes children correctly
+            var layoutEl = instance.GetComponent<LayoutElement>();
+            if (layoutEl == null)
+            {
+                layoutEl = instance.AddComponent<LayoutElement>();
+            }
+            layoutEl.preferredWidth = buttonSize;
+            layoutEl.preferredHeight = buttonSize;
+            layoutEl.minWidth = Mathf.Min(100f, buttonSize);
+            layoutEl.minHeight = Mathf.Min(100f, buttonSize);
+            layoutEl.flexibleWidth = 0f;
+            layoutEl.flexibleHeight = 0f;
             SetButtonSelected(binding, false);
 
             IconSelectionButton capturedBinding = binding;
