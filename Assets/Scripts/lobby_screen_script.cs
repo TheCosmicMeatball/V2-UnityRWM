@@ -96,7 +96,9 @@ public class LobbyScreen : MonoBehaviour
         if (startTestButton != null)
         {
             startTestButton.onClick.AddListener(OnStartGameClicked);
-            startTestButton.gameObject.SetActive(false);
+            // Always visible on desktop; interactable depends on player count
+            startTestButton.gameObject.SetActive(true);
+            startTestButton.interactable = false;
         }
 
         if (createRoomButton != null)
@@ -137,6 +139,9 @@ public class LobbyScreen : MonoBehaviour
 
         // Show appropriate display
         ShowAppropriateDisplay();
+
+        // If desktop, ensure host is running so room code and joins work
+        EnsureHostStartedIfDesktop();
 
         // Initialize networking flow based on device type
         // Host must explicitly choose to create a room; nothing happens automatically here.
@@ -307,6 +312,69 @@ public class LobbyScreen : MonoBehaviour
         {
             createRoomButton.interactable = false;
         }
+    }
+
+    void EnsureHostStartedIfDesktop()
+    {
+        if (isMobile)
+        {
+            return;
+        }
+
+        // Desktop/host: automatically start the server when entering the lobby
+        CoreSystemsBootstrapper.EnsureInitialized();
+
+        var net = RWMNetworkManager.Instance;
+        if (net == null)
+        {
+            Debug.LogWarning("[LobbyScreen] RWMNetworkManager not yet available. Will retry to start host.");
+            StartCoroutine(WaitAndStartHost());
+            return;
+        }
+
+        // Subscribe to room-created so we can display the code
+        net.OnRoomCreated -= OnHostRoomCreated;
+        net.OnRoomCreated += OnHostRoomCreated;
+
+        // If already listening, we consider host started
+        if (NetworkManager.Singleton != null && NetworkManager.Singleton.IsListening)
+        {
+            if (!hostRoomCreated && !string.IsNullOrEmpty(net.CurrentRoomCode))
+            {
+                OnHostRoomCreated(net.CurrentRoomCode);
+            }
+            return;
+        }
+
+        try
+        {
+            net.StartHost();
+        }
+        catch (Exception ex)
+        {
+            Debug.LogError($"[LobbyScreen] Failed to auto-start host: {ex.Message}");
+        }
+    }
+
+    System.Collections.IEnumerator WaitAndStartHost()
+    {
+        float start = Time.realtimeSinceStartup;
+        const float timeout = 5f;
+        while (RWMNetworkManager.Instance == null && (Time.realtimeSinceStartup - start) < timeout)
+        {
+            yield return null;
+        }
+
+        var net = RWMNetworkManager.Instance;
+        if (net == null)
+        {
+            Debug.LogError("[LobbyScreen] NetworkManager did not become available in time to start host.");
+            yield break;
+        }
+
+        net.OnRoomCreated -= OnHostRoomCreated;
+        net.OnRoomCreated += OnHostRoomCreated;
+        net.StartHost();
     }
 
 
@@ -1427,6 +1495,9 @@ public class LobbyScreen : MonoBehaviour
         {
             requiresRefresh = true;
         }
+
+        // Update start button interactable based on player count (desktop/host)
+        UpdateStartButtonInteractable();
         else
         {
             foreach (PlayerData player in nonHostPlayers)
@@ -1655,5 +1726,30 @@ public class LobbyScreen : MonoBehaviour
             StopCoroutine(iconSelectionBuildCoroutine);
             iconSelectionBuildCoroutine = null;
         }
+    }
+
+    void UpdateStartButtonInteractable()
+    {
+        if (startTestButton == null)
+        {
+            return;
+        }
+
+        if (isMobile)
+        {
+            startTestButton.gameObject.SetActive(false);
+            return;
+        }
+
+        startTestButton.gameObject.SetActive(true);
+
+        int count = 0;
+        if (GameManager.Instance != null)
+        {
+            var players = GameManager.Instance.GetAllPlayers();
+            count = players != null ? players.Count : 0;
+        }
+
+        startTestButton.interactable = count >= 2;
     }
 }
