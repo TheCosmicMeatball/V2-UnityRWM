@@ -41,7 +41,8 @@ public static class RelayAdapter
             return (false, null, ex.Message);
         }
 #else
-        Debug.LogWarning("[RelayAdapter] UNITY_RELAY not defined. Relay is not available in this build.");
+        Debug.LogWarning("[RelayAdapter] UNITY_MULTIPLAYER/UNITY_RELAY not defined. Relay is not available in this build.");
+        await System.Threading.Tasks.Task.Yield();
         return (false, null, "Relay not available");
 #endif
     }
@@ -67,7 +68,8 @@ public static class RelayAdapter
             return (false, ex.Message);
         }
 #else
-        Debug.LogWarning("[RelayAdapter] UNITY_RELAY not defined. Relay is not available in this build.");
+        Debug.LogWarning("[RelayAdapter] UNITY_MULTIPLAYER/UNITY_RELAY not defined. Relay is not available in this build.");
+        await System.Threading.Tasks.Task.Yield();
         return (false, "Relay not available");
 #endif
     }
