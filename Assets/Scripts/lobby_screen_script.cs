@@ -29,6 +29,8 @@ public class LobbyScreen : MonoBehaviour
     public GameObject joinForm;
     public TMP_InputField nameInput;
     public TMP_InputField roomCodeInput;
+    [Tooltip("Optional: Host IP address input (leave null to use room code field if it contains an IP)")]
+    public TMP_InputField hostIpInput;
     public Button joinButton; // Button on JoinForm to submit name/icon
     public Transform scrollingPlayerIconContainer;
     public GameObject mobileIconSelectionButtonPrefab;
@@ -348,6 +350,7 @@ public class LobbyScreen : MonoBehaviour
 
         try
         {
+            // Prefer Relay host if available; StartHost() will already try Relay first per RWMNetworkManager
             net.StartHost();
         }
         catch (Exception ex)
@@ -1278,6 +1281,12 @@ public class LobbyScreen : MonoBehaviour
             return;
         }
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+        // WebGL cannot use UDP transport; this project does not use WebSockets
+        ShowErrorMessage("WebGL client cannot join (no WebSockets). Use native mobile or desktop.", false);
+        return;
+#endif
+
         if (!string.IsNullOrEmpty(enteredRoomCode))
         {
             roomCode = enteredRoomCode;
@@ -1300,6 +1309,18 @@ public class LobbyScreen : MonoBehaviour
         pendingPlayerName = playerName;
         pendingPlayerID = playerID;
 
+        // Determine host IP. Prefer explicit field; else treat room code as IP if it looks like one; else default to localhost
+        string hostIP = "127.0.0.1";
+        if (hostIpInput != null && !string.IsNullOrWhiteSpace(hostIpInput.text))
+        {
+            hostIP = hostIpInput.text.Trim();
+        }
+        else if (!string.IsNullOrWhiteSpace(enteredRoomCode) && enteredRoomCode.Contains("."))
+        {
+            hostIP = enteredRoomCode.Trim();
+        }
+        pendingHostIP = hostIP;
+
         // Subscribe to connection events
         RWMNetworkManager.Instance.OnRoomJoined += OnPlayerJoinedRoom;
 
@@ -1313,6 +1334,7 @@ public class LobbyScreen : MonoBehaviour
 
     private string pendingPlayerName;
     private string pendingPlayerID;
+    private string pendingHostIP;
 
     void OnPlayerJoinedRoom(string joinedRoomCode)
     {
@@ -1388,10 +1410,8 @@ public class LobbyScreen : MonoBehaviour
             return;
         }
 
-        // NOTE: For local testing, connect to localhost
-        // For networked play, you'll need to provide the host's IP address
-        // TODO: Add UI for entering host IP address for mobile clients
-        string hostIP = "127.0.0.1"; // Localhost for testing
+        // Use host IP captured during CompleteJoinFlow (defaults to localhost if blank)
+        string hostIP = string.IsNullOrWhiteSpace(pendingHostIP) ? "127.0.0.1" : pendingHostIP;
 
         bool started = RWMNetworkManager.Instance.JoinGame(roomCode, hostIP);
 

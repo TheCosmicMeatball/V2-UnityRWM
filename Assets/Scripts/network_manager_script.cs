@@ -332,33 +332,44 @@ public class RWMNetworkManager : NetworkBehaviour
         }
 
         isHost = true;
+        
+        // Attempt Relay start first if available; fallback to local UDP host
+        TryStartHostRelayOrLocal();
+    }
 
-        // Generate room code
+    private async void TryStartHostRelayOrLocal()
+    {
+        if (RelayAdapter.IsAvailable)
+        {
+            var result = await RelayAdapter.StartHostAsync(networkManager, unityTransport, maxConnections: 16);
+            if (result.ok)
+            {
+                roomCode = result.joinCode; // Use Relay join code as the room code
+                Debug.Log($"[NetworkManager] Host started via Relay. JoinCode: {roomCode}");
+                return;
+            }
+            Debug.LogWarning($"[NetworkManager] Relay host failed: {result.error}. Falling back to local UDP host.");
+        }
+
+        // Fallback: Local UDP hosting
         GenerateRoomCode();
 
-        // Start as Host (Server + Client)
-        // Bind to the specified listen address so remote connections are accepted.
         string advertisedAddress = hostAddress;
-
         if (string.IsNullOrWhiteSpace(advertisedAddress))
         {
             advertisedAddress = unityTransport.ConnectionData.Address;
-
             if (string.IsNullOrWhiteSpace(advertisedAddress))
             {
                 advertisedAddress = "127.0.0.1";
             }
         }
-
         string bindAddress = string.IsNullOrWhiteSpace(listenAddress) ? "0.0.0.0" : listenAddress;
-
         unityTransport.SetConnectionData(advertisedAddress, port, bindAddress);
 
         bool success = networkManager.StartHost();
-
         if (success)
         {
-            Debug.Log($"[NetworkManager] Host started with room code: {roomCode}");
+            Debug.Log($"[NetworkManager] Host started (local UDP). Room code: {roomCode}");
         }
         else
         {
@@ -391,14 +402,18 @@ public class RWMNetworkManager : NetworkBehaviour
     public bool JoinGame(string code, string hostIP = "127.0.0.1")
     {
         isHost = false;
-        roomCode = code.ToUpper();
+        roomCode = code.Trim().ToUpper();
 
-        // Set connection data to host's IP
+        // If Relay join codes look like 6+ uppercase alphanumerics without dots, prefer Relay
+        if (RelayAdapter.IsAvailable && IsLikelyRelayCode(roomCode))
+        {
+            TryJoinRelay(roomCode);
+            return true; // async path, will log success/failure
+        }
+
+        // Local UDP client
         unityTransport.SetConnectionData(hostIP, port);
-
-        // Start as Client
         bool success = networkManager.StartClient();
-
         if (success)
         {
             Debug.Log($"[NetworkManager] Attempting to join room: {roomCode} at {hostIP}:{port}");
@@ -408,8 +423,34 @@ public class RWMNetworkManager : NetworkBehaviour
             Debug.LogError("[NetworkManager] Failed to start client");
             OnConnectionError?.Invoke();
         }
-
         return success;
+    }
+
+    private async void TryJoinRelay(string joinCode)
+    {
+        var result = await RelayAdapter.JoinAsync(networkManager, unityTransport, joinCode);
+        if (result.ok)
+        {
+            Debug.Log($"[NetworkManager] Joining Relay with JoinCode: {joinCode}");
+        }
+        else
+        {
+            Debug.LogError($"[NetworkManager] Relay join failed: {result.error}");
+            OnConnectionError?.Invoke();
+        }
+    }
+
+    private bool IsLikelyRelayCode(string code)
+    {
+        if (string.IsNullOrEmpty(code)) return false;
+        if (code.Contains(".")) return false; // looks like an IP
+        if (code.Length < 6 || code.Length > 10) return false;
+        for (int i = 0; i < code.Length; i++)
+        {
+            char c = code[i];
+            if (!(c >= 'A' && c <= 'Z') && !(c >= '0' && c <= '9')) return false;
+        }
+        return true;
     }
 
     // === PLAYER MANAGEMENT ===

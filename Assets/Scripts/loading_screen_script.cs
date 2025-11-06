@@ -135,7 +135,13 @@ public class LoadingScreen : MonoBehaviour
         if (ENABLE_DEBUG_LOGS)
             Debug.Log("[LoadingScreen] AdvanceToLanding invoked");
 
-        SceneFlow.LoadLocal("LandingScreen");
+        bool isMobile = DeviceDetector.Instance != null && DeviceDetector.Instance.IsMobile();
+        string targetScene = isMobile ? "LobbyScreen" : "LandingScreen";
+
+        if (ENABLE_DEBUG_LOGS)
+            Debug.Log($"[LoadingScreen] Routing to pre-network scene '{targetScene}' (isMobile={isMobile})");
+
+        SceneFlow.LoadLocal(targetScene);
     }
 
     void AssertNoNetworkObjects()

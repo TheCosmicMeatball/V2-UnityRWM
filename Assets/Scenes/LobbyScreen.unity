@@ -3955,7 +3955,7 @@ MonoBehaviour:
   roomCodeInput: {fileID: 569740417}
   joinButton: {fileID: 49709814}
   scrollingPlayerIconContainer: {fileID: 1195317833}
-  mobileIconSelectionButtonPrefab: {fileID: 7059188847600000006, guid: 3b92a8b1f3fd9b443a1f84dd0a8c26d4, type: 3}
+  mobileIconSelectionButtonPrefab: {fileID: 7059188847600000000, guid: 3b92a8b1f3fd9b443a1f84dd0a8c26d4, type: 3}
   selectedIcon: {fileID: 619171338}
   playerIconSelectionContainer: {fileID: 479902013}
   namebar: {fileID: 0}
