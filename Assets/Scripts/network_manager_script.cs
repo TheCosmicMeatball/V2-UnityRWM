@@ -433,12 +433,12 @@ public class RWMNetworkManager : NetworkBehaviour
         isHost = false;
         roomCode = code.Trim().ToUpper();
 
-        // If Relay join codes look like 6+ uppercase alphanumerics without dots, prefer Relay
-        if (RelayAdapter.IsAvailable && IsLikelyRelayCode(roomCode))
+        // Prefer Multiplayer Services join when available; fallback to local UDP if unavailable or join fails
+        if (RelayAdapter.IsAvailable)
         {
-            Debug.Log($"[NetworkManager] Joining via Multiplayer Services with JoinCode: {roomCode}");
+            Debug.Log($"[NetworkManager] Services available. Attempting join via Multiplayer Services with JoinCode: {roomCode}");
             TryJoinRelay(roomCode);
-            return true; // async path, will log success/failure
+            return true; // async path, will log success/failure and trigger OnConnectionError if needed
         }
 
         // Local UDP client
@@ -471,18 +471,7 @@ public class RWMNetworkManager : NetworkBehaviour
         }
     }
 
-    private bool IsLikelyRelayCode(string code)
-    {
-        if (string.IsNullOrEmpty(code)) return false;
-        if (code.Contains(".")) return false; // looks like an IP
-        if (code.Length < 6 || code.Length > 10) return false;
-        for (int i = 0; i < code.Length; i++)
-        {
-            char c = code[i];
-            if (!(c >= 'A' && c <= 'Z') && !(c >= '0' && c <= '9')) return false;
-        }
-        return true;
-    }
+    // Heuristic not needed anymore; we always try services first when available
 
     // === PLAYER MANAGEMENT ===
 
