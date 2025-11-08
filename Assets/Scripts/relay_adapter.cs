@@ -39,6 +39,7 @@ public static class RelayAdapter
                 alloc.AllocationIdBytes,
                 alloc.Key,
                 alloc.ConnectionData,
+                null,
                 true);
 
             bool started = networkManager.StartHost();
