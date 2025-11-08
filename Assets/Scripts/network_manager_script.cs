@@ -521,6 +521,27 @@ public class RWMNetworkManager : NetworkBehaviour
             else
             {
                 Debug.LogError($"[NetworkManager] Relay join failed after lobby resolve: {result.error}");
+
+                // If the join code went stale (host reallocated), re-resolve the lobby and retry once
+                if (!string.IsNullOrEmpty(result.error) && result.error.IndexOf("join code not found", System.StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    Debug.LogWarning("[NetworkManager] Detected stale Relay JoinCode. Re-resolving lobby and retrying once...");
+                    var retryLobby = await LobbyAdapter.ResolveRelayJoinCodeByLobbyCodeAsync(lobbyCode);
+                    if (retryLobby.ok && !string.IsNullOrEmpty(retryLobby.relayJoinCode) && retryLobby.relayJoinCode != lobbyRes.relayJoinCode)
+                    {
+                        var retryJoin = await RelayAdapter.JoinAsync(networkManager, unityTransport, retryLobby.relayJoinCode);
+                        if (retryJoin.ok)
+                        {
+                            Debug.Log($"[NetworkManager] Retry succeeded. Joining Relay with updated JoinCode: {retryLobby.relayJoinCode}");
+                            return;
+                        }
+                        Debug.LogError($"[NetworkManager] Retry Relay join failed: {retryJoin.error}");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("[NetworkManager] Lobby re-resolve did not yield a different or valid Relay JoinCode.");
+                    }
+                }
             }
         }
         else
