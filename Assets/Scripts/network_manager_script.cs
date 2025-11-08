@@ -389,14 +389,23 @@ public class RWMNetworkManager : NetworkBehaviour
             var result = await RelayAdapter.StartHostAsync(networkManager, unityTransport, maxConnections: 16);
             if (result.ok)
             {
-                roomCode = result.joinCode; // Use Relay join code as the room code
-                Debug.Log($"[NetworkManager] Host started via Relay. JoinCode: {roomCode}");
-                // Notify listeners now that we have a valid join code
-                try
+                // Create or update Lobby and surface its LobbyCode as the user-facing code
+                var lobbyRes = await LobbyAdapter.CreateOrUpdateLobbyAsync(activeLobbyId, "RWM5", 16, result.joinCode);
+                if (lobbyRes.ok)
                 {
-                    OnRoomCreated?.Invoke(roomCode);
+                    activeLobbyId = lobbyRes.lobbyId;
+                    activeLobbyCode = lobbyRes.lobbyCode;
+                    roomCode = activeLobbyCode; // Display LobbyCode to users
+                    Debug.Log($"[NetworkManager] Host started via Relay. JoinCode: {result.joinCode} | LobbyCode: {activeLobbyCode}");
+                    try { OnRoomCreated?.Invoke(roomCode); } catch { }
                 }
-                catch { }
+                else
+                {
+                    // Fallback: display Relay JoinCode if Lobby creation failed
+                    roomCode = result.joinCode;
+                    Debug.LogWarning($"[NetworkManager] Lobby creation failed: {lobbyRes.error}. Showing Relay JoinCode as room code.");
+                    try { OnRoomCreated?.Invoke(roomCode); } catch { }
+                }
                 return;
             }
             Debug.LogWarning($"[NetworkManager] Relay host failed: {result.error}. Falling back to local UDP host.");
@@ -455,27 +464,38 @@ public class RWMNetworkManager : NetworkBehaviour
         isHost = false;
         roomCode = code.Trim().ToUpper();
 
-        // Always attempt Multiplayer Services first (WebGL requires it); fallback to local UDP only if join fails
-        Debug.Log($"[NetworkManager] Attempting services join with JoinCode: {roomCode}");
-        TryJoinRelay(roomCode, hostIP);
+        // Resolve LobbyCode -> Relay JoinCode, then join Relay; fallback to UDP if lobby resolution fails
+        Debug.Log($"[NetworkManager] Attempting lobby join with LobbyCode: {roomCode}");
+        TryJoinLobbyThenRelay(roomCode, hostIP);
         return true; // async path handles success/failure and fallback if needed
     }
 
-    private async void TryJoinRelay(string joinCode, string fallbackHostIP)
+    private async void TryJoinLobbyThenRelay(string lobbyCode, string fallbackHostIP)
     {
-        var result = await RelayAdapter.JoinAsync(networkManager, unityTransport, joinCode);
-        if (result.ok)
+        var lobbyRes = await LobbyAdapter.ResolveRelayJoinCodeByLobbyCodeAsync(lobbyCode);
+        if (lobbyRes.ok && !string.IsNullOrEmpty(lobbyRes.relayJoinCode))
         {
-            Debug.Log($"[NetworkManager] Joining Relay with JoinCode: {joinCode}");
-            return;
+            var result = await RelayAdapter.JoinAsync(networkManager, unityTransport, lobbyRes.relayJoinCode);
+            if (result.ok)
+            {
+                Debug.Log($"[NetworkManager] Joining Relay with JoinCode: {lobbyRes.relayJoinCode} (from LobbyCode {lobbyCode})");
+                return;
+            }
+            else
+            {
+                Debug.LogError($"[NetworkManager] Relay join failed after lobby resolve: {result.error}");
+            }
         }
-
-        Debug.LogWarning($"[NetworkManager] Relay join failed: {result.error}. Falling back to local UDP {fallbackHostIP}:{port}");
+        else
+        {
+            Debug.LogError($"[NetworkManager] Lobby resolve failed: {lobbyRes.error}");
+        }
+        Debug.LogWarning($"[NetworkManager] Falling back to local UDP {fallbackHostIP}:{port}");
         unityTransport.SetConnectionData(fallbackHostIP, port);
         bool success = networkManager.StartClient();
         if (success)
         {
-            Debug.Log($"[NetworkManager] Attempting to join room: {roomCode} at {fallbackHostIP}:{port}");
+            Debug.Log($"[NetworkManager] Attempting to join UDP host at {fallbackHostIP}:{port}");
         }
         else
         {
@@ -483,6 +503,10 @@ public class RWMNetworkManager : NetworkBehaviour
             OnConnectionError?.Invoke();
         }
     }
+
+    // Active lobby tracking (host only)
+    private string activeLobbyId;
+    public string activeLobbyCode;
 
     // Heuristic not needed anymore; we always try services first when available
 
