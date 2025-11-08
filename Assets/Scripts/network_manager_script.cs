@@ -97,6 +97,28 @@ public class RWMNetworkManager : NetworkBehaviour
         isHost = false;
         isConnected = false;
 
+        // WebGL always uses WebSockets under the hood; enable flag to silence warnings
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            try
+            {
+                if (unityTransport == null)
+                {
+                    // Will be assigned in EnsureNetworkingComponents, but we can try early
+                    var nm = NetworkManager.Singleton ?? GetComponent<NetworkManager>() ?? FindFirstObjectByType<NetworkManager>();
+                    if (nm != null)
+                    {
+                        unityTransport = nm.GetComponent<Unity.Netcode.Transports.UTP.UnityTransport>();
+                    }
+                }
+                if (unityTransport != null)
+                {
+                    unityTransport.UseWebSockets = true;
+                }
+            }
+            catch { }
+        }
+
         if (!EnsureNetworkingComponents())
         {
             Debug.LogError("[NetworkManager] Unable to initialize networking components during Awake().");

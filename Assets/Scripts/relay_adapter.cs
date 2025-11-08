@@ -5,6 +5,8 @@ using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
+using Unity.Services.Core;
+using Unity.Services.Core.Environments;
 
 public static class RelayAdapter
 {
@@ -81,8 +83,12 @@ public static class RelayAdapter
         Debug.Log("[RelayAdapter] Initializing Unity Services...");
         if (Unity.Services.Core.UnityServices.State == Unity.Services.Core.ServicesInitializationState.Uninitialized)
         {
-            await Unity.Services.Core.UnityServices.InitializeAsync();
-            Debug.Log("[RelayAdapter] Unity Services initialized");
+            var options = new InitializationOptions();
+            // Ensure both host and client initialize the same environment
+            // Valid values typically: "production", "test", "dev" if configured
+            options.SetEnvironmentName("production");
+            await Unity.Services.Core.UnityServices.InitializeAsync(options);
+            Debug.Log($"[RelayAdapter] Unity Services initialized. Env=production ProjectId={Application.cloudProjectId}");
         }
 
         if (!Unity.Services.Authentication.AuthenticationService.Instance.IsSignedIn)
