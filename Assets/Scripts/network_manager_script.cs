@@ -93,6 +93,10 @@ public class RWMNetworkManager : NetworkBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
+        // Ensure runtime flags start clean regardless of serialized scene values
+        isHost = false;
+        isConnected = false;
+
         if (!EnsureNetworkingComponents())
         {
             Debug.LogError("[NetworkManager] Unable to initialize networking components during Awake().");
