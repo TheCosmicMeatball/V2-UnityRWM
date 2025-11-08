@@ -291,6 +291,12 @@ public class LobbyScreen : MonoBehaviour
     void OnHostRoomCreated(string createdRoomCode)
     {
         roomCode = createdRoomCode;
+        if (string.IsNullOrEmpty(roomCode))
+        {
+            // Ignore empty early event (services join code may be assigned shortly after)
+            return;
+        }
+
         if (roomCodeDisplay != null)
         {
             roomCodeDisplay.text = roomCode;
@@ -579,6 +585,19 @@ public class LobbyScreen : MonoBehaviour
         {
             selectedIcon.sprite = null;
             selectedIcon.enabled = false;
+        }
+
+        // Ensure room code input supports services join codes
+        if (roomCodeInput != null)
+        {
+            if (roomCodeInput.characterLimit > 0 && roomCodeInput.characterLimit < 6)
+            {
+                roomCodeInput.characterLimit = 6;
+            }
+            if (!string.IsNullOrEmpty(roomCodeInput.text))
+            {
+                roomCodeInput.text = roomCodeInput.text.Trim().ToUpper();
+            }
         }
 
         // Defer icon build by one frame to allow layout to size on mobile

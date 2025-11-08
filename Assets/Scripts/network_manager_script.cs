@@ -357,6 +357,12 @@ public class RWMNetworkManager : NetworkBehaviour
             {
                 roomCode = result.joinCode; // Use Relay join code as the room code
                 Debug.Log($"[NetworkManager] Host started via Relay. JoinCode: {roomCode}");
+                // Notify listeners now that we have a valid join code
+                try
+                {
+                    OnRoomCreated?.Invoke(roomCode);
+                }
+                catch { }
                 return;
             }
             Debug.LogWarning($"[NetworkManager] Relay host failed: {result.error}. Falling back to local UDP host.");
