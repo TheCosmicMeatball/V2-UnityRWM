@@ -433,40 +433,31 @@ public class RWMNetworkManager : NetworkBehaviour
         isHost = false;
         roomCode = code.Trim().ToUpper();
 
-        // Prefer Multiplayer Services join when available; fallback to local UDP if unavailable or join fails
-        if (RelayAdapter.IsAvailable)
-        {
-            Debug.Log($"[NetworkManager] Services available. Attempting join via Multiplayer Services with JoinCode: {roomCode}");
-            TryJoinRelay(roomCode);
-            return true; // async path, will log success/failure and trigger OnConnectionError if needed
-        }
-
-        // Local UDP client
-        Debug.Log($"[NetworkManager] Joining via local UDP at {hostIP}:{port} for code {roomCode}");
-        unityTransport.SetConnectionData(hostIP, port);
-        bool success = networkManager.StartClient();
-        if (success)
-        {
-            Debug.Log($"[NetworkManager] Attempting to join room: {roomCode} at {hostIP}:{port}");
-        }
-        else
-        {
-            Debug.LogError("[NetworkManager] Failed to start client");
-            OnConnectionError?.Invoke();
-        }
-        return success;
+        // Always attempt Multiplayer Services first (WebGL requires it); fallback to local UDP only if join fails
+        Debug.Log($"[NetworkManager] Attempting services join with JoinCode: {roomCode}");
+        TryJoinRelay(roomCode, hostIP);
+        return true; // async path handles success/failure and fallback if needed
     }
 
-    private async void TryJoinRelay(string joinCode)
+    private async void TryJoinRelay(string joinCode, string fallbackHostIP)
     {
         var result = await RelayAdapter.JoinAsync(networkManager, unityTransport, joinCode);
         if (result.ok)
         {
             Debug.Log($"[NetworkManager] Joining Relay with JoinCode: {joinCode}");
+            return;
+        }
+
+        Debug.LogWarning($"[NetworkManager] Relay join failed: {result.error}. Falling back to local UDP {fallbackHostIP}:{port}");
+        unityTransport.SetConnectionData(fallbackHostIP, port);
+        bool success = networkManager.StartClient();
+        if (success)
+        {
+            Debug.Log($"[NetworkManager] Attempting to join room: {roomCode} at {fallbackHostIP}:{port}");
         }
         else
         {
-            Debug.LogError($"[NetworkManager] Relay join failed: {result.error}");
+            Debug.LogError("[NetworkManager] Failed to start client after Relay fallback");
             OnConnectionError?.Invoke();
         }
     }
