@@ -424,11 +424,13 @@ public class RWMNetworkManager : NetworkBehaviour
         // If Relay join codes look like 6+ uppercase alphanumerics without dots, prefer Relay
         if (RelayAdapter.IsAvailable && IsLikelyRelayCode(roomCode))
         {
+            Debug.Log($"[NetworkManager] Joining via Multiplayer Services with JoinCode: {roomCode}");
             TryJoinRelay(roomCode);
             return true; // async path, will log success/failure
         }
 
         // Local UDP client
+        Debug.Log($"[NetworkManager] Joining via local UDP at {hostIP}:{port} for code {roomCode}");
         unityTransport.SetConnectionData(hostIP, port);
         bool success = networkManager.StartClient();
         if (success)
