@@ -59,9 +59,9 @@ public static class LobbyAdapter
             {
                 var updateOptions = new UpdateLobbyOptions
                 {
-                    Data = new Dictionary<string, DataObjectUpdate>
+                    Data = new Dictionary<string, DataObject>
                     {
-                        { "relayJoinCode", new DataObjectUpdate(DataObject.VisibilityOptions.Public, relayJoinCode ?? string.Empty) }
+                        { "relayJoinCode", new DataObject(DataObject.VisibilityOptions.Public, relayJoinCode ?? string.Empty) }
                     }
                 };
 
@@ -109,4 +109,3 @@ public static class LobbyAdapter
         }
     }
 }
-
