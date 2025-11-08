@@ -598,6 +598,10 @@ public class LobbyScreen : MonoBehaviour
             {
                 roomCodeInput.text = roomCodeInput.text.Trim().ToUpper();
             }
+            if (ENABLE_DEBUG_LOGS)
+            {
+                Debug.Log($"[LobbyScreen] RoomCodeInput limit={roomCodeInput.characterLimit} text='{roomCodeInput.text}' platform={Application.platform} url={Application.absoluteURL}");
+            }
         }
 
         // Defer icon build by one frame to allow layout to size on mobile

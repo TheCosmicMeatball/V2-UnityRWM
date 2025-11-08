@@ -224,6 +224,14 @@ public class RWMNetworkManager : NetworkBehaviour
         networkManager.OnClientConnectedCallback += OnClientConnected;
         networkManager.OnClientDisconnectCallback += OnClientDisconnected;
         networkManager.OnServerStarted += OnServerStarted;
+#if NETCODE_2_6_OR_HIGHER || true
+        // Log transport failures on client side for debugging
+        networkManager.OnTransportFailure += () =>
+        {
+            Debug.LogError("[NetworkManager] OnTransportFailure (client-side)");
+            OnConnectionError?.Invoke();
+        };
+#endif
     }
 
     // === CONNECTION CALLBACKS ===
