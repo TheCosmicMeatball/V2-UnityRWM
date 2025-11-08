@@ -3,6 +3,10 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
+#if UNITY_RELAY || UNITY_MULTIPLAYER
+using Unity.Services.Relay;
+using Unity.Services.Relay.Models;
+#endif
 
 public static class RelayAdapter
 {
@@ -25,12 +29,17 @@ public static class RelayAdapter
         {
             await EnsureUnityServicesAsync();
 
-            var alloc = await Unity.Services.Relay.RelayService.Instance.CreateAllocationAsync(maxConnections);
-            var code = await Unity.Services.Relay.RelayService.Instance.GetJoinCodeAsync(alloc.AllocationId);
+            var alloc = await RelayService.Instance.CreateAllocationAsync(maxConnections);
+            var code = await RelayService.Instance.GetJoinCodeAsync(alloc.AllocationId);
 
-            var protocol = Application.platform == RuntimePlatform.WebGLPlayer ? "wss" : "dtls";
-            var relayData = new Unity.Networking.Transport.Relay.RelayServerData(alloc, protocol);
-            transport.SetRelayServerData(relayData);
+            // Configure UnityTransport for Relay (secure: DTLS/WSS)
+            transport.SetRelayServerData(
+                alloc.RelayServer.IpV4,
+                (ushort)alloc.RelayServer.Port,
+                alloc.AllocationIdBytes,
+                alloc.Key,
+                alloc.ConnectionData,
+                true);
 
             bool started = networkManager.StartHost();
             return (started, code, started ? null : "NetworkManager.StartHost failed");
@@ -54,10 +63,17 @@ public static class RelayAdapter
         {
             await EnsureUnityServicesAsync();
 
-            var joinAlloc = await Unity.Services.Relay.RelayService.Instance.JoinAllocationAsync(joinCode);
-            var protocol = Application.platform == RuntimePlatform.WebGLPlayer ? "wss" : "dtls";
-            var relayData = new Unity.Networking.Transport.Relay.RelayServerData(joinAlloc, protocol);
-            transport.SetRelayServerData(relayData);
+            var joinAlloc = await RelayService.Instance.JoinAllocationAsync(joinCode);
+
+            // Configure UnityTransport for Relay client (includes host connection data)
+            transport.SetRelayServerData(
+                joinAlloc.RelayServer.IpV4,
+                (ushort)joinAlloc.RelayServer.Port,
+                joinAlloc.AllocationIdBytes,
+                joinAlloc.Key,
+                joinAlloc.ConnectionData,
+                joinAlloc.HostConnectionData,
+                true);
 
             bool started = networkManager.StartClient();
             return (started, started ? null : "NetworkManager.StartClient failed");
