@@ -1249,6 +1249,13 @@ public class LobbyScreen : MonoBehaviour
     {
         MobileHaptics.MediumImpact();
 
+        if (ENABLE_DEBUG_LOGS)
+        {
+            string rc = roomCodeInput != null ? roomCodeInput.text : "<null>";
+            string nm = nameInput != null ? nameInput.text : "<null>";
+            Debug.Log($"[LobbyScreen] Join clicked. name='{nm}' roomCode='{rc}' selectedIcon='{selectedPlayerIconName}'");
+        }
+
         if (nameInput == null || string.IsNullOrEmpty(nameInput.text))
         {
             Debug.LogWarning("Please enter a name!");
@@ -1405,15 +1412,22 @@ public class LobbyScreen : MonoBehaviour
 
     void ConnectToHostIfNeeded()
     {
+        if (ENABLE_DEBUG_LOGS)
+        {
+            Debug.Log($"[LobbyScreen] ConnectToHostIfNeeded: roomCode='{roomCode}' isHost={(RWMNetworkManager.Instance!=null && RWMNetworkManager.Instance.isHost)} isConnected={(RWMNetworkManager.Instance!=null && RWMNetworkManager.Instance.isConnected)}");
+        }
+
         RegisterNetworkCallbacks();
 
         if (RWMNetworkManager.Instance == null)
         {
+            Debug.LogWarning("[LobbyScreen] RWMNetworkManager.Instance is null in ConnectToHostIfNeeded");
             return;
         }
 
         if (string.IsNullOrEmpty(roomCode))
         {
+            Debug.LogWarning("[LobbyScreen] roomCode empty in ConnectToHostIfNeeded");
             return;
         }
 
@@ -1430,8 +1444,13 @@ public class LobbyScreen : MonoBehaviour
             return;
         }
 
-        // Use host IP captured during CompleteJoinFlow (defaults to localhost if blank)
-        string hostIP = string.IsNullOrWhiteSpace(pendingHostIP) ? "127.0.0.1" : pendingHostIP;
+        // For services join, hostIP is ignored. For UDP fallback, use localhost.
+        string hostIP = "127.0.0.1";
+
+        if (ENABLE_DEBUG_LOGS)
+        {
+            Debug.Log($"[LobbyScreen] Calling JoinGame with roomCode='{roomCode}' hostIP='{hostIP}'");
+        }
 
         bool started = RWMNetworkManager.Instance.JoinGame(roomCode, hostIP);
 
