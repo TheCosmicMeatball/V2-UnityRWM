@@ -339,6 +339,17 @@ public class RWMNetworkManager : NetworkBehaviour
 
     private async void TryStartHostRelayOrLocal()
     {
+        Debug.Log($"[NetworkManager] Relay availability: {RelayAdapter.IsAvailable}");
+#if UNITY_MULTIPLAYER
+        Debug.Log("[NetworkManager] UNITY_MULTIPLAYER define is present");
+#else
+        Debug.Log("[NetworkManager] UNITY_MULTIPLAYER define is NOT present");
+#endif
+#if UNITY_RELAY
+        Debug.Log("[NetworkManager] UNITY_RELAY define is present");
+#else
+        Debug.Log("[NetworkManager] UNITY_RELAY define is NOT present");
+#endif
         if (RelayAdapter.IsAvailable)
         {
             var result = await RelayAdapter.StartHostAsync(networkManager, unityTransport, maxConnections: 16);
