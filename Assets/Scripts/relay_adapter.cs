@@ -3,28 +3,15 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
-#if UNITY_RELAY || UNITY_MULTIPLAYER
 using Unity.Services.Relay;
 using Unity.Services.Relay.Models;
-#endif
 
 public static class RelayAdapter
 {
-    public static bool IsAvailable
-    {
-        get
-        {
-#if UNITY_RELAY || UNITY_MULTIPLAYER
-            return true;
-#else
-            return false;
-#endif
-        }
-    }
+    public static bool IsAvailable => true; // Services code is compiled in this project
 
     public static async Task<(bool ok, string joinCode, string error)> StartHostAsync(NetworkManager networkManager, UnityTransport transport, int maxConnections = 16)
     {
-#if UNITY_RELAY || UNITY_MULTIPLAYER
         try
         {
             await EnsureUnityServicesAsync();
@@ -52,16 +39,10 @@ public static class RelayAdapter
             Debug.LogError($"[RelayAdapter] StartHostAsync failed: {ex.Message}");
             return (false, null, ex.Message);
         }
-#else
-        Debug.LogWarning("[RelayAdapter] UNITY_MULTIPLAYER/UNITY_RELAY not defined. Relay is not available in this build.");
-        await System.Threading.Tasks.Task.Yield();
-        return (false, null, "Relay not available");
-#endif
     }
 
     public static async Task<(bool ok, string error)> JoinAsync(NetworkManager networkManager, UnityTransport transport, string joinCode)
     {
-#if UNITY_RELAY || UNITY_MULTIPLAYER
         try
         {
             await EnsureUnityServicesAsync();
@@ -89,14 +70,8 @@ public static class RelayAdapter
             Debug.LogError($"[RelayAdapter] JoinAsync failed: {ex.Message}");
             return (false, ex.Message);
         }
-#else
-        Debug.LogWarning("[RelayAdapter] UNITY_MULTIPLAYER/UNITY_RELAY not defined. Relay is not available in this build.");
-        await System.Threading.Tasks.Task.Yield();
-        return (false, "Relay not available");
-#endif
     }
 
-#if UNITY_RELAY || UNITY_MULTIPLAYER
     private static bool _servicesReady;
     private static async Task EnsureUnityServicesAsync()
     {
@@ -119,5 +94,4 @@ public static class RelayAdapter
 
         _servicesReady = true;
     }
-#endif
 }
