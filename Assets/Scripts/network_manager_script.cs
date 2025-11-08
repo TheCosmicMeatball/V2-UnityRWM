@@ -250,14 +250,51 @@ public class RWMNetworkManager : NetworkBehaviour
         networkManager.OnClientConnectedCallback += OnClientConnected;
         networkManager.OnClientDisconnectCallback += OnClientDisconnected;
         networkManager.OnServerStarted += OnServerStarted;
-#if NETCODE_2_6_OR_HIGHER || true
-        // Log transport failures on client side for debugging
-        networkManager.OnTransportFailure += () =>
+        // Handle transport failures (host: auto-recreate Relay; client: surface error)
+        networkManager.OnTransportFailure += HandleTransportFailure;
+    }
+
+    private bool _restartInProgress;
+    private void HandleTransportFailure()
+    {
+        Debug.LogError("[NetworkManager] OnTransportFailure signaled");
+
+        // Client surface error
+        if (!networkManager.IsServer)
         {
-            Debug.LogError("[NetworkManager] OnTransportFailure (client-side)");
             OnConnectionError?.Invoke();
-        };
-#endif
+            return;
+        }
+
+        // Host: attempt to recreate Relay allocation and restart host
+        if (_restartInProgress)
+        {
+            return;
+        }
+
+        _restartInProgress = true;
+        StartCoroutine(RestartHostAfterFailure());
+    }
+
+    System.Collections.IEnumerator RestartHostAfterFailure()
+    {
+        // Give Netcode a moment to shut down
+        float start = Time.realtimeSinceStartup;
+        while (networkManager.IsListening && (Time.realtimeSinceStartup - start) < 2f)
+        {
+            yield return null;
+        }
+
+        // Ensure fully shutdown
+        if (networkManager.IsListening)
+        {
+            networkManager.Shutdown();
+            yield return null;
+        }
+
+        Debug.Log("[NetworkManager] Restarting host after transport failure...");
+        _restartInProgress = false;
+        TryStartHostRelayOrLocal();
     }
 
     // === CONNECTION CALLBACKS ===
