@@ -2,6 +2,9 @@
   "dependencies": {
     "com.unity.multiplayer.center": "1.0.0",
     "com.unity.netcode.gameobjects": "2.6.0",
+    "com.unity.services.authentication": "3.5.2",
+    "com.unity.services.multiplayer": "1.1.8",
+    "com.unity.services.tooling": "1.4.0",
     "com.unity.ugui": "2.0.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",

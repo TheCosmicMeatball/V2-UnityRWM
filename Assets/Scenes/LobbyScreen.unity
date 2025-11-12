@@ -311,7 +311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -183.55441, y: 263}
+  m_AnchoredPosition: {x: -141.55441, y: 263}
   m_SizeDelta: {x: 293.0286, y: 254.8252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &46901884
@@ -1821,7 +1821,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.9}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -47.159454}
+  m_AnchoredPosition: {x: -2, y: -83}
   m_SizeDelta: {x: 0, y: 94.31891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &832169606
@@ -1844,7 +1844,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: P95WM
+  m_text: P95WML
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d7273bb0b313fec4b9631de86a4128b1, type: 2}
   m_sharedMaterial: {fileID: 8667625344026444559, guid: d7273bb0b313fec4b9631de86a4128b1, type: 2}
@@ -3104,8 +3104,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -87.285, y: -344}
-  m_SizeDelta: {x: 600, y: 110.2449}
+  m_AnchoredPosition: {x: -142.32526, y: -196.53362}
+  m_SizeDelta: {x: 489.9196, y: 147.6308}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1445329841
 GameObject:
@@ -3804,7 +3804,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -387, y: 263}
+  m_AnchoredPosition: {x: -345, y: 263}
   m_SizeDelta: {x: 293.0286, y: 254.8252}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022203784
@@ -3942,6 +3942,7 @@ MonoBehaviour:
   playerIconContainer: {fileID: 1940010370}
   playerIconLobbyPrefab: {fileID: 6710474261503101363, guid: 1db0c31f4e40c80458a30b5e25bb999a, type: 3}
   startTestButton: {fileID: 1013605808}
+  createRoomButton: {fileID: 0}
   eightQButton: {fileID: 2022203784}
   twelveQButton: {fileID: 46901884}
   headlineText: {fileID: 0}
@@ -3953,6 +3954,7 @@ MonoBehaviour:
   joinForm: {fileID: 1676098392}
   nameInput: {fileID: 1626481317}
   roomCodeInput: {fileID: 569740417}
+  hostIpInput: {fileID: 0}
   joinButton: {fileID: 49709814}
   scrollingPlayerIconContainer: {fileID: 1195317833}
   mobileIconSelectionButtonPrefab: {fileID: 7059188847600000000, guid: 3b92a8b1f3fd9b443a1f84dd0a8c26d4, type: 3}
